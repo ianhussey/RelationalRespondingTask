@@ -8,6 +8,7 @@ Version number:
 0.9.4
 ***This is still in beta - I have not had this code reviewed to guarantee that it functions as intended.
 
+
 Notes:
 - The escape key quits the task at any time. E, I, or the return key ends the task properly once it’s complete.
 - You can run either the psyexp file or the py file inside psychopy. The py file should have greater cross platform support; if you run into errors with the psyexp file use the py instead.
