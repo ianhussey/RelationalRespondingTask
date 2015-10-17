@@ -2,10 +2,10 @@ Created by:
 Ian Hussey (ian.hussey@ugent.be)
 
 Last change:
-15/10/2015
+17/10/2015
 
 Version number:
-0.9.4
+0.9.5
 ***This is still in beta - I have not had this code reviewed to guarantee that it functions as intended.
 
 
@@ -59,13 +59,4 @@ Known issues:
 2. If participants get 100% of trials correct on either blocks 1+2+3 or blocks 4+5 then the incorrect response RT column will not be created for that participant. This is a) unlikely, and b) not a problem if you merge files across participants based on column header matching (e.g., using plyr’s rbind.fill command). However, it can be problematic if your data processing workflow relies on column ORDER rather than column header NAME, e.g., a SPSS script using a GET command.
 
 Changelog:
-0.9.3
-- Changed ITI from .3 to .75 seconds
-- Corrected block lengths for blocks 1, 2, and 4 from 19 to 20 trials. 
-- loop repeats increased so that stimulus file could be simplified.
-
-0.9.4 
-- added age and gender to initial dialogue box
-
-0.9.5 
-- fixed important typo in readme
+0.9.5 Corrected trials per block in Block 1

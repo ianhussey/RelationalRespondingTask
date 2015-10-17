@@ -1,7 +1,7 @@
 #!/usr/bin/env python2
 # -*- coding: utf-8 -*-
 """
-This experiment was created using PsychoPy2 Experiment Builder (v1.82.01), Thu Oct 15 13:48:05 2015
+This experiment was created using PsychoPy2 Experiment Builder (v1.82.01), Sat Oct 17 23:13:28 2015
 If you publish work using this script please cite the relevant PsychoPy publications
   Peirce, JW (2007) PsychoPy - Psychophysics software in Python. Journal of Neuroscience Methods, 162(1-2), 8-13.
   Peirce, JW (2009) Generating stimuli for neuroscience using PsychoPy. Frontiers in Neuroinformatics, 2:10. doi: 10.3389/neuro.11.010.2008
@@ -20,7 +20,7 @@ _thisDir = os.path.dirname(os.path.abspath(__file__))
 os.chdir(_thisDir)
 
 # Store info about the experiment session
-expName = u'RRT'  # from the Builder filename that created this script
+expName = 'RRT'  # from the Builder filename that created this script
 expInfo = {u'gender': u'', u'age': u'', u'participant': u''}
 dlg = gui.DlgFromDict(dictionary=expInfo, title=expName)
 if dlg.OK == False: core.quit()  # user pressed cancel
@@ -44,7 +44,7 @@ endExpNow = False  # flag for 'escape' or other condition => quit the exp
 
 # Setup the Window
 win = visual.Window(size=(1366, 768), fullscr=True, screen=0, allowGUI=False, allowStencil=False,
-    monitor=u'testMonitor', color=u'black', colorSpace='rgb',
+    monitor='testMonitor', color='black', colorSpace='rgb',
     blendMode='avg', useFBO=True,
     )
 # store frame rate of monitor if we can measure it successfully
@@ -322,7 +322,7 @@ for thisInstructionsLoop in instructionsLoop:
     # set up handler to look after randomisation of conditions etc
     inducersLoop = data.TrialHandler(nReps=2, method='random', 
         extraInfo=expInfo, originPath=None,
-        trialList=data.importConditions('stimuli.xlsx', selection='0:20'),
+        trialList=data.importConditions('stimuli.xlsx', selection=u'0:10'),
         seed=None, name='inducersLoop')
     thisExp.addLoop(inducersLoop)  # add the loop to the experiment
     thisInducersLoop = inducersLoop.trialList[0]  # so we can initialise stimuli with some values
@@ -602,7 +602,7 @@ for thisInstructionsLoop in instructionsLoop:
     # set up handler to look after randomisation of conditions etc
     stimuliRuleALoop = data.TrialHandler(nReps=1, method='random', 
         extraInfo=expInfo, originPath=None,
-        trialList=data.importConditions('stimuli.xlsx', selection='20:40'),
+        trialList=data.importConditions('stimuli.xlsx', selection=u'10:30'),
         seed=None, name='stimuliRuleALoop')
     thisExp.addLoop(stimuliRuleALoop)  # add the loop to the experiment
     thisStimulusRuleALoop = stimuliRuleALoop.trialList[0]  # so we can initialise stimuli with some values
@@ -1164,7 +1164,7 @@ for thisInstructionsLoop in instructionsLoop:
     # set up handler to look after randomisation of conditions etc
     stimuliRuleBLoop = data.TrialHandler(nReps=1, method='random', 
         extraInfo=expInfo, originPath=None,
-        trialList=data.importConditions('stimuli.xlsx', selection='20:40'),
+        trialList=data.importConditions('stimuli.xlsx', selection=u'10:30'),
         seed=None, name='stimuliRuleBLoop')
     thisExp.addLoop(stimuliRuleBLoop)  # add the loop to the experiment
     thisStimulusRuleBLoop = stimuliRuleBLoop.trialList[0]  # so we can initialise stimuli with some values
