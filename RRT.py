@@ -1,7 +1,7 @@
 #!/usr/bin/env python2
 # -*- coding: utf-8 -*-
 """
-This experiment was created using PsychoPy2 Experiment Builder (v1.82.01), Tue Oct 27 15:27:17 2015
+This experiment was created using PsychoPy2 Experiment Builder (v1.82.01), Tue Oct 27 16:23:02 2015
 If you publish work using this script please cite the relevant PsychoPy publications
   Peirce, JW (2007) PsychoPy - Psychophysics software in Python. Journal of Neuroscience Methods, 162(1-2), 8-13.
   Peirce, JW (2009) Generating stimuli for neuroscience using PsychoPy. Frontiers in Neuroinformatics, 2:10. doi: 10.3389/neuro.11.010.2008
@@ -62,25 +62,57 @@ instructionsBox = visual.TextStim(win=win, ori=0, name='instructionsBox',
     color='white', colorSpace='rgb', opacity=1,
     depth=0.0)
 
-# Initialize components for Routine "trialsRuleA"
-trialsRuleAClock = core.Clock()
-stimulusBoxA = visual.TextStim(win=win, ori=0, name='stimulusBoxA',
+# Initialize components for Routine "inducerTrials"
+inducerTrialsClock = core.Clock()
+stimulusBoxInduc = visual.TextStim(win=win, ori=0, name='stimulusBoxInduc',
     text='default text',    font='Arial',
     pos=[0, 0], height=0.1, wrapWidth=1.6,
     color=1.0, colorSpace='rgb', opacity=1,
     depth=0.0)
-correctiveFeedbackA = visual.TextStim(win=win, ori=0, name='correctiveFeedbackA',
+correctiveFeedbackInduc = visual.TextStim(win=win, ori=0, name='correctiveFeedbackInduc',
     text='default text',    font='Arial',
     pos=[0, -.5], height=0.2, wrapWidth=None,
     color='red', colorSpace='rgb', opacity=1,
     depth=-3.0)
 msg=""
-trueBoxA = visual.TextStim(win=win, ori=0, name='trueBoxA',
+trueBoxInduc = visual.TextStim(win=win, ori=0, name='trueBoxInduc',
     text='True',    font='Arial',
     pos=[0.75, 0.75], height=0.1, wrapWidth=None,
     color='white', colorSpace='rgb', opacity=1,
     depth=-5.0)
-falseBoxA = visual.TextStim(win=win, ori=0, name='falseBoxA',
+falseBoxInduc = visual.TextStim(win=win, ori=0, name='falseBoxInduc',
+    text='False',    font='Arial',
+    pos=[-0.75, 0.75], height=0.1, wrapWidth=None,
+    color='white', colorSpace='rgb', opacity=1,
+    depth=-6.0)
+
+# Initialize components for Routine "instructions"
+instructionsClock = core.Clock()
+instructionsBox = visual.TextStim(win=win, ori=0, name='instructionsBox',
+    text='default text',    font='Arial',
+    pos=[0, 0], height=0.05, wrapWidth=1.6,
+    color='white', colorSpace='rgb', opacity=1,
+    depth=0.0)
+
+# Initialize components for Routine "practiceTrialsRuleA"
+practiceTrialsRuleAClock = core.Clock()
+stimulusBoxAprac = visual.TextStim(win=win, ori=0, name='stimulusBoxAprac',
+    text='default text',    font='Arial',
+    pos=[0, 0], height=0.1, wrapWidth=1.6,
+    color=1.0, colorSpace='rgb', opacity=1,
+    depth=0.0)
+correctiveFeedbackAprac = visual.TextStim(win=win, ori=0, name='correctiveFeedbackAprac',
+    text='default text',    font='Arial',
+    pos=[0, -.5], height=0.2, wrapWidth=None,
+    color='red', colorSpace='rgb', opacity=1,
+    depth=-3.0)
+msg=""
+trueBoxAprac = visual.TextStim(win=win, ori=0, name='trueBoxAprac',
+    text='True',    font='Arial',
+    pos=[0.75, 0.75], height=0.1, wrapWidth=None,
+    color='white', colorSpace='rgb', opacity=1,
+    depth=-5.0)
+falseBoxAprac = visual.TextStim(win=win, ori=0, name='falseBoxAprac',
     text='False',    font='Arial',
     pos=[-0.75, 0.75], height=0.1, wrapWidth=None,
     color='white', colorSpace='rgb', opacity=1,
@@ -126,57 +158,25 @@ instructionsBox = visual.TextStim(win=win, ori=0, name='instructionsBox',
     color='white', colorSpace='rgb', opacity=1,
     depth=0.0)
 
-# Initialize components for Routine "trialsRuleA"
-trialsRuleAClock = core.Clock()
-stimulusBoxA = visual.TextStim(win=win, ori=0, name='stimulusBoxA',
+# Initialize components for Routine "practiceTrialsRuleB"
+practiceTrialsRuleBClock = core.Clock()
+stimulusBoxBprac = visual.TextStim(win=win, ori=0, name='stimulusBoxBprac',
     text='default text',    font='Arial',
     pos=[0, 0], height=0.1, wrapWidth=1.6,
     color=1.0, colorSpace='rgb', opacity=1,
     depth=0.0)
-correctiveFeedbackA = visual.TextStim(win=win, ori=0, name='correctiveFeedbackA',
+correctiveFeedbackBprac = visual.TextStim(win=win, ori=0, name='correctiveFeedbackBprac',
     text='default text',    font='Arial',
     pos=[0, -.5], height=0.2, wrapWidth=None,
     color='red', colorSpace='rgb', opacity=1,
     depth=-3.0)
 msg=""
-trueBoxA = visual.TextStim(win=win, ori=0, name='trueBoxA',
+trueBoxBprac = visual.TextStim(win=win, ori=0, name='trueBoxBprac',
     text='True',    font='Arial',
     pos=[0.75, 0.75], height=0.1, wrapWidth=None,
     color='white', colorSpace='rgb', opacity=1,
     depth=-5.0)
-falseBoxA = visual.TextStim(win=win, ori=0, name='falseBoxA',
-    text='False',    font='Arial',
-    pos=[-0.75, 0.75], height=0.1, wrapWidth=None,
-    color='white', colorSpace='rgb', opacity=1,
-    depth=-6.0)
-
-# Initialize components for Routine "instructions"
-instructionsClock = core.Clock()
-instructionsBox = visual.TextStim(win=win, ori=0, name='instructionsBox',
-    text='default text',    font='Arial',
-    pos=[0, 0], height=0.05, wrapWidth=1.6,
-    color='white', colorSpace='rgb', opacity=1,
-    depth=0.0)
-
-# Initialize components for Routine "trialsRuleB"
-trialsRuleBClock = core.Clock()
-stimulusBoxB = visual.TextStim(win=win, ori=0, name='stimulusBoxB',
-    text='default text',    font='Arial',
-    pos=[0, 0], height=0.1, wrapWidth=1.6,
-    color=1.0, colorSpace='rgb', opacity=1,
-    depth=0.0)
-correctiveFeedbackB = visual.TextStim(win=win, ori=0, name='correctiveFeedbackB',
-    text='default text',    font='Arial',
-    pos=[0, -.5], height=0.2, wrapWidth=None,
-    color='red', colorSpace='rgb', opacity=1,
-    depth=-3.0)
-msg=""
-trueBoxB = visual.TextStim(win=win, ori=0, name='trueBoxB',
-    text='True',    font='Arial',
-    pos=[0.75, 0.75], height=0.1, wrapWidth=None,
-    color='white', colorSpace='rgb', opacity=1,
-    depth=-5.0)
-falseBoxB = visual.TextStim(win=win, ori=0, name='falseBoxB',
+falseBoxBprac = visual.TextStim(win=win, ori=0, name='falseBoxBprac',
     text='False',    font='Arial',
     pos=[-0.75, 0.75], height=0.1, wrapWidth=None,
     color='white', colorSpace='rgb', opacity=1,
@@ -229,7 +229,7 @@ routineTimer = core.CountdownTimer()  # to track time remaining of each (non-sli
 # set up handler to look after randomisation of conditions etc
 inst1 = data.TrialHandler(nReps=1, method='sequential', 
     extraInfo=expInfo, originPath=None,
-    trialList=data.importConditions('instructions.xlsx', selection=u'0'),
+    trialList=data.importConditions('instructions.xlsx', selection='0'),
     seed=None, name='inst1')
 thisExp.addLoop(inst1)  # add the loop to the experiment
 thisInst1 = inst1.trialList[0]  # so we can initialise stimuli with some values
@@ -324,7 +324,7 @@ for thisInst1 in inst1:
 # set up handler to look after randomisation of conditions etc
 inducersLoop = data.TrialHandler(nReps=2, method='random', 
     extraInfo=expInfo, originPath=None,
-    trialList=data.importConditions('stimuli.xlsx', selection=u'0:10'),
+    trialList=data.importConditions('stimuli.xlsx', selection='0:10'),
     seed=None, name='inducersLoop')
 thisExp.addLoop(inducersLoop)  # add the loop to the experiment
 thisInducersLoop = inducersLoop.trialList[0]  # so we can initialise stimuli with some values
@@ -340,51 +340,51 @@ for thisInducersLoop in inducersLoop:
         for paramName in thisInducersLoop.keys():
             exec(paramName + '= thisInducersLoop.' + paramName)
     
-    #------Prepare to start Routine "trialsRuleA"-------
+    #------Prepare to start Routine "inducerTrials"-------
     t = 0
-    trialsRuleAClock.reset()  # clock 
+    inducerTrialsClock.reset()  # clock 
     frameN = -1
     # update component parameters for each repeat
-    stimulusBoxA.setColor(stimulusColour, colorSpace='rgb')
-    stimulusBoxA.setText(stimulus)
-    requiredResponseKeyA = event.BuilderKeyResponse()  # create an object of type KeyResponse
-    requiredResponseKeyA.status = NOT_STARTED
-    feedbackResponseKeyA = event.BuilderKeyResponse()  # create an object of type KeyResponse
-    feedbackResponseKeyA.status = NOT_STARTED
+    stimulusBoxInduc.setColor(stimulusColour, colorSpace='rgb')
+    stimulusBoxInduc.setText(stimulus)
+    block1 = event.BuilderKeyResponse()  # create an object of type KeyResponse
+    block1.status = NOT_STARTED
+    block1wrong = event.BuilderKeyResponse()  # create an object of type KeyResponse
+    block1wrong.status = NOT_STARTED
     
     # keep track of which components have finished
-    trialsRuleAComponents = []
-    trialsRuleAComponents.append(stimulusBoxA)
-    trialsRuleAComponents.append(requiredResponseKeyA)
-    trialsRuleAComponents.append(feedbackResponseKeyA)
-    trialsRuleAComponents.append(correctiveFeedbackA)
-    trialsRuleAComponents.append(trueBoxA)
-    trialsRuleAComponents.append(falseBoxA)
-    for thisComponent in trialsRuleAComponents:
+    inducerTrialsComponents = []
+    inducerTrialsComponents.append(stimulusBoxInduc)
+    inducerTrialsComponents.append(block1)
+    inducerTrialsComponents.append(block1wrong)
+    inducerTrialsComponents.append(correctiveFeedbackInduc)
+    inducerTrialsComponents.append(trueBoxInduc)
+    inducerTrialsComponents.append(falseBoxInduc)
+    for thisComponent in inducerTrialsComponents:
         if hasattr(thisComponent, 'status'):
             thisComponent.status = NOT_STARTED
     
-    #-------Start Routine "trialsRuleA"-------
+    #-------Start Routine "inducerTrials"-------
     continueRoutine = True
     while continueRoutine:
         # get current time
-        t = trialsRuleAClock.getTime()
+        t = inducerTrialsClock.getTime()
         frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
         # update/draw components on each frame
         
-        # *stimulusBoxA* updates
-        if t >= 0.75 and stimulusBoxA.status == NOT_STARTED:
+        # *stimulusBoxInduc* updates
+        if t >= 0.75 and stimulusBoxInduc.status == NOT_STARTED:
             # keep track of start time/frame for later
-            stimulusBoxA.tStart = t  # underestimates by a little under one frame
-            stimulusBoxA.frameNStart = frameN  # exact frame index
-            stimulusBoxA.setAutoDraw(True)
+            stimulusBoxInduc.tStart = t  # underestimates by a little under one frame
+            stimulusBoxInduc.frameNStart = frameN  # exact frame index
+            stimulusBoxInduc.setAutoDraw(True)
         
-        # *requiredResponseKeyA* updates
-        if t >= 0.75 and requiredResponseKeyA.status == NOT_STARTED:
+        # *block1* updates
+        if t >= 0.75 and block1.status == NOT_STARTED:
             # keep track of start time/frame for later
-            requiredResponseKeyA.tStart = t  # underestimates by a little under one frame
-            requiredResponseKeyA.frameNStart = frameN  # exact frame index
-            requiredResponseKeyA.status = STARTED
+            block1.tStart = t  # underestimates by a little under one frame
+            block1.frameNStart = frameN  # exact frame index
+            block1.status = STARTED
             # AllowedKeys looks like a variable named `requiredAllowedKeysA`
             if not 'requiredAllowedKeysA' in locals():
                 logging.error('AllowedKeys variable `requiredAllowedKeysA` is not defined.')
@@ -396,32 +396,32 @@ for thisInducersLoop in inducersLoop:
                 elif not ',' in requiredAllowedKeysA: requiredAllowedKeysA = (requiredAllowedKeysA,)
                 else:  requiredAllowedKeysA = eval(requiredAllowedKeysA)
             # keyboard checking is just starting
-            requiredResponseKeyA.clock.reset()  # now t=0
+            block1.clock.reset()  # now t=0
             event.clearEvents(eventType='keyboard')
-        if requiredResponseKeyA.status == STARTED:
+        if block1.status == STARTED:
             theseKeys = event.getKeys(keyList=list(requiredAllowedKeysA))
             
             # check for quit:
             if "escape" in theseKeys:
                 endExpNow = True
             if len(theseKeys) > 0:  # at least one key was pressed
-                if requiredResponseKeyA.keys == []:  # then this was the first keypress
-                    requiredResponseKeyA.keys = theseKeys[0]  # just the first key pressed
-                    requiredResponseKeyA.rt = requiredResponseKeyA.clock.getTime()
+                if block1.keys == []:  # then this was the first keypress
+                    block1.keys = theseKeys[0]  # just the first key pressed
+                    block1.rt = block1.clock.getTime()
                     # was this 'correct'?
-                    if (requiredResponseKeyA.keys == str(requiredResponseA)) or (requiredResponseKeyA.keys == requiredResponseA):
-                        requiredResponseKeyA.corr = 1
+                    if (block1.keys == str(requiredResponseA)) or (block1.keys == requiredResponseA):
+                        block1.corr = 1
                     else:
-                        requiredResponseKeyA.corr = 0
+                        block1.corr = 0
                     # a response ends the routine
                     continueRoutine = False
         
-        # *feedbackResponseKeyA* updates
-        if t >= 0.75 and feedbackResponseKeyA.status == NOT_STARTED:
+        # *block1wrong* updates
+        if t >= 0.75 and block1wrong.status == NOT_STARTED:
             # keep track of start time/frame for later
-            feedbackResponseKeyA.tStart = t  # underestimates by a little under one frame
-            feedbackResponseKeyA.frameNStart = frameN  # exact frame index
-            feedbackResponseKeyA.status = STARTED
+            block1wrong.tStart = t  # underestimates by a little under one frame
+            block1wrong.frameNStart = frameN  # exact frame index
+            block1wrong.status = STARTED
             # AllowedKeys looks like a variable named `feedbackAllowedKeysA`
             if not 'feedbackAllowedKeysA' in locals():
                 logging.error('AllowedKeys variable `feedbackAllowedKeysA` is not defined.')
@@ -433,55 +433,55 @@ for thisInducersLoop in inducersLoop:
                 elif not ',' in feedbackAllowedKeysA: feedbackAllowedKeysA = (feedbackAllowedKeysA,)
                 else:  feedbackAllowedKeysA = eval(feedbackAllowedKeysA)
             # keyboard checking is just starting
-            feedbackResponseKeyA.clock.reset()  # now t=0
-        if feedbackResponseKeyA.status == STARTED:
+            block1wrong.clock.reset()  # now t=0
+        if block1wrong.status == STARTED:
             theseKeys = event.getKeys(keyList=list(feedbackAllowedKeysA))
             
             # check for quit:
             if "escape" in theseKeys:
                 endExpNow = True
             if len(theseKeys) > 0:  # at least one key was pressed
-                if feedbackResponseKeyA.keys == []:  # then this was the first keypress
-                    feedbackResponseKeyA.keys = theseKeys[0]  # just the first key pressed
-                    feedbackResponseKeyA.rt = feedbackResponseKeyA.clock.getTime()
+                if block1wrong.keys == []:  # then this was the first keypress
+                    block1wrong.keys = theseKeys[0]  # just the first key pressed
+                    block1wrong.rt = block1wrong.clock.getTime()
                     # was this 'correct'?
-                    if (feedbackResponseKeyA.keys == str(feedbackResponseA)) or (feedbackResponseKeyA.keys == feedbackResponseA):
-                        feedbackResponseKeyA.corr = 1
+                    if (block1wrong.keys == str(feedbackResponseA)) or (block1wrong.keys == feedbackResponseA):
+                        block1wrong.corr = 1
                     else:
-                        feedbackResponseKeyA.corr = 0
+                        block1wrong.corr = 0
         
-        # *correctiveFeedbackA* updates
-        if t >= 0.75 and correctiveFeedbackA.status == NOT_STARTED:
+        # *correctiveFeedbackInduc* updates
+        if t >= 0.75 and correctiveFeedbackInduc.status == NOT_STARTED:
             # keep track of start time/frame for later
-            correctiveFeedbackA.tStart = t  # underestimates by a little under one frame
-            correctiveFeedbackA.frameNStart = frameN  # exact frame index
-            correctiveFeedbackA.setAutoDraw(True)
-        if correctiveFeedbackA.status == STARTED:  # only update if being drawn
-            correctiveFeedbackA.setText(msg, log=False)
-        if len(feedbackResponseKeyA.keys)<1:
+            correctiveFeedbackInduc.tStart = t  # underestimates by a little under one frame
+            correctiveFeedbackInduc.frameNStart = frameN  # exact frame index
+            correctiveFeedbackInduc.setAutoDraw(True)
+        if correctiveFeedbackInduc.status == STARTED:  # only update if being drawn
+            correctiveFeedbackInduc.setText(msg, log=False)
+        if len(block1wrong.keys)<1:
             msg=""
         else:
             msg="X"
         
-        # *trueBoxA* updates
-        if t >= 0 and trueBoxA.status == NOT_STARTED:
+        # *trueBoxInduc* updates
+        if t >= 0 and trueBoxInduc.status == NOT_STARTED:
             # keep track of start time/frame for later
-            trueBoxA.tStart = t  # underestimates by a little under one frame
-            trueBoxA.frameNStart = frameN  # exact frame index
-            trueBoxA.setAutoDraw(True)
+            trueBoxInduc.tStart = t  # underestimates by a little under one frame
+            trueBoxInduc.frameNStart = frameN  # exact frame index
+            trueBoxInduc.setAutoDraw(True)
         
-        # *falseBoxA* updates
-        if t >= 0 and falseBoxA.status == NOT_STARTED:
+        # *falseBoxInduc* updates
+        if t >= 0 and falseBoxInduc.status == NOT_STARTED:
             # keep track of start time/frame for later
-            falseBoxA.tStart = t  # underestimates by a little under one frame
-            falseBoxA.frameNStart = frameN  # exact frame index
-            falseBoxA.setAutoDraw(True)
+            falseBoxInduc.tStart = t  # underestimates by a little under one frame
+            falseBoxInduc.frameNStart = frameN  # exact frame index
+            falseBoxInduc.setAutoDraw(True)
         
         # check if all components have finished
         if not continueRoutine:  # a component has requested a forced-end of Routine
             break
         continueRoutine = False  # will revert to True if at least one component still running
-        for thisComponent in trialsRuleAComponents:
+        for thisComponent in inducerTrialsComponents:
             if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
                 continueRoutine = True
                 break  # at least one component has not yet finished
@@ -494,34 +494,34 @@ for thisInducersLoop in inducersLoop:
         if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
             win.flip()
     
-    #-------Ending Routine "trialsRuleA"-------
-    for thisComponent in trialsRuleAComponents:
+    #-------Ending Routine "inducerTrials"-------
+    for thisComponent in inducerTrialsComponents:
         if hasattr(thisComponent, "setAutoDraw"):
             thisComponent.setAutoDraw(False)
     # check responses
-    if requiredResponseKeyA.keys in ['', [], None]:  # No response was made
-       requiredResponseKeyA.keys=None
+    if block1.keys in ['', [], None]:  # No response was made
+       block1.keys=None
        # was no response the correct answer?!
-       if str(requiredResponseA).lower() == 'none': requiredResponseKeyA.corr = 1  # correct non-response
-       else: requiredResponseKeyA.corr = 0  # failed to respond (incorrectly)
+       if str(requiredResponseA).lower() == 'none': block1.corr = 1  # correct non-response
+       else: block1.corr = 0  # failed to respond (incorrectly)
     # store data for inducersLoop (TrialHandler)
-    inducersLoop.addData('requiredResponseKeyA.keys',requiredResponseKeyA.keys)
-    inducersLoop.addData('requiredResponseKeyA.corr', requiredResponseKeyA.corr)
-    if requiredResponseKeyA.keys != None:  # we had a response
-        inducersLoop.addData('requiredResponseKeyA.rt', requiredResponseKeyA.rt)
+    inducersLoop.addData('block1.keys',block1.keys)
+    inducersLoop.addData('block1.corr', block1.corr)
+    if block1.keys != None:  # we had a response
+        inducersLoop.addData('block1.rt', block1.rt)
     # check responses
-    if feedbackResponseKeyA.keys in ['', [], None]:  # No response was made
-       feedbackResponseKeyA.keys=None
+    if block1wrong.keys in ['', [], None]:  # No response was made
+       block1wrong.keys=None
        # was no response the correct answer?!
-       if str(feedbackResponseA).lower() == 'none': feedbackResponseKeyA.corr = 1  # correct non-response
-       else: feedbackResponseKeyA.corr = 0  # failed to respond (incorrectly)
+       if str(feedbackResponseA).lower() == 'none': block1wrong.corr = 1  # correct non-response
+       else: block1wrong.corr = 0  # failed to respond (incorrectly)
     # store data for inducersLoop (TrialHandler)
-    inducersLoop.addData('feedbackResponseKeyA.keys',feedbackResponseKeyA.keys)
-    inducersLoop.addData('feedbackResponseKeyA.corr', feedbackResponseKeyA.corr)
-    if feedbackResponseKeyA.keys != None:  # we had a response
-        inducersLoop.addData('feedbackResponseKeyA.rt', feedbackResponseKeyA.rt)
+    inducersLoop.addData('block1wrong.keys',block1wrong.keys)
+    inducersLoop.addData('block1wrong.corr', block1wrong.corr)
+    if block1wrong.keys != None:  # we had a response
+        inducersLoop.addData('block1wrong.rt', block1wrong.rt)
     
-    # the Routine "trialsRuleA" was not non-slip safe, so reset the non-slip timer
+    # the Routine "inducerTrials" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset()
     thisExp.nextEntry()
     
@@ -531,7 +531,7 @@ for thisInducersLoop in inducersLoop:
 # set up handler to look after randomisation of conditions etc
 inst2 = data.TrialHandler(nReps=1, method='sequential', 
     extraInfo=expInfo, originPath=None,
-    trialList=data.importConditions('instructions.xlsx', selection=u'1'),
+    trialList=data.importConditions('instructions.xlsx', selection='1'),
     seed=None, name='inst2')
 thisExp.addLoop(inst2)  # add the loop to the experiment
 thisInst2 = inst2.trialList[0]  # so we can initialise stimuli with some values
@@ -626,7 +626,7 @@ for thisInst2 in inst2:
 # set up handler to look after randomisation of conditions etc
 stimuliRuleALoop = data.TrialHandler(nReps=1, method='random', 
     extraInfo=expInfo, originPath=None,
-    trialList=data.importConditions('stimuli.xlsx', selection=u'10:30'),
+    trialList=data.importConditions('stimuli.xlsx', selection='10:30'),
     seed=None, name='stimuliRuleALoop')
 thisExp.addLoop(stimuliRuleALoop)  # add the loop to the experiment
 thisStimulusRuleALoop = stimuliRuleALoop.trialList[0]  # so we can initialise stimuli with some values
@@ -642,51 +642,51 @@ for thisStimulusRuleALoop in stimuliRuleALoop:
         for paramName in thisStimulusRuleALoop.keys():
             exec(paramName + '= thisStimulusRuleALoop.' + paramName)
     
-    #------Prepare to start Routine "trialsRuleA"-------
+    #------Prepare to start Routine "practiceTrialsRuleA"-------
     t = 0
-    trialsRuleAClock.reset()  # clock 
+    practiceTrialsRuleAClock.reset()  # clock 
     frameN = -1
     # update component parameters for each repeat
-    stimulusBoxA.setColor(stimulusColour, colorSpace='rgb')
-    stimulusBoxA.setText(stimulus)
-    requiredResponseKeyA = event.BuilderKeyResponse()  # create an object of type KeyResponse
-    requiredResponseKeyA.status = NOT_STARTED
-    feedbackResponseKeyA = event.BuilderKeyResponse()  # create an object of type KeyResponse
-    feedbackResponseKeyA.status = NOT_STARTED
+    stimulusBoxAprac.setColor(stimulusColour, colorSpace='rgb')
+    stimulusBoxAprac.setText(stimulus)
+    block2 = event.BuilderKeyResponse()  # create an object of type KeyResponse
+    block2.status = NOT_STARTED
+    block2wrong = event.BuilderKeyResponse()  # create an object of type KeyResponse
+    block2wrong.status = NOT_STARTED
     
     # keep track of which components have finished
-    trialsRuleAComponents = []
-    trialsRuleAComponents.append(stimulusBoxA)
-    trialsRuleAComponents.append(requiredResponseKeyA)
-    trialsRuleAComponents.append(feedbackResponseKeyA)
-    trialsRuleAComponents.append(correctiveFeedbackA)
-    trialsRuleAComponents.append(trueBoxA)
-    trialsRuleAComponents.append(falseBoxA)
-    for thisComponent in trialsRuleAComponents:
+    practiceTrialsRuleAComponents = []
+    practiceTrialsRuleAComponents.append(stimulusBoxAprac)
+    practiceTrialsRuleAComponents.append(block2)
+    practiceTrialsRuleAComponents.append(block2wrong)
+    practiceTrialsRuleAComponents.append(correctiveFeedbackAprac)
+    practiceTrialsRuleAComponents.append(trueBoxAprac)
+    practiceTrialsRuleAComponents.append(falseBoxAprac)
+    for thisComponent in practiceTrialsRuleAComponents:
         if hasattr(thisComponent, 'status'):
             thisComponent.status = NOT_STARTED
     
-    #-------Start Routine "trialsRuleA"-------
+    #-------Start Routine "practiceTrialsRuleA"-------
     continueRoutine = True
     while continueRoutine:
         # get current time
-        t = trialsRuleAClock.getTime()
+        t = practiceTrialsRuleAClock.getTime()
         frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
         # update/draw components on each frame
         
-        # *stimulusBoxA* updates
-        if t >= 0.75 and stimulusBoxA.status == NOT_STARTED:
+        # *stimulusBoxAprac* updates
+        if t >= 0.75 and stimulusBoxAprac.status == NOT_STARTED:
             # keep track of start time/frame for later
-            stimulusBoxA.tStart = t  # underestimates by a little under one frame
-            stimulusBoxA.frameNStart = frameN  # exact frame index
-            stimulusBoxA.setAutoDraw(True)
+            stimulusBoxAprac.tStart = t  # underestimates by a little under one frame
+            stimulusBoxAprac.frameNStart = frameN  # exact frame index
+            stimulusBoxAprac.setAutoDraw(True)
         
-        # *requiredResponseKeyA* updates
-        if t >= 0.75 and requiredResponseKeyA.status == NOT_STARTED:
+        # *block2* updates
+        if t >= 0.75 and block2.status == NOT_STARTED:
             # keep track of start time/frame for later
-            requiredResponseKeyA.tStart = t  # underestimates by a little under one frame
-            requiredResponseKeyA.frameNStart = frameN  # exact frame index
-            requiredResponseKeyA.status = STARTED
+            block2.tStart = t  # underestimates by a little under one frame
+            block2.frameNStart = frameN  # exact frame index
+            block2.status = STARTED
             # AllowedKeys looks like a variable named `requiredAllowedKeysA`
             if not 'requiredAllowedKeysA' in locals():
                 logging.error('AllowedKeys variable `requiredAllowedKeysA` is not defined.')
@@ -698,32 +698,32 @@ for thisStimulusRuleALoop in stimuliRuleALoop:
                 elif not ',' in requiredAllowedKeysA: requiredAllowedKeysA = (requiredAllowedKeysA,)
                 else:  requiredAllowedKeysA = eval(requiredAllowedKeysA)
             # keyboard checking is just starting
-            requiredResponseKeyA.clock.reset()  # now t=0
+            block2.clock.reset()  # now t=0
             event.clearEvents(eventType='keyboard')
-        if requiredResponseKeyA.status == STARTED:
+        if block2.status == STARTED:
             theseKeys = event.getKeys(keyList=list(requiredAllowedKeysA))
             
             # check for quit:
             if "escape" in theseKeys:
                 endExpNow = True
             if len(theseKeys) > 0:  # at least one key was pressed
-                if requiredResponseKeyA.keys == []:  # then this was the first keypress
-                    requiredResponseKeyA.keys = theseKeys[0]  # just the first key pressed
-                    requiredResponseKeyA.rt = requiredResponseKeyA.clock.getTime()
+                if block2.keys == []:  # then this was the first keypress
+                    block2.keys = theseKeys[0]  # just the first key pressed
+                    block2.rt = block2.clock.getTime()
                     # was this 'correct'?
-                    if (requiredResponseKeyA.keys == str(requiredResponseA)) or (requiredResponseKeyA.keys == requiredResponseA):
-                        requiredResponseKeyA.corr = 1
+                    if (block2.keys == str(requiredResponseA)) or (block2.keys == requiredResponseA):
+                        block2.corr = 1
                     else:
-                        requiredResponseKeyA.corr = 0
+                        block2.corr = 0
                     # a response ends the routine
                     continueRoutine = False
         
-        # *feedbackResponseKeyA* updates
-        if t >= 0.75 and feedbackResponseKeyA.status == NOT_STARTED:
+        # *block2wrong* updates
+        if t >= 0.75 and block2wrong.status == NOT_STARTED:
             # keep track of start time/frame for later
-            feedbackResponseKeyA.tStart = t  # underestimates by a little under one frame
-            feedbackResponseKeyA.frameNStart = frameN  # exact frame index
-            feedbackResponseKeyA.status = STARTED
+            block2wrong.tStart = t  # underestimates by a little under one frame
+            block2wrong.frameNStart = frameN  # exact frame index
+            block2wrong.status = STARTED
             # AllowedKeys looks like a variable named `feedbackAllowedKeysA`
             if not 'feedbackAllowedKeysA' in locals():
                 logging.error('AllowedKeys variable `feedbackAllowedKeysA` is not defined.')
@@ -735,55 +735,55 @@ for thisStimulusRuleALoop in stimuliRuleALoop:
                 elif not ',' in feedbackAllowedKeysA: feedbackAllowedKeysA = (feedbackAllowedKeysA,)
                 else:  feedbackAllowedKeysA = eval(feedbackAllowedKeysA)
             # keyboard checking is just starting
-            feedbackResponseKeyA.clock.reset()  # now t=0
-        if feedbackResponseKeyA.status == STARTED:
+            block2wrong.clock.reset()  # now t=0
+        if block2wrong.status == STARTED:
             theseKeys = event.getKeys(keyList=list(feedbackAllowedKeysA))
             
             # check for quit:
             if "escape" in theseKeys:
                 endExpNow = True
             if len(theseKeys) > 0:  # at least one key was pressed
-                if feedbackResponseKeyA.keys == []:  # then this was the first keypress
-                    feedbackResponseKeyA.keys = theseKeys[0]  # just the first key pressed
-                    feedbackResponseKeyA.rt = feedbackResponseKeyA.clock.getTime()
+                if block2wrong.keys == []:  # then this was the first keypress
+                    block2wrong.keys = theseKeys[0]  # just the first key pressed
+                    block2wrong.rt = block2wrong.clock.getTime()
                     # was this 'correct'?
-                    if (feedbackResponseKeyA.keys == str(feedbackResponseA)) or (feedbackResponseKeyA.keys == feedbackResponseA):
-                        feedbackResponseKeyA.corr = 1
+                    if (block2wrong.keys == str(feedbackResponseA)) or (block2wrong.keys == feedbackResponseA):
+                        block2wrong.corr = 1
                     else:
-                        feedbackResponseKeyA.corr = 0
+                        block2wrong.corr = 0
         
-        # *correctiveFeedbackA* updates
-        if t >= 0.75 and correctiveFeedbackA.status == NOT_STARTED:
+        # *correctiveFeedbackAprac* updates
+        if t >= 0.75 and correctiveFeedbackAprac.status == NOT_STARTED:
             # keep track of start time/frame for later
-            correctiveFeedbackA.tStart = t  # underestimates by a little under one frame
-            correctiveFeedbackA.frameNStart = frameN  # exact frame index
-            correctiveFeedbackA.setAutoDraw(True)
-        if correctiveFeedbackA.status == STARTED:  # only update if being drawn
-            correctiveFeedbackA.setText(msg, log=False)
-        if len(feedbackResponseKeyA.keys)<1:
+            correctiveFeedbackAprac.tStart = t  # underestimates by a little under one frame
+            correctiveFeedbackAprac.frameNStart = frameN  # exact frame index
+            correctiveFeedbackAprac.setAutoDraw(True)
+        if correctiveFeedbackAprac.status == STARTED:  # only update if being drawn
+            correctiveFeedbackAprac.setText(msg, log=False)
+        if len(block2wrong.keys)<1:
             msg=""
         else:
             msg="X"
         
-        # *trueBoxA* updates
-        if t >= 0 and trueBoxA.status == NOT_STARTED:
+        # *trueBoxAprac* updates
+        if t >= 0 and trueBoxAprac.status == NOT_STARTED:
             # keep track of start time/frame for later
-            trueBoxA.tStart = t  # underestimates by a little under one frame
-            trueBoxA.frameNStart = frameN  # exact frame index
-            trueBoxA.setAutoDraw(True)
+            trueBoxAprac.tStart = t  # underestimates by a little under one frame
+            trueBoxAprac.frameNStart = frameN  # exact frame index
+            trueBoxAprac.setAutoDraw(True)
         
-        # *falseBoxA* updates
-        if t >= 0 and falseBoxA.status == NOT_STARTED:
+        # *falseBoxAprac* updates
+        if t >= 0 and falseBoxAprac.status == NOT_STARTED:
             # keep track of start time/frame for later
-            falseBoxA.tStart = t  # underestimates by a little under one frame
-            falseBoxA.frameNStart = frameN  # exact frame index
-            falseBoxA.setAutoDraw(True)
+            falseBoxAprac.tStart = t  # underestimates by a little under one frame
+            falseBoxAprac.frameNStart = frameN  # exact frame index
+            falseBoxAprac.setAutoDraw(True)
         
         # check if all components have finished
         if not continueRoutine:  # a component has requested a forced-end of Routine
             break
         continueRoutine = False  # will revert to True if at least one component still running
-        for thisComponent in trialsRuleAComponents:
+        for thisComponent in practiceTrialsRuleAComponents:
             if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
                 continueRoutine = True
                 break  # at least one component has not yet finished
@@ -796,34 +796,34 @@ for thisStimulusRuleALoop in stimuliRuleALoop:
         if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
             win.flip()
     
-    #-------Ending Routine "trialsRuleA"-------
-    for thisComponent in trialsRuleAComponents:
+    #-------Ending Routine "practiceTrialsRuleA"-------
+    for thisComponent in practiceTrialsRuleAComponents:
         if hasattr(thisComponent, "setAutoDraw"):
             thisComponent.setAutoDraw(False)
     # check responses
-    if requiredResponseKeyA.keys in ['', [], None]:  # No response was made
-       requiredResponseKeyA.keys=None
+    if block2.keys in ['', [], None]:  # No response was made
+       block2.keys=None
        # was no response the correct answer?!
-       if str(requiredResponseA).lower() == 'none': requiredResponseKeyA.corr = 1  # correct non-response
-       else: requiredResponseKeyA.corr = 0  # failed to respond (incorrectly)
+       if str(requiredResponseA).lower() == 'none': block2.corr = 1  # correct non-response
+       else: block2.corr = 0  # failed to respond (incorrectly)
     # store data for stimuliRuleALoop (TrialHandler)
-    stimuliRuleALoop.addData('requiredResponseKeyA.keys',requiredResponseKeyA.keys)
-    stimuliRuleALoop.addData('requiredResponseKeyA.corr', requiredResponseKeyA.corr)
-    if requiredResponseKeyA.keys != None:  # we had a response
-        stimuliRuleALoop.addData('requiredResponseKeyA.rt', requiredResponseKeyA.rt)
+    stimuliRuleALoop.addData('block2.keys',block2.keys)
+    stimuliRuleALoop.addData('block2.corr', block2.corr)
+    if block2.keys != None:  # we had a response
+        stimuliRuleALoop.addData('block2.rt', block2.rt)
     # check responses
-    if feedbackResponseKeyA.keys in ['', [], None]:  # No response was made
-       feedbackResponseKeyA.keys=None
+    if block2wrong.keys in ['', [], None]:  # No response was made
+       block2wrong.keys=None
        # was no response the correct answer?!
-       if str(feedbackResponseA).lower() == 'none': feedbackResponseKeyA.corr = 1  # correct non-response
-       else: feedbackResponseKeyA.corr = 0  # failed to respond (incorrectly)
+       if str(feedbackResponseA).lower() == 'none': block2wrong.corr = 1  # correct non-response
+       else: block2wrong.corr = 0  # failed to respond (incorrectly)
     # store data for stimuliRuleALoop (TrialHandler)
-    stimuliRuleALoop.addData('feedbackResponseKeyA.keys',feedbackResponseKeyA.keys)
-    stimuliRuleALoop.addData('feedbackResponseKeyA.corr', feedbackResponseKeyA.corr)
-    if feedbackResponseKeyA.keys != None:  # we had a response
-        stimuliRuleALoop.addData('feedbackResponseKeyA.rt', feedbackResponseKeyA.rt)
+    stimuliRuleALoop.addData('block2wrong.keys',block2wrong.keys)
+    stimuliRuleALoop.addData('block2wrong.corr', block2wrong.corr)
+    if block2wrong.keys != None:  # we had a response
+        stimuliRuleALoop.addData('block2wrong.rt', block2wrong.rt)
     
-    # the Routine "trialsRuleA" was not non-slip safe, so reset the non-slip timer
+    # the Routine "practiceTrialsRuleA" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset()
     thisExp.nextEntry()
     
@@ -833,7 +833,7 @@ for thisStimulusRuleALoop in stimuliRuleALoop:
 # set up handler to look after randomisation of conditions etc
 inst3 = data.TrialHandler(nReps=1, method='random', 
     extraInfo=expInfo, originPath=None,
-    trialList=data.importConditions('instructions.xlsx', selection=u'2'),
+    trialList=data.importConditions('instructions.xlsx', selection='2'),
     seed=None, name='inst3')
 thisExp.addLoop(inst3)  # add the loop to the experiment
 thisInst3 = inst3.trialList[0]  # so we can initialise stimuli with some values
@@ -951,16 +951,16 @@ for thisInducersAndstimulusRuleALoop in inducersAndStimuliRuleALoop:
     # update component parameters for each repeat
     stimulusBoxA.setColor(stimulusColour, colorSpace='rgb')
     stimulusBoxA.setText(stimulus)
-    requiredResponseKeyA = event.BuilderKeyResponse()  # create an object of type KeyResponse
-    requiredResponseKeyA.status = NOT_STARTED
-    feedbackResponseKeyA = event.BuilderKeyResponse()  # create an object of type KeyResponse
-    feedbackResponseKeyA.status = NOT_STARTED
+    block3 = event.BuilderKeyResponse()  # create an object of type KeyResponse
+    block3.status = NOT_STARTED
+    block3wrong = event.BuilderKeyResponse()  # create an object of type KeyResponse
+    block3wrong.status = NOT_STARTED
     
     # keep track of which components have finished
     trialsRuleAComponents = []
     trialsRuleAComponents.append(stimulusBoxA)
-    trialsRuleAComponents.append(requiredResponseKeyA)
-    trialsRuleAComponents.append(feedbackResponseKeyA)
+    trialsRuleAComponents.append(block3)
+    trialsRuleAComponents.append(block3wrong)
     trialsRuleAComponents.append(correctiveFeedbackA)
     trialsRuleAComponents.append(trueBoxA)
     trialsRuleAComponents.append(falseBoxA)
@@ -983,12 +983,12 @@ for thisInducersAndstimulusRuleALoop in inducersAndStimuliRuleALoop:
             stimulusBoxA.frameNStart = frameN  # exact frame index
             stimulusBoxA.setAutoDraw(True)
         
-        # *requiredResponseKeyA* updates
-        if t >= 0.75 and requiredResponseKeyA.status == NOT_STARTED:
+        # *block3* updates
+        if t >= 0.75 and block3.status == NOT_STARTED:
             # keep track of start time/frame for later
-            requiredResponseKeyA.tStart = t  # underestimates by a little under one frame
-            requiredResponseKeyA.frameNStart = frameN  # exact frame index
-            requiredResponseKeyA.status = STARTED
+            block3.tStart = t  # underestimates by a little under one frame
+            block3.frameNStart = frameN  # exact frame index
+            block3.status = STARTED
             # AllowedKeys looks like a variable named `requiredAllowedKeysA`
             if not 'requiredAllowedKeysA' in locals():
                 logging.error('AllowedKeys variable `requiredAllowedKeysA` is not defined.')
@@ -1000,32 +1000,32 @@ for thisInducersAndstimulusRuleALoop in inducersAndStimuliRuleALoop:
                 elif not ',' in requiredAllowedKeysA: requiredAllowedKeysA = (requiredAllowedKeysA,)
                 else:  requiredAllowedKeysA = eval(requiredAllowedKeysA)
             # keyboard checking is just starting
-            requiredResponseKeyA.clock.reset()  # now t=0
+            block3.clock.reset()  # now t=0
             event.clearEvents(eventType='keyboard')
-        if requiredResponseKeyA.status == STARTED:
+        if block3.status == STARTED:
             theseKeys = event.getKeys(keyList=list(requiredAllowedKeysA))
             
             # check for quit:
             if "escape" in theseKeys:
                 endExpNow = True
             if len(theseKeys) > 0:  # at least one key was pressed
-                if requiredResponseKeyA.keys == []:  # then this was the first keypress
-                    requiredResponseKeyA.keys = theseKeys[0]  # just the first key pressed
-                    requiredResponseKeyA.rt = requiredResponseKeyA.clock.getTime()
+                if block3.keys == []:  # then this was the first keypress
+                    block3.keys = theseKeys[0]  # just the first key pressed
+                    block3.rt = block3.clock.getTime()
                     # was this 'correct'?
-                    if (requiredResponseKeyA.keys == str(requiredResponseA)) or (requiredResponseKeyA.keys == requiredResponseA):
-                        requiredResponseKeyA.corr = 1
+                    if (block3.keys == str(requiredResponseA)) or (block3.keys == requiredResponseA):
+                        block3.corr = 1
                     else:
-                        requiredResponseKeyA.corr = 0
+                        block3.corr = 0
                     # a response ends the routine
                     continueRoutine = False
         
-        # *feedbackResponseKeyA* updates
-        if t >= 0.75 and feedbackResponseKeyA.status == NOT_STARTED:
+        # *block3wrong* updates
+        if t >= 0.75 and block3wrong.status == NOT_STARTED:
             # keep track of start time/frame for later
-            feedbackResponseKeyA.tStart = t  # underestimates by a little under one frame
-            feedbackResponseKeyA.frameNStart = frameN  # exact frame index
-            feedbackResponseKeyA.status = STARTED
+            block3wrong.tStart = t  # underestimates by a little under one frame
+            block3wrong.frameNStart = frameN  # exact frame index
+            block3wrong.status = STARTED
             # AllowedKeys looks like a variable named `feedbackAllowedKeysA`
             if not 'feedbackAllowedKeysA' in locals():
                 logging.error('AllowedKeys variable `feedbackAllowedKeysA` is not defined.')
@@ -1037,22 +1037,22 @@ for thisInducersAndstimulusRuleALoop in inducersAndStimuliRuleALoop:
                 elif not ',' in feedbackAllowedKeysA: feedbackAllowedKeysA = (feedbackAllowedKeysA,)
                 else:  feedbackAllowedKeysA = eval(feedbackAllowedKeysA)
             # keyboard checking is just starting
-            feedbackResponseKeyA.clock.reset()  # now t=0
-        if feedbackResponseKeyA.status == STARTED:
+            block3wrong.clock.reset()  # now t=0
+        if block3wrong.status == STARTED:
             theseKeys = event.getKeys(keyList=list(feedbackAllowedKeysA))
             
             # check for quit:
             if "escape" in theseKeys:
                 endExpNow = True
             if len(theseKeys) > 0:  # at least one key was pressed
-                if feedbackResponseKeyA.keys == []:  # then this was the first keypress
-                    feedbackResponseKeyA.keys = theseKeys[0]  # just the first key pressed
-                    feedbackResponseKeyA.rt = feedbackResponseKeyA.clock.getTime()
+                if block3wrong.keys == []:  # then this was the first keypress
+                    block3wrong.keys = theseKeys[0]  # just the first key pressed
+                    block3wrong.rt = block3wrong.clock.getTime()
                     # was this 'correct'?
-                    if (feedbackResponseKeyA.keys == str(feedbackResponseA)) or (feedbackResponseKeyA.keys == feedbackResponseA):
-                        feedbackResponseKeyA.corr = 1
+                    if (block3wrong.keys == str(feedbackResponseA)) or (block3wrong.keys == feedbackResponseA):
+                        block3wrong.corr = 1
                     else:
-                        feedbackResponseKeyA.corr = 0
+                        block3wrong.corr = 0
         
         # *correctiveFeedbackA* updates
         if t >= 0.75 and correctiveFeedbackA.status == NOT_STARTED:
@@ -1062,7 +1062,7 @@ for thisInducersAndstimulusRuleALoop in inducersAndStimuliRuleALoop:
             correctiveFeedbackA.setAutoDraw(True)
         if correctiveFeedbackA.status == STARTED:  # only update if being drawn
             correctiveFeedbackA.setText(msg, log=False)
-        if len(feedbackResponseKeyA.keys)<1:
+        if len(block3wrong.keys)<1:
             msg=""
         else:
             msg="X"
@@ -1103,27 +1103,27 @@ for thisInducersAndstimulusRuleALoop in inducersAndStimuliRuleALoop:
         if hasattr(thisComponent, "setAutoDraw"):
             thisComponent.setAutoDraw(False)
     # check responses
-    if requiredResponseKeyA.keys in ['', [], None]:  # No response was made
-       requiredResponseKeyA.keys=None
+    if block3.keys in ['', [], None]:  # No response was made
+       block3.keys=None
        # was no response the correct answer?!
-       if str(requiredResponseA).lower() == 'none': requiredResponseKeyA.corr = 1  # correct non-response
-       else: requiredResponseKeyA.corr = 0  # failed to respond (incorrectly)
+       if str(requiredResponseA).lower() == 'none': block3.corr = 1  # correct non-response
+       else: block3.corr = 0  # failed to respond (incorrectly)
     # store data for inducersAndStimuliRuleALoop (TrialHandler)
-    inducersAndStimuliRuleALoop.addData('requiredResponseKeyA.keys',requiredResponseKeyA.keys)
-    inducersAndStimuliRuleALoop.addData('requiredResponseKeyA.corr', requiredResponseKeyA.corr)
-    if requiredResponseKeyA.keys != None:  # we had a response
-        inducersAndStimuliRuleALoop.addData('requiredResponseKeyA.rt', requiredResponseKeyA.rt)
+    inducersAndStimuliRuleALoop.addData('block3.keys',block3.keys)
+    inducersAndStimuliRuleALoop.addData('block3.corr', block3.corr)
+    if block3.keys != None:  # we had a response
+        inducersAndStimuliRuleALoop.addData('block3.rt', block3.rt)
     # check responses
-    if feedbackResponseKeyA.keys in ['', [], None]:  # No response was made
-       feedbackResponseKeyA.keys=None
+    if block3wrong.keys in ['', [], None]:  # No response was made
+       block3wrong.keys=None
        # was no response the correct answer?!
-       if str(feedbackResponseA).lower() == 'none': feedbackResponseKeyA.corr = 1  # correct non-response
-       else: feedbackResponseKeyA.corr = 0  # failed to respond (incorrectly)
+       if str(feedbackResponseA).lower() == 'none': block3wrong.corr = 1  # correct non-response
+       else: block3wrong.corr = 0  # failed to respond (incorrectly)
     # store data for inducersAndStimuliRuleALoop (TrialHandler)
-    inducersAndStimuliRuleALoop.addData('feedbackResponseKeyA.keys',feedbackResponseKeyA.keys)
-    inducersAndStimuliRuleALoop.addData('feedbackResponseKeyA.corr', feedbackResponseKeyA.corr)
-    if feedbackResponseKeyA.keys != None:  # we had a response
-        inducersAndStimuliRuleALoop.addData('feedbackResponseKeyA.rt', feedbackResponseKeyA.rt)
+    inducersAndStimuliRuleALoop.addData('block3wrong.keys',block3wrong.keys)
+    inducersAndStimuliRuleALoop.addData('block3wrong.corr', block3wrong.corr)
+    if block3wrong.keys != None:  # we had a response
+        inducersAndStimuliRuleALoop.addData('block3wrong.rt', block3wrong.rt)
     
     # the Routine "trialsRuleA" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset()
@@ -1135,7 +1135,7 @@ for thisInducersAndstimulusRuleALoop in inducersAndStimuliRuleALoop:
 # set up handler to look after randomisation of conditions etc
 inst4 = data.TrialHandler(nReps=1, method='sequential', 
     extraInfo=expInfo, originPath=None,
-    trialList=data.importConditions('instructions.xlsx', selection=u'3'),
+    trialList=data.importConditions('instructions.xlsx', selection='3'),
     seed=None, name='inst4')
 thisExp.addLoop(inst4)  # add the loop to the experiment
 thisInst4 = inst4.trialList[0]  # so we can initialise stimuli with some values
@@ -1230,7 +1230,7 @@ for thisInst4 in inst4:
 # set up handler to look after randomisation of conditions etc
 stimuliRuleBLoop = data.TrialHandler(nReps=1, method='random', 
     extraInfo=expInfo, originPath=None,
-    trialList=data.importConditions('stimuli.xlsx', selection=u'10:30'),
+    trialList=data.importConditions('stimuli.xlsx', selection='10:30'),
     seed=None, name='stimuliRuleBLoop')
 thisExp.addLoop(stimuliRuleBLoop)  # add the loop to the experiment
 thisStimulusRuleBLoop = stimuliRuleBLoop.trialList[0]  # so we can initialise stimuli with some values
@@ -1246,51 +1246,51 @@ for thisStimulusRuleBLoop in stimuliRuleBLoop:
         for paramName in thisStimulusRuleBLoop.keys():
             exec(paramName + '= thisStimulusRuleBLoop.' + paramName)
     
-    #------Prepare to start Routine "trialsRuleB"-------
+    #------Prepare to start Routine "practiceTrialsRuleB"-------
     t = 0
-    trialsRuleBClock.reset()  # clock 
+    practiceTrialsRuleBClock.reset()  # clock 
     frameN = -1
     # update component parameters for each repeat
-    stimulusBoxB.setColor(stimulusColour, colorSpace='rgb')
-    stimulusBoxB.setText(stimulus)
-    requiredResponseKeyB = event.BuilderKeyResponse()  # create an object of type KeyResponse
-    requiredResponseKeyB.status = NOT_STARTED
-    feedbackResponseKeyB = event.BuilderKeyResponse()  # create an object of type KeyResponse
-    feedbackResponseKeyB.status = NOT_STARTED
+    stimulusBoxBprac.setColor(stimulusColour, colorSpace='rgb')
+    stimulusBoxBprac.setText(stimulus)
+    block4 = event.BuilderKeyResponse()  # create an object of type KeyResponse
+    block4.status = NOT_STARTED
+    block4wrong = event.BuilderKeyResponse()  # create an object of type KeyResponse
+    block4wrong.status = NOT_STARTED
     
     # keep track of which components have finished
-    trialsRuleBComponents = []
-    trialsRuleBComponents.append(stimulusBoxB)
-    trialsRuleBComponents.append(requiredResponseKeyB)
-    trialsRuleBComponents.append(feedbackResponseKeyB)
-    trialsRuleBComponents.append(correctiveFeedbackB)
-    trialsRuleBComponents.append(trueBoxB)
-    trialsRuleBComponents.append(falseBoxB)
-    for thisComponent in trialsRuleBComponents:
+    practiceTrialsRuleBComponents = []
+    practiceTrialsRuleBComponents.append(stimulusBoxBprac)
+    practiceTrialsRuleBComponents.append(block4)
+    practiceTrialsRuleBComponents.append(block4wrong)
+    practiceTrialsRuleBComponents.append(correctiveFeedbackBprac)
+    practiceTrialsRuleBComponents.append(trueBoxBprac)
+    practiceTrialsRuleBComponents.append(falseBoxBprac)
+    for thisComponent in practiceTrialsRuleBComponents:
         if hasattr(thisComponent, 'status'):
             thisComponent.status = NOT_STARTED
     
-    #-------Start Routine "trialsRuleB"-------
+    #-------Start Routine "practiceTrialsRuleB"-------
     continueRoutine = True
     while continueRoutine:
         # get current time
-        t = trialsRuleBClock.getTime()
+        t = practiceTrialsRuleBClock.getTime()
         frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
         # update/draw components on each frame
         
-        # *stimulusBoxB* updates
-        if t >= 0.3 and stimulusBoxB.status == NOT_STARTED:
+        # *stimulusBoxBprac* updates
+        if t >= 0.75 and stimulusBoxBprac.status == NOT_STARTED:
             # keep track of start time/frame for later
-            stimulusBoxB.tStart = t  # underestimates by a little under one frame
-            stimulusBoxB.frameNStart = frameN  # exact frame index
-            stimulusBoxB.setAutoDraw(True)
+            stimulusBoxBprac.tStart = t  # underestimates by a little under one frame
+            stimulusBoxBprac.frameNStart = frameN  # exact frame index
+            stimulusBoxBprac.setAutoDraw(True)
         
-        # *requiredResponseKeyB* updates
-        if t >= 0.3 and requiredResponseKeyB.status == NOT_STARTED:
+        # *block4* updates
+        if t >= 0.75 and block4.status == NOT_STARTED:
             # keep track of start time/frame for later
-            requiredResponseKeyB.tStart = t  # underestimates by a little under one frame
-            requiredResponseKeyB.frameNStart = frameN  # exact frame index
-            requiredResponseKeyB.status = STARTED
+            block4.tStart = t  # underestimates by a little under one frame
+            block4.frameNStart = frameN  # exact frame index
+            block4.status = STARTED
             # AllowedKeys looks like a variable named `requiredAllowedKeysB`
             if not 'requiredAllowedKeysB' in locals():
                 logging.error('AllowedKeys variable `requiredAllowedKeysB` is not defined.')
@@ -1302,32 +1302,32 @@ for thisStimulusRuleBLoop in stimuliRuleBLoop:
                 elif not ',' in requiredAllowedKeysB: requiredAllowedKeysB = (requiredAllowedKeysB,)
                 else:  requiredAllowedKeysB = eval(requiredAllowedKeysB)
             # keyboard checking is just starting
-            requiredResponseKeyB.clock.reset()  # now t=0
+            block4.clock.reset()  # now t=0
             event.clearEvents(eventType='keyboard')
-        if requiredResponseKeyB.status == STARTED:
+        if block4.status == STARTED:
             theseKeys = event.getKeys(keyList=list(requiredAllowedKeysB))
             
             # check for quit:
             if "escape" in theseKeys:
                 endExpNow = True
             if len(theseKeys) > 0:  # at least one key was pressed
-                if requiredResponseKeyB.keys == []:  # then this was the first keypress
-                    requiredResponseKeyB.keys = theseKeys[0]  # just the first key pressed
-                    requiredResponseKeyB.rt = requiredResponseKeyB.clock.getTime()
+                if block4.keys == []:  # then this was the first keypress
+                    block4.keys = theseKeys[0]  # just the first key pressed
+                    block4.rt = block4.clock.getTime()
                     # was this 'correct'?
-                    if (requiredResponseKeyB.keys == str(requiredResponseB)) or (requiredResponseKeyB.keys == requiredResponseB):
-                        requiredResponseKeyB.corr = 1
+                    if (block4.keys == str(requiredResponseB)) or (block4.keys == requiredResponseB):
+                        block4.corr = 1
                     else:
-                        requiredResponseKeyB.corr = 0
+                        block4.corr = 0
                     # a response ends the routine
                     continueRoutine = False
         
-        # *feedbackResponseKeyB* updates
-        if t >= 0.3 and feedbackResponseKeyB.status == NOT_STARTED:
+        # *block4wrong* updates
+        if t >= 0.75 and block4wrong.status == NOT_STARTED:
             # keep track of start time/frame for later
-            feedbackResponseKeyB.tStart = t  # underestimates by a little under one frame
-            feedbackResponseKeyB.frameNStart = frameN  # exact frame index
-            feedbackResponseKeyB.status = STARTED
+            block4wrong.tStart = t  # underestimates by a little under one frame
+            block4wrong.frameNStart = frameN  # exact frame index
+            block4wrong.status = STARTED
             # AllowedKeys looks like a variable named `feedbackAllowedKeysB`
             if not 'feedbackAllowedKeysB' in locals():
                 logging.error('AllowedKeys variable `feedbackAllowedKeysB` is not defined.')
@@ -1339,55 +1339,55 @@ for thisStimulusRuleBLoop in stimuliRuleBLoop:
                 elif not ',' in feedbackAllowedKeysB: feedbackAllowedKeysB = (feedbackAllowedKeysB,)
                 else:  feedbackAllowedKeysB = eval(feedbackAllowedKeysB)
             # keyboard checking is just starting
-            feedbackResponseKeyB.clock.reset()  # now t=0
-        if feedbackResponseKeyB.status == STARTED:
+            block4wrong.clock.reset()  # now t=0
+        if block4wrong.status == STARTED:
             theseKeys = event.getKeys(keyList=list(feedbackAllowedKeysB))
             
             # check for quit:
             if "escape" in theseKeys:
                 endExpNow = True
             if len(theseKeys) > 0:  # at least one key was pressed
-                if feedbackResponseKeyB.keys == []:  # then this was the first keypress
-                    feedbackResponseKeyB.keys = theseKeys[0]  # just the first key pressed
-                    feedbackResponseKeyB.rt = feedbackResponseKeyB.clock.getTime()
+                if block4wrong.keys == []:  # then this was the first keypress
+                    block4wrong.keys = theseKeys[0]  # just the first key pressed
+                    block4wrong.rt = block4wrong.clock.getTime()
                     # was this 'correct'?
-                    if (feedbackResponseKeyB.keys == str(feedbackResponseB)) or (feedbackResponseKeyB.keys == feedbackResponseB):
-                        feedbackResponseKeyB.corr = 1
+                    if (block4wrong.keys == str(feedbackResponseB)) or (block4wrong.keys == feedbackResponseB):
+                        block4wrong.corr = 1
                     else:
-                        feedbackResponseKeyB.corr = 0
+                        block4wrong.corr = 0
         
-        # *correctiveFeedbackB* updates
-        if t >= 0.3 and correctiveFeedbackB.status == NOT_STARTED:
+        # *correctiveFeedbackBprac* updates
+        if t >= 0.75 and correctiveFeedbackBprac.status == NOT_STARTED:
             # keep track of start time/frame for later
-            correctiveFeedbackB.tStart = t  # underestimates by a little under one frame
-            correctiveFeedbackB.frameNStart = frameN  # exact frame index
-            correctiveFeedbackB.setAutoDraw(True)
-        if correctiveFeedbackB.status == STARTED:  # only update if being drawn
-            correctiveFeedbackB.setText(msg, log=False)
-        if len(feedbackResponseKeyB.keys)<1:
+            correctiveFeedbackBprac.tStart = t  # underestimates by a little under one frame
+            correctiveFeedbackBprac.frameNStart = frameN  # exact frame index
+            correctiveFeedbackBprac.setAutoDraw(True)
+        if correctiveFeedbackBprac.status == STARTED:  # only update if being drawn
+            correctiveFeedbackBprac.setText(msg, log=False)
+        if len(block4wrong.keys)<1:
             msg=""
         else:
             msg="X"
         
-        # *trueBoxB* updates
-        if t >= 0 and trueBoxB.status == NOT_STARTED:
+        # *trueBoxBprac* updates
+        if t >= 0 and trueBoxBprac.status == NOT_STARTED:
             # keep track of start time/frame for later
-            trueBoxB.tStart = t  # underestimates by a little under one frame
-            trueBoxB.frameNStart = frameN  # exact frame index
-            trueBoxB.setAutoDraw(True)
+            trueBoxBprac.tStart = t  # underestimates by a little under one frame
+            trueBoxBprac.frameNStart = frameN  # exact frame index
+            trueBoxBprac.setAutoDraw(True)
         
-        # *falseBoxB* updates
-        if t >= 0 and falseBoxB.status == NOT_STARTED:
+        # *falseBoxBprac* updates
+        if t >= 0 and falseBoxBprac.status == NOT_STARTED:
             # keep track of start time/frame for later
-            falseBoxB.tStart = t  # underestimates by a little under one frame
-            falseBoxB.frameNStart = frameN  # exact frame index
-            falseBoxB.setAutoDraw(True)
+            falseBoxBprac.tStart = t  # underestimates by a little under one frame
+            falseBoxBprac.frameNStart = frameN  # exact frame index
+            falseBoxBprac.setAutoDraw(True)
         
         # check if all components have finished
         if not continueRoutine:  # a component has requested a forced-end of Routine
             break
         continueRoutine = False  # will revert to True if at least one component still running
-        for thisComponent in trialsRuleBComponents:
+        for thisComponent in practiceTrialsRuleBComponents:
             if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
                 continueRoutine = True
                 break  # at least one component has not yet finished
@@ -1400,34 +1400,34 @@ for thisStimulusRuleBLoop in stimuliRuleBLoop:
         if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
             win.flip()
     
-    #-------Ending Routine "trialsRuleB"-------
-    for thisComponent in trialsRuleBComponents:
+    #-------Ending Routine "practiceTrialsRuleB"-------
+    for thisComponent in practiceTrialsRuleBComponents:
         if hasattr(thisComponent, "setAutoDraw"):
             thisComponent.setAutoDraw(False)
     # check responses
-    if requiredResponseKeyB.keys in ['', [], None]:  # No response was made
-       requiredResponseKeyB.keys=None
+    if block4.keys in ['', [], None]:  # No response was made
+       block4.keys=None
        # was no response the correct answer?!
-       if str(requiredResponseB).lower() == 'none': requiredResponseKeyB.corr = 1  # correct non-response
-       else: requiredResponseKeyB.corr = 0  # failed to respond (incorrectly)
+       if str(requiredResponseB).lower() == 'none': block4.corr = 1  # correct non-response
+       else: block4.corr = 0  # failed to respond (incorrectly)
     # store data for stimuliRuleBLoop (TrialHandler)
-    stimuliRuleBLoop.addData('requiredResponseKeyB.keys',requiredResponseKeyB.keys)
-    stimuliRuleBLoop.addData('requiredResponseKeyB.corr', requiredResponseKeyB.corr)
-    if requiredResponseKeyB.keys != None:  # we had a response
-        stimuliRuleBLoop.addData('requiredResponseKeyB.rt', requiredResponseKeyB.rt)
+    stimuliRuleBLoop.addData('block4.keys',block4.keys)
+    stimuliRuleBLoop.addData('block4.corr', block4.corr)
+    if block4.keys != None:  # we had a response
+        stimuliRuleBLoop.addData('block4.rt', block4.rt)
     # check responses
-    if feedbackResponseKeyB.keys in ['', [], None]:  # No response was made
-       feedbackResponseKeyB.keys=None
+    if block4wrong.keys in ['', [], None]:  # No response was made
+       block4wrong.keys=None
        # was no response the correct answer?!
-       if str(feedbackResponseB).lower() == 'none': feedbackResponseKeyB.corr = 1  # correct non-response
-       else: feedbackResponseKeyB.corr = 0  # failed to respond (incorrectly)
+       if str(feedbackResponseB).lower() == 'none': block4wrong.corr = 1  # correct non-response
+       else: block4wrong.corr = 0  # failed to respond (incorrectly)
     # store data for stimuliRuleBLoop (TrialHandler)
-    stimuliRuleBLoop.addData('feedbackResponseKeyB.keys',feedbackResponseKeyB.keys)
-    stimuliRuleBLoop.addData('feedbackResponseKeyB.corr', feedbackResponseKeyB.corr)
-    if feedbackResponseKeyB.keys != None:  # we had a response
-        stimuliRuleBLoop.addData('feedbackResponseKeyB.rt', feedbackResponseKeyB.rt)
+    stimuliRuleBLoop.addData('block4wrong.keys',block4wrong.keys)
+    stimuliRuleBLoop.addData('block4wrong.corr', block4wrong.corr)
+    if block4wrong.keys != None:  # we had a response
+        stimuliRuleBLoop.addData('block4wrong.rt', block4wrong.rt)
     
-    # the Routine "trialsRuleB" was not non-slip safe, so reset the non-slip timer
+    # the Routine "practiceTrialsRuleB" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset()
     thisExp.nextEntry()
     
@@ -1437,7 +1437,7 @@ for thisStimulusRuleBLoop in stimuliRuleBLoop:
 # set up handler to look after randomisation of conditions etc
 inst5 = data.TrialHandler(nReps=1, method='sequential', 
     extraInfo=expInfo, originPath=None,
-    trialList=data.importConditions('instructions.xlsx', selection=u'4'),
+    trialList=data.importConditions('instructions.xlsx', selection='4'),
     seed=None, name='inst5')
 thisExp.addLoop(inst5)  # add the loop to the experiment
 thisInst5 = inst5.trialList[0]  # so we can initialise stimuli with some values
@@ -1555,16 +1555,16 @@ for thisInducersAndstimulusRuleBLoop in inducersAndStimuliRuleBLoop:
     # update component parameters for each repeat
     stimulusBoxB.setColor(stimulusColour, colorSpace='rgb')
     stimulusBoxB.setText(stimulus)
-    requiredResponseKeyB = event.BuilderKeyResponse()  # create an object of type KeyResponse
-    requiredResponseKeyB.status = NOT_STARTED
-    feedbackResponseKeyB = event.BuilderKeyResponse()  # create an object of type KeyResponse
-    feedbackResponseKeyB.status = NOT_STARTED
+    block5 = event.BuilderKeyResponse()  # create an object of type KeyResponse
+    block5.status = NOT_STARTED
+    block5wrong = event.BuilderKeyResponse()  # create an object of type KeyResponse
+    block5wrong.status = NOT_STARTED
     
     # keep track of which components have finished
     trialsRuleBComponents = []
     trialsRuleBComponents.append(stimulusBoxB)
-    trialsRuleBComponents.append(requiredResponseKeyB)
-    trialsRuleBComponents.append(feedbackResponseKeyB)
+    trialsRuleBComponents.append(block5)
+    trialsRuleBComponents.append(block5wrong)
     trialsRuleBComponents.append(correctiveFeedbackB)
     trialsRuleBComponents.append(trueBoxB)
     trialsRuleBComponents.append(falseBoxB)
@@ -1581,18 +1581,18 @@ for thisInducersAndstimulusRuleBLoop in inducersAndStimuliRuleBLoop:
         # update/draw components on each frame
         
         # *stimulusBoxB* updates
-        if t >= 0.3 and stimulusBoxB.status == NOT_STARTED:
+        if t >= 0.75 and stimulusBoxB.status == NOT_STARTED:
             # keep track of start time/frame for later
             stimulusBoxB.tStart = t  # underestimates by a little under one frame
             stimulusBoxB.frameNStart = frameN  # exact frame index
             stimulusBoxB.setAutoDraw(True)
         
-        # *requiredResponseKeyB* updates
-        if t >= 0.3 and requiredResponseKeyB.status == NOT_STARTED:
+        # *block5* updates
+        if t >= 0.75 and block5.status == NOT_STARTED:
             # keep track of start time/frame for later
-            requiredResponseKeyB.tStart = t  # underestimates by a little under one frame
-            requiredResponseKeyB.frameNStart = frameN  # exact frame index
-            requiredResponseKeyB.status = STARTED
+            block5.tStart = t  # underestimates by a little under one frame
+            block5.frameNStart = frameN  # exact frame index
+            block5.status = STARTED
             # AllowedKeys looks like a variable named `requiredAllowedKeysB`
             if not 'requiredAllowedKeysB' in locals():
                 logging.error('AllowedKeys variable `requiredAllowedKeysB` is not defined.')
@@ -1604,32 +1604,32 @@ for thisInducersAndstimulusRuleBLoop in inducersAndStimuliRuleBLoop:
                 elif not ',' in requiredAllowedKeysB: requiredAllowedKeysB = (requiredAllowedKeysB,)
                 else:  requiredAllowedKeysB = eval(requiredAllowedKeysB)
             # keyboard checking is just starting
-            requiredResponseKeyB.clock.reset()  # now t=0
+            block5.clock.reset()  # now t=0
             event.clearEvents(eventType='keyboard')
-        if requiredResponseKeyB.status == STARTED:
+        if block5.status == STARTED:
             theseKeys = event.getKeys(keyList=list(requiredAllowedKeysB))
             
             # check for quit:
             if "escape" in theseKeys:
                 endExpNow = True
             if len(theseKeys) > 0:  # at least one key was pressed
-                if requiredResponseKeyB.keys == []:  # then this was the first keypress
-                    requiredResponseKeyB.keys = theseKeys[0]  # just the first key pressed
-                    requiredResponseKeyB.rt = requiredResponseKeyB.clock.getTime()
+                if block5.keys == []:  # then this was the first keypress
+                    block5.keys = theseKeys[0]  # just the first key pressed
+                    block5.rt = block5.clock.getTime()
                     # was this 'correct'?
-                    if (requiredResponseKeyB.keys == str(requiredResponseB)) or (requiredResponseKeyB.keys == requiredResponseB):
-                        requiredResponseKeyB.corr = 1
+                    if (block5.keys == str(requiredResponseB)) or (block5.keys == requiredResponseB):
+                        block5.corr = 1
                     else:
-                        requiredResponseKeyB.corr = 0
+                        block5.corr = 0
                     # a response ends the routine
                     continueRoutine = False
         
-        # *feedbackResponseKeyB* updates
-        if t >= 0.3 and feedbackResponseKeyB.status == NOT_STARTED:
+        # *block5wrong* updates
+        if t >= 0.75 and block5wrong.status == NOT_STARTED:
             # keep track of start time/frame for later
-            feedbackResponseKeyB.tStart = t  # underestimates by a little under one frame
-            feedbackResponseKeyB.frameNStart = frameN  # exact frame index
-            feedbackResponseKeyB.status = STARTED
+            block5wrong.tStart = t  # underestimates by a little under one frame
+            block5wrong.frameNStart = frameN  # exact frame index
+            block5wrong.status = STARTED
             # AllowedKeys looks like a variable named `feedbackAllowedKeysB`
             if not 'feedbackAllowedKeysB' in locals():
                 logging.error('AllowedKeys variable `feedbackAllowedKeysB` is not defined.')
@@ -1641,32 +1641,32 @@ for thisInducersAndstimulusRuleBLoop in inducersAndStimuliRuleBLoop:
                 elif not ',' in feedbackAllowedKeysB: feedbackAllowedKeysB = (feedbackAllowedKeysB,)
                 else:  feedbackAllowedKeysB = eval(feedbackAllowedKeysB)
             # keyboard checking is just starting
-            feedbackResponseKeyB.clock.reset()  # now t=0
-        if feedbackResponseKeyB.status == STARTED:
+            block5wrong.clock.reset()  # now t=0
+        if block5wrong.status == STARTED:
             theseKeys = event.getKeys(keyList=list(feedbackAllowedKeysB))
             
             # check for quit:
             if "escape" in theseKeys:
                 endExpNow = True
             if len(theseKeys) > 0:  # at least one key was pressed
-                if feedbackResponseKeyB.keys == []:  # then this was the first keypress
-                    feedbackResponseKeyB.keys = theseKeys[0]  # just the first key pressed
-                    feedbackResponseKeyB.rt = feedbackResponseKeyB.clock.getTime()
+                if block5wrong.keys == []:  # then this was the first keypress
+                    block5wrong.keys = theseKeys[0]  # just the first key pressed
+                    block5wrong.rt = block5wrong.clock.getTime()
                     # was this 'correct'?
-                    if (feedbackResponseKeyB.keys == str(feedbackResponseB)) or (feedbackResponseKeyB.keys == feedbackResponseB):
-                        feedbackResponseKeyB.corr = 1
+                    if (block5wrong.keys == str(feedbackResponseB)) or (block5wrong.keys == feedbackResponseB):
+                        block5wrong.corr = 1
                     else:
-                        feedbackResponseKeyB.corr = 0
+                        block5wrong.corr = 0
         
         # *correctiveFeedbackB* updates
-        if t >= 0.3 and correctiveFeedbackB.status == NOT_STARTED:
+        if t >= 0.75 and correctiveFeedbackB.status == NOT_STARTED:
             # keep track of start time/frame for later
             correctiveFeedbackB.tStart = t  # underestimates by a little under one frame
             correctiveFeedbackB.frameNStart = frameN  # exact frame index
             correctiveFeedbackB.setAutoDraw(True)
         if correctiveFeedbackB.status == STARTED:  # only update if being drawn
             correctiveFeedbackB.setText(msg, log=False)
-        if len(feedbackResponseKeyB.keys)<1:
+        if len(block5wrong.keys)<1:
             msg=""
         else:
             msg="X"
@@ -1707,27 +1707,27 @@ for thisInducersAndstimulusRuleBLoop in inducersAndStimuliRuleBLoop:
         if hasattr(thisComponent, "setAutoDraw"):
             thisComponent.setAutoDraw(False)
     # check responses
-    if requiredResponseKeyB.keys in ['', [], None]:  # No response was made
-       requiredResponseKeyB.keys=None
+    if block5.keys in ['', [], None]:  # No response was made
+       block5.keys=None
        # was no response the correct answer?!
-       if str(requiredResponseB).lower() == 'none': requiredResponseKeyB.corr = 1  # correct non-response
-       else: requiredResponseKeyB.corr = 0  # failed to respond (incorrectly)
+       if str(requiredResponseB).lower() == 'none': block5.corr = 1  # correct non-response
+       else: block5.corr = 0  # failed to respond (incorrectly)
     # store data for inducersAndStimuliRuleBLoop (TrialHandler)
-    inducersAndStimuliRuleBLoop.addData('requiredResponseKeyB.keys',requiredResponseKeyB.keys)
-    inducersAndStimuliRuleBLoop.addData('requiredResponseKeyB.corr', requiredResponseKeyB.corr)
-    if requiredResponseKeyB.keys != None:  # we had a response
-        inducersAndStimuliRuleBLoop.addData('requiredResponseKeyB.rt', requiredResponseKeyB.rt)
+    inducersAndStimuliRuleBLoop.addData('block5.keys',block5.keys)
+    inducersAndStimuliRuleBLoop.addData('block5.corr', block5.corr)
+    if block5.keys != None:  # we had a response
+        inducersAndStimuliRuleBLoop.addData('block5.rt', block5.rt)
     # check responses
-    if feedbackResponseKeyB.keys in ['', [], None]:  # No response was made
-       feedbackResponseKeyB.keys=None
+    if block5wrong.keys in ['', [], None]:  # No response was made
+       block5wrong.keys=None
        # was no response the correct answer?!
-       if str(feedbackResponseB).lower() == 'none': feedbackResponseKeyB.corr = 1  # correct non-response
-       else: feedbackResponseKeyB.corr = 0  # failed to respond (incorrectly)
+       if str(feedbackResponseB).lower() == 'none': block5wrong.corr = 1  # correct non-response
+       else: block5wrong.corr = 0  # failed to respond (incorrectly)
     # store data for inducersAndStimuliRuleBLoop (TrialHandler)
-    inducersAndStimuliRuleBLoop.addData('feedbackResponseKeyB.keys',feedbackResponseKeyB.keys)
-    inducersAndStimuliRuleBLoop.addData('feedbackResponseKeyB.corr', feedbackResponseKeyB.corr)
-    if feedbackResponseKeyB.keys != None:  # we had a response
-        inducersAndStimuliRuleBLoop.addData('feedbackResponseKeyB.rt', feedbackResponseKeyB.rt)
+    inducersAndStimuliRuleBLoop.addData('block5wrong.keys',block5wrong.keys)
+    inducersAndStimuliRuleBLoop.addData('block5wrong.corr', block5wrong.corr)
+    if block5wrong.keys != None:  # we had a response
+        inducersAndStimuliRuleBLoop.addData('block5wrong.rt', block5wrong.rt)
     
     # the Routine "trialsRuleB" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset()
@@ -1739,7 +1739,7 @@ for thisInducersAndstimulusRuleBLoop in inducersAndStimuliRuleBLoop:
 # set up handler to look after randomisation of conditions etc
 instEnd = data.TrialHandler(nReps=1, method='sequential', 
     extraInfo=expInfo, originPath=None,
-    trialList=data.importConditions('instructions.xlsx', selection=u'5'),
+    trialList=data.importConditions('instructions.xlsx', selection='5'),
     seed=None, name='instEnd')
 thisExp.addLoop(instEnd)  # add the loop to the experiment
 thisInstEnd = instEnd.trialList[0]  # so we can initialise stimuli with some values

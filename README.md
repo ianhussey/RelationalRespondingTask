@@ -1,15 +1,15 @@
-Created by:
+# Created by
 Ian Hussey (ian.hussey@ugent.be)
 
-Last change:
+# Last change
 27/10/2015
 
-Version number:
-0.9.7
-###This is still in beta - I have not had this code reviewed to guarantee that it functions as intended.
+# Version number
+0.9.7.2
+#### This is still in beta - I have not had this code reviewed to guarantee that it functions as intended.
 
 
-Notes:
+# Notes
 - The escape key quits the task at any time. E, I, or the return key ends the task properly once it’s complete.
 - You can run either the psyexp file or the py file inside psychopy. The py file should have greater cross platform support; if you run into errors with the psyexp file use the py instead.
 - psydat and csv files are produced for each participant. csv file alone is sufficient to most analyses (e.g., calculation of D scores).
@@ -17,10 +17,10 @@ Notes:
 - ITI is set to 750 ms, as in the original publication.
 
 
-Block layout:
+# Block layout
 The current version follows’s Sean Hughes’ (unpublished) block layout design rather than Niclas Heider’s design (as used in De Houwer et al., 2015). The key difference between these is that Sean’s design lowers the number of training trials and the ratio of inducers to target trials in the test blocks. Effects are therefore calculated on the same total number of test trials, but the task length is shortened by about 30% (from 10 mins to 7 mins)
 
-1. Niclas’s original block layout:
+## 1. Niclas’s original block layout:
 
 1:1 ratio of inducers to targets
 10 target RT pairs per trial-type (40 total)
@@ -36,7 +36,7 @@ Block 3 (Rule 1) 80 Trials (4 loops of 10 inducers plus 2 loops of 20 targets)
 Block 4 (R Target) 40 Trials (2 loops of 20 targets)
 Block 5 (Rule 2) 80 Trials (4 loops of 10 inducers plus 2 loops of 20 targets)
 
-2. Sean’s block layout (current implementation):
+## 2. Sean’s block layout (current implementation):
 
 1:2 ratio of inducers to targets
 10 target RT pairs per trial-type (40 total)
@@ -53,12 +53,18 @@ Block 4 (R Target) 20 Trials (1 loop of 20 targets)
 Block 5 (Rule 2) 60 Trials (2 loops of 10 inducers plus 20 targets)
 
 
-Known issues:
+# Known issues
 1. If duplicate stimuli are entered in the stimuli file then participants can be presented with two identical exemplars one after another. This is not easy to overcome within the confines of the Psychopy builder. However, the included stimulus file does not repeat stimuli, thus if a similar pattern is followed this issue will not arise.
 
-2. If participants get 100% of trials correct on either blocks 1+2+3 or blocks 4+5 then the incorrect response RT column will not be created for that participant. This is a) unlikely, and b) not a problem if you merge files across participants based on column header matching (e.g., using plyr’s rbind.fill command). However, it can be problematic if your data processing workflow relies on column ORDER rather than column header NAME, e.g., a SPSS script using a GET command.
+2. If participants get 100% of trials correct on a given block then the incorrect response RT column will not be created for that block for that participant. This is not a problem if you process files based on column header matching (e.g., using r's read.delim2 command). However, it can be problematic if your data processing workflow relies on column ORDER rather than column header NAME, e.g., a SPSS script using a GET command.
 
-Changelog:
-0.9.5 Corrected trials per block in Block 1
+# Changelog
+0.9.5 Corrected trials per block in Block 1.
+
 0.9.6 reordered and relabelled trial-types in the stimuli.xlsx file. Before, trial-types 1-4 were, respectively, "i am +", "i am not +", "i am -", "I am not -". Not the order is "I am +", "I am -", "I am not +", "I am not -". Although the difference does not constitute an error, the old order did not conform to the numbering convention used in the IRAP and may have caused confusion.
+
 0.9.7 Significant reorganization of the instructions blocks and loops to make the output easier to analyze.
+
+0.9.7.1 iti was 300 ms on ruleB blocks: corrected to 750 ms throughout task.
+
+0.9.7.2 Created separate blocks for inducers, practice and test blocks for even easier analysis. Columns now contain only info for a single block, so you can mean() or sd() the whole column. Also changed the names of the keyboard components to blockX and blockXwrong. A future R script will therefore be easier to interpret, as it will sample blockX.rt and blockX.corr variables.
