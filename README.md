@@ -2,10 +2,10 @@ Created by:
 Ian Hussey (ian.hussey@ugent.be)
 
 Last change:
-26/10/2015
+27/10/2015
 
 Version number:
-0.9.6
+0.9.7
 ###This is still in beta - I have not had this code reviewed to guarantee that it functions as intended.
 
 
@@ -61,3 +61,4 @@ Known issues:
 Changelog:
 0.9.5 Corrected trials per block in Block 1
 0.9.6 reordered and relabelled trial-types in the stimuli.xlsx file. Before, trial-types 1-4 were, respectively, "i am +", "i am not +", "i am -", "I am not -". Not the order is "I am +", "I am -", "I am not +", "I am not -". Although the difference does not constitute an error, the old order did not conform to the numbering convention used in the IRAP and may have caused confusion.
+0.9.7 Significant reorganization of the instructions blocks and loops to make the output easier to analyze.
