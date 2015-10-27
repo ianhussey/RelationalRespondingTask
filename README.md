@@ -10,6 +10,7 @@ Ian Hussey (ian.hussey@ugent.be)
 
 
 # Notes
+- NB written in PsychoPy 1.82.02. Bugs may crop up if you're using a different version.
 - The escape key quits the task at any time. E, I, or the return key ends the task properly once it’s complete.
 - You can run either the psyexp file or the py file inside psychopy. The py file should have greater cross platform support; if you run into errors with the psyexp file use the py instead.
 - psydat and csv files are produced for each participant. csv file alone is sufficient to most analyses (e.g., calculation of D scores).
@@ -65,6 +66,6 @@ Block 5 (Rule 2) 60 Trials (2 loops of 10 inducers plus 20 targets)
 
 0.9.7 Significant reorganization of the instructions blocks and loops to make the output easier to analyze.
 
-0.9.7.1 iti was 300 ms on ruleB blocks: corrected to 750 ms throughout task.
+0.9.7.1 ITI was 300 ms on ruleB blocks: corrected to 750 ms throughout task.
 
 0.9.7.2 Created separate blocks for inducers, practice and test blocks for even easier analysis. Columns now contain only info for a single block, so you can mean() or sd() the whole column. Also changed the names of the keyboard components to blockX and blockXwrong. A future R script will therefore be easier to interpret, as it will sample blockX.rt and blockX.corr variables.
