@@ -22,317 +22,12 @@
     <Param name="Screen" val="1" valType="num" updates="None"/>
   </Settings>
   <Routines>
-    <Routine name="instructions4">
-      <TextComponent name="instructions4box">
-        <Param name="opacity" val="1" valType="code" updates="constant"/>
-        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
-        <Param name="name" val="instructions4box" valType="code" updates="None"/>
-        <Param name="wrapWidth" val="" valType="code" updates="constant"/>
-        <Param name="color" val="white" valType="str" updates="constant"/>
-        <Param name="text" val="$instructions4&#10;" valType="str" updates="set every repeat"/>
-        <Param name="stopVal" val="" valType="code" updates="constant"/>
-        <Param name="durationEstim" val="" valType="code" updates="None"/>
-        <Param name="pos" val="[0, 0]" valType="code" updates="constant"/>
-        <Param name="flip" val="" valType="str" updates="constant"/>
-        <Param name="startEstim" val="" valType="code" updates="None"/>
-        <Param name="units" val="from exp settings" valType="str" updates="None"/>
-        <Param name="startType" val="time (s)" valType="str" updates="None"/>
-        <Param name="ori" val="0" valType="code" updates="constant"/>
-        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
-        <Param name="startVal" val="0.75" valType="code" updates="None"/>
-        <Param name="font" val="Arial" valType="str" updates="constant"/>
-        <Param name="letterHeight" val="0.05" valType="code" updates="constant"/>
-      </TextComponent>
-      <KeyboardComponent name="instructions4key">
-        <Param name="correctAns" val="" valType="str" updates="constant"/>
-        <Param name="storeCorrect" val="False" valType="bool" updates="constant"/>
-        <Param name="name" val="instructions4key" valType="code" updates="None"/>
-        <Param name="stopVal" val="" valType="code" updates="constant"/>
-        <Param name="durationEstim" val="" valType="code" updates="None"/>
-        <Param name="forceEndRoutine" val="True" valType="bool" updates="constant"/>
-        <Param name="startEstim" val="" valType="code" updates="None"/>
-        <Param name="discard previous" val="True" valType="bool" updates="constant"/>
-        <Param name="startType" val="time (s)" valType="str" updates="None"/>
-        <Param name="allowedKeys" val="'e', 'i'" valType="code" updates="constant"/>
-        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
-        <Param name="startVal" val="1.25" valType="code" updates="None"/>
-        <Param name="store" val="nothing" valType="str" updates="constant"/>
-      </KeyboardComponent>
-    </Routine>
-    <Routine name="instructions5">
-      <TextComponent name="instructions5box">
-        <Param name="opacity" val="1" valType="code" updates="constant"/>
-        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
-        <Param name="name" val="instructions5box" valType="code" updates="None"/>
-        <Param name="wrapWidth" val="" valType="code" updates="constant"/>
-        <Param name="color" val="white" valType="str" updates="constant"/>
-        <Param name="text" val="$instructions5&#10;&#10;" valType="str" updates="set every repeat"/>
-        <Param name="stopVal" val="" valType="code" updates="constant"/>
-        <Param name="durationEstim" val="" valType="code" updates="None"/>
-        <Param name="pos" val="[0, 0]" valType="code" updates="constant"/>
-        <Param name="flip" val="" valType="str" updates="constant"/>
-        <Param name="startEstim" val="" valType="code" updates="None"/>
-        <Param name="units" val="from exp settings" valType="str" updates="None"/>
-        <Param name="startType" val="time (s)" valType="str" updates="None"/>
-        <Param name="ori" val="0" valType="code" updates="constant"/>
-        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
-        <Param name="startVal" val="0.75" valType="code" updates="None"/>
-        <Param name="font" val="Arial" valType="str" updates="constant"/>
-        <Param name="letterHeight" val="0.05" valType="code" updates="constant"/>
-      </TextComponent>
-      <KeyboardComponent name="instructions5key">
-        <Param name="correctAns" val="" valType="str" updates="constant"/>
-        <Param name="storeCorrect" val="False" valType="bool" updates="constant"/>
-        <Param name="name" val="instructions5key" valType="code" updates="None"/>
-        <Param name="stopVal" val="" valType="code" updates="constant"/>
-        <Param name="durationEstim" val="" valType="code" updates="None"/>
-        <Param name="forceEndRoutine" val="True" valType="bool" updates="constant"/>
-        <Param name="startEstim" val="" valType="code" updates="None"/>
-        <Param name="discard previous" val="True" valType="bool" updates="constant"/>
-        <Param name="startType" val="time (s)" valType="str" updates="None"/>
-        <Param name="allowedKeys" val="'e', 'i'" valType="code" updates="constant"/>
-        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
-        <Param name="startVal" val="1.25" valType="code" updates="None"/>
-        <Param name="store" val="nothing" valType="str" updates="constant"/>
-      </KeyboardComponent>
-    </Routine>
-    <Routine name="trialsRuleB">
-      <TextComponent name="stimulusBoxB">
-        <Param name="opacity" val="1" valType="code" updates="constant"/>
-        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
-        <Param name="name" val="stimulusBoxB" valType="code" updates="None"/>
-        <Param name="wrapWidth" val="" valType="code" updates="constant"/>
-        <Param name="color" val="$stimulusColour" valType="str" updates="set every repeat"/>
-        <Param name="text" val="$stimulus" valType="str" updates="set every repeat"/>
-        <Param name="stopVal" val="" valType="code" updates="constant"/>
-        <Param name="durationEstim" val="" valType="code" updates="None"/>
-        <Param name="pos" val="[0, 0]" valType="code" updates="constant"/>
-        <Param name="flip" val="" valType="str" updates="constant"/>
-        <Param name="startEstim" val="" valType="code" updates="None"/>
-        <Param name="units" val="from exp settings" valType="str" updates="None"/>
-        <Param name="startType" val="time (s)" valType="str" updates="None"/>
-        <Param name="ori" val="0" valType="code" updates="constant"/>
-        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
-        <Param name="startVal" val="0.3" valType="code" updates="None"/>
-        <Param name="font" val="Arial" valType="str" updates="constant"/>
-        <Param name="letterHeight" val="0.1" valType="code" updates="constant"/>
-      </TextComponent>
-      <KeyboardComponent name="requiredResponseKeyB">
-        <Param name="correctAns" val="$requiredResponseB" valType="str" updates="constant"/>
-        <Param name="storeCorrect" val="True" valType="bool" updates="constant"/>
-        <Param name="name" val="requiredResponseKeyB" valType="code" updates="None"/>
-        <Param name="stopVal" val="" valType="code" updates="constant"/>
-        <Param name="durationEstim" val="" valType="code" updates="None"/>
-        <Param name="forceEndRoutine" val="True" valType="bool" updates="constant"/>
-        <Param name="startEstim" val="" valType="code" updates="None"/>
-        <Param name="discard previous" val="True" valType="bool" updates="constant"/>
-        <Param name="startType" val="time (s)" valType="str" updates="None"/>
-        <Param name="allowedKeys" val="requiredAllowedKeysB" valType="code" updates="set every repeat"/>
-        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
-        <Param name="startVal" val="0.3" valType="code" updates="None"/>
-        <Param name="store" val="first key" valType="str" updates="constant"/>
-      </KeyboardComponent>
-      <KeyboardComponent name="feedbackResponseKeyB">
-        <Param name="correctAns" val="$feedbackResponseB" valType="str" updates="constant"/>
-        <Param name="storeCorrect" val="True" valType="bool" updates="constant"/>
-        <Param name="name" val="feedbackResponseKeyB" valType="code" updates="None"/>
-        <Param name="stopVal" val="" valType="code" updates="constant"/>
-        <Param name="durationEstim" val="" valType="code" updates="None"/>
-        <Param name="forceEndRoutine" val="False" valType="bool" updates="constant"/>
-        <Param name="startEstim" val="" valType="code" updates="None"/>
-        <Param name="discard previous" val="False" valType="bool" updates="constant"/>
-        <Param name="startType" val="time (s)" valType="str" updates="None"/>
-        <Param name="allowedKeys" val="feedbackAllowedKeysB" valType="code" updates="set every repeat"/>
-        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
-        <Param name="startVal" val="0.3" valType="code" updates="None"/>
-        <Param name="store" val="first key" valType="str" updates="constant"/>
-      </KeyboardComponent>
-      <TextComponent name="correctiveFeedbackB">
-        <Param name="opacity" val="1" valType="code" updates="constant"/>
-        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
-        <Param name="name" val="correctiveFeedbackB" valType="code" updates="None"/>
-        <Param name="wrapWidth" val="" valType="code" updates="constant"/>
-        <Param name="color" val="red" valType="str" updates="constant"/>
-        <Param name="text" val="$msg" valType="str" updates="set every frame"/>
-        <Param name="stopVal" val="" valType="code" updates="constant"/>
-        <Param name="durationEstim" val="" valType="code" updates="None"/>
-        <Param name="pos" val="[0, -.5]" valType="code" updates="constant"/>
-        <Param name="flip" val="" valType="str" updates="constant"/>
-        <Param name="startEstim" val="" valType="code" updates="None"/>
-        <Param name="units" val="from exp settings" valType="str" updates="None"/>
-        <Param name="startType" val="time (s)" valType="str" updates="None"/>
-        <Param name="ori" val="0" valType="code" updates="constant"/>
-        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
-        <Param name="startVal" val="0.3" valType="code" updates="None"/>
-        <Param name="font" val="Arial" valType="str" updates="constant"/>
-        <Param name="letterHeight" val="0.2" valType="code" updates="constant"/>
-      </TextComponent>
-      <CodeComponent name="codeB">
-        <Param name="Begin Experiment" val="msg=&quot;&quot;" valType="extendedCode" updates="constant"/>
-        <Param name="name" val="codeB" valType="code" updates="None"/>
-        <Param name="Begin Routine" val="" valType="extendedCode" updates="constant"/>
-        <Param name="End Routine" val="" valType="extendedCode" updates="constant"/>
-        <Param name="End Experiment" val="" valType="extendedCode" updates="constant"/>
-        <Param name="Each Frame" val="if len(feedbackResponseKeyB.keys)&lt;1:&#10;    msg=&quot;&quot;&#10;else:&#10;    msg=&quot;X&quot;" valType="extendedCode" updates="constant"/>
-      </CodeComponent>
-      <TextComponent name="trueBoxB">
-        <Param name="opacity" val="1" valType="code" updates="constant"/>
-        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
-        <Param name="name" val="trueBoxB" valType="code" updates="None"/>
-        <Param name="wrapWidth" val="" valType="code" updates="constant"/>
-        <Param name="color" val="white" valType="str" updates="constant"/>
-        <Param name="text" val="True" valType="str" updates="constant"/>
-        <Param name="stopVal" val="" valType="code" updates="constant"/>
-        <Param name="durationEstim" val="" valType="code" updates="None"/>
-        <Param name="pos" val="[0.75, 0.75]" valType="code" updates="constant"/>
-        <Param name="flip" val="" valType="str" updates="constant"/>
-        <Param name="startEstim" val="" valType="code" updates="None"/>
-        <Param name="units" val="from exp settings" valType="str" updates="None"/>
-        <Param name="startType" val="time (s)" valType="str" updates="None"/>
-        <Param name="ori" val="0" valType="code" updates="constant"/>
-        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
-        <Param name="startVal" val="0" valType="code" updates="None"/>
-        <Param name="font" val="Arial" valType="str" updates="constant"/>
-        <Param name="letterHeight" val="0.1" valType="code" updates="constant"/>
-      </TextComponent>
-      <TextComponent name="falseBoxB">
-        <Param name="opacity" val="1" valType="code" updates="constant"/>
-        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
-        <Param name="name" val="falseBoxB" valType="code" updates="None"/>
-        <Param name="wrapWidth" val="" valType="code" updates="constant"/>
-        <Param name="color" val="white" valType="str" updates="constant"/>
-        <Param name="text" val="False" valType="str" updates="constant"/>
-        <Param name="stopVal" val="" valType="code" updates="constant"/>
-        <Param name="durationEstim" val="" valType="code" updates="None"/>
-        <Param name="pos" val="[-0.75, 0.75]" valType="code" updates="constant"/>
-        <Param name="flip" val="" valType="str" updates="constant"/>
-        <Param name="startEstim" val="" valType="code" updates="None"/>
-        <Param name="units" val="from exp settings" valType="str" updates="None"/>
-        <Param name="startType" val="time (s)" valType="str" updates="None"/>
-        <Param name="ori" val="0" valType="code" updates="constant"/>
-        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
-        <Param name="startVal" val="0" valType="code" updates="None"/>
-        <Param name="font" val="Arial" valType="str" updates="constant"/>
-        <Param name="letterHeight" val="0.1" valType="code" updates="constant"/>
-      </TextComponent>
-    </Routine>
-    <Routine name="instructions1">
-      <TextComponent name="instructions1box">
-        <Param name="opacity" val="1" valType="code" updates="constant"/>
-        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
-        <Param name="name" val="instructions1box" valType="code" updates="None"/>
-        <Param name="wrapWidth" val="" valType="code" updates="constant"/>
-        <Param name="color" val="white" valType="str" updates="constant"/>
-        <Param name="text" val="$instructions1&#10;" valType="str" updates="set every repeat"/>
-        <Param name="stopVal" val="" valType="code" updates="constant"/>
-        <Param name="durationEstim" val="" valType="code" updates="None"/>
-        <Param name="pos" val="[0, 0]" valType="code" updates="constant"/>
-        <Param name="flip" val="" valType="str" updates="constant"/>
-        <Param name="startEstim" val="" valType="code" updates="None"/>
-        <Param name="units" val="from exp settings" valType="str" updates="None"/>
-        <Param name="startType" val="time (s)" valType="str" updates="None"/>
-        <Param name="ori" val="0" valType="code" updates="constant"/>
-        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
-        <Param name="startVal" val="0.75" valType="code" updates="None"/>
-        <Param name="font" val="Arial" valType="str" updates="constant"/>
-        <Param name="letterHeight" val="0.05" valType="code" updates="constant"/>
-      </TextComponent>
-      <KeyboardComponent name="instructions1key">
-        <Param name="correctAns" val="" valType="str" updates="constant"/>
-        <Param name="storeCorrect" val="False" valType="bool" updates="constant"/>
-        <Param name="name" val="instructions1key" valType="code" updates="None"/>
-        <Param name="stopVal" val="" valType="code" updates="constant"/>
-        <Param name="durationEstim" val="" valType="code" updates="None"/>
-        <Param name="forceEndRoutine" val="True" valType="bool" updates="constant"/>
-        <Param name="startEstim" val="" valType="code" updates="None"/>
-        <Param name="discard previous" val="True" valType="bool" updates="constant"/>
-        <Param name="startType" val="time (s)" valType="str" updates="None"/>
-        <Param name="allowedKeys" val="'e', 'i'" valType="code" updates="constant"/>
-        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
-        <Param name="startVal" val="1.25" valType="code" updates="None"/>
-        <Param name="store" val="nothing" valType="str" updates="constant"/>
-      </KeyboardComponent>
-    </Routine>
-    <Routine name="instructions2">
-      <TextComponent name="instructions2box">
-        <Param name="opacity" val="1" valType="code" updates="constant"/>
-        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
-        <Param name="name" val="instructions2box" valType="code" updates="None"/>
-        <Param name="wrapWidth" val="" valType="code" updates="constant"/>
-        <Param name="color" val="white" valType="str" updates="constant"/>
-        <Param name="text" val="$instructions2" valType="str" updates="set every repeat"/>
-        <Param name="stopVal" val="" valType="code" updates="constant"/>
-        <Param name="durationEstim" val="" valType="code" updates="None"/>
-        <Param name="pos" val="[0, 0]" valType="code" updates="constant"/>
-        <Param name="flip" val="" valType="str" updates="constant"/>
-        <Param name="startEstim" val="" valType="code" updates="None"/>
-        <Param name="units" val="from exp settings" valType="str" updates="None"/>
-        <Param name="startType" val="time (s)" valType="str" updates="None"/>
-        <Param name="ori" val="0" valType="code" updates="constant"/>
-        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
-        <Param name="startVal" val="0.75" valType="code" updates="None"/>
-        <Param name="font" val="Arial" valType="str" updates="constant"/>
-        <Param name="letterHeight" val="0.05" valType="code" updates="constant"/>
-      </TextComponent>
-      <KeyboardComponent name="instructions2key">
-        <Param name="correctAns" val="" valType="str" updates="constant"/>
-        <Param name="storeCorrect" val="False" valType="bool" updates="constant"/>
-        <Param name="name" val="instructions2key" valType="code" updates="None"/>
-        <Param name="stopVal" val="" valType="code" updates="constant"/>
-        <Param name="durationEstim" val="" valType="code" updates="None"/>
-        <Param name="forceEndRoutine" val="True" valType="bool" updates="constant"/>
-        <Param name="startEstim" val="" valType="code" updates="None"/>
-        <Param name="discard previous" val="True" valType="bool" updates="constant"/>
-        <Param name="startType" val="time (s)" valType="str" updates="None"/>
-        <Param name="allowedKeys" val="'e', 'i'" valType="code" updates="constant"/>
-        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
-        <Param name="startVal" val="1.25" valType="code" updates="None"/>
-        <Param name="store" val="nothing" valType="str" updates="constant"/>
-      </KeyboardComponent>
-    </Routine>
-    <Routine name="instructions3">
-      <TextComponent name="instructions3box">
-        <Param name="opacity" val="1" valType="code" updates="constant"/>
-        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
-        <Param name="name" val="instructions3box" valType="code" updates="None"/>
-        <Param name="wrapWidth" val="" valType="code" updates="constant"/>
-        <Param name="color" val="white" valType="str" updates="constant"/>
-        <Param name="text" val="$instructions3&#10;" valType="str" updates="set every repeat"/>
-        <Param name="stopVal" val="" valType="code" updates="constant"/>
-        <Param name="durationEstim" val="" valType="code" updates="None"/>
-        <Param name="pos" val="[0, 0]" valType="code" updates="constant"/>
-        <Param name="flip" val="" valType="str" updates="constant"/>
-        <Param name="startEstim" val="" valType="code" updates="None"/>
-        <Param name="units" val="from exp settings" valType="str" updates="None"/>
-        <Param name="startType" val="time (s)" valType="str" updates="None"/>
-        <Param name="ori" val="0" valType="code" updates="constant"/>
-        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
-        <Param name="startVal" val="0.75" valType="code" updates="None"/>
-        <Param name="font" val="Arial" valType="str" updates="constant"/>
-        <Param name="letterHeight" val="0.05" valType="code" updates="constant"/>
-      </TextComponent>
-      <KeyboardComponent name="instructions3key">
-        <Param name="correctAns" val="" valType="str" updates="constant"/>
-        <Param name="storeCorrect" val="False" valType="bool" updates="constant"/>
-        <Param name="name" val="instructions3key" valType="code" updates="None"/>
-        <Param name="stopVal" val="" valType="code" updates="constant"/>
-        <Param name="durationEstim" val="" valType="code" updates="None"/>
-        <Param name="forceEndRoutine" val="True" valType="bool" updates="constant"/>
-        <Param name="startEstim" val="" valType="code" updates="None"/>
-        <Param name="discard previous" val="True" valType="bool" updates="constant"/>
-        <Param name="startType" val="time (s)" valType="str" updates="None"/>
-        <Param name="allowedKeys" val="'e', 'i'" valType="code" updates="constant"/>
-        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
-        <Param name="startVal" val="1.25" valType="code" updates="None"/>
-        <Param name="store" val="nothing" valType="str" updates="constant"/>
-      </KeyboardComponent>
-    </Routine>
     <Routine name="trialsRuleA">
       <TextComponent name="stimulusBoxA">
         <Param name="opacity" val="1" valType="code" updates="constant"/>
         <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
         <Param name="name" val="stimulusBoxA" valType="code" updates="None"/>
-        <Param name="wrapWidth" val="" valType="code" updates="constant"/>
+        <Param name="wrapWidth" val="1.6" valType="code" updates="constant"/>
         <Param name="color" val="$stimulusColour" valType="str" updates="set every repeat"/>
         <Param name="text" val="$stimulus" valType="str" updates="set every repeat"/>
         <Param name="stopVal" val="" valType="code" updates="constant"/>
@@ -447,14 +142,134 @@
         <Param name="letterHeight" val="0.1" valType="code" updates="constant"/>
       </TextComponent>
     </Routine>
-    <Routine name="instructionsEnd">
-      <TextComponent name="instructionsEndBox">
+    <Routine name="trialsRuleB">
+      <TextComponent name="stimulusBoxB">
         <Param name="opacity" val="1" valType="code" updates="constant"/>
         <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
-        <Param name="name" val="instructionsEndBox" valType="code" updates="None"/>
+        <Param name="name" val="stimulusBoxB" valType="code" updates="None"/>
+        <Param name="wrapWidth" val="1.6" valType="code" updates="constant"/>
+        <Param name="color" val="$stimulusColour" valType="str" updates="set every repeat"/>
+        <Param name="text" val="$stimulus" valType="str" updates="set every repeat"/>
+        <Param name="stopVal" val="" valType="code" updates="constant"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="pos" val="[0, 0]" valType="code" updates="constant"/>
+        <Param name="flip" val="" valType="str" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0.3" valType="code" updates="None"/>
+        <Param name="font" val="Arial" valType="str" updates="constant"/>
+        <Param name="letterHeight" val="0.1" valType="code" updates="constant"/>
+      </TextComponent>
+      <KeyboardComponent name="requiredResponseKeyB">
+        <Param name="correctAns" val="$requiredResponseB" valType="str" updates="constant"/>
+        <Param name="storeCorrect" val="True" valType="bool" updates="constant"/>
+        <Param name="name" val="requiredResponseKeyB" valType="code" updates="None"/>
+        <Param name="stopVal" val="" valType="code" updates="constant"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="forceEndRoutine" val="True" valType="bool" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="discard previous" val="True" valType="bool" updates="constant"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="allowedKeys" val="requiredAllowedKeysB" valType="code" updates="set every repeat"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0.3" valType="code" updates="None"/>
+        <Param name="store" val="first key" valType="str" updates="constant"/>
+      </KeyboardComponent>
+      <KeyboardComponent name="feedbackResponseKeyB">
+        <Param name="correctAns" val="$feedbackResponseB" valType="str" updates="constant"/>
+        <Param name="storeCorrect" val="True" valType="bool" updates="constant"/>
+        <Param name="name" val="feedbackResponseKeyB" valType="code" updates="None"/>
+        <Param name="stopVal" val="" valType="code" updates="constant"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="forceEndRoutine" val="False" valType="bool" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="discard previous" val="False" valType="bool" updates="constant"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="allowedKeys" val="feedbackAllowedKeysB" valType="code" updates="set every repeat"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0.3" valType="code" updates="None"/>
+        <Param name="store" val="first key" valType="str" updates="constant"/>
+      </KeyboardComponent>
+      <TextComponent name="correctiveFeedbackB">
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="name" val="correctiveFeedbackB" valType="code" updates="None"/>
+        <Param name="wrapWidth" val="" valType="code" updates="constant"/>
+        <Param name="color" val="red" valType="str" updates="constant"/>
+        <Param name="text" val="$msg" valType="str" updates="set every frame"/>
+        <Param name="stopVal" val="" valType="code" updates="constant"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="pos" val="[0, -.5]" valType="code" updates="constant"/>
+        <Param name="flip" val="" valType="str" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0.3" valType="code" updates="None"/>
+        <Param name="font" val="Arial" valType="str" updates="constant"/>
+        <Param name="letterHeight" val="0.2" valType="code" updates="constant"/>
+      </TextComponent>
+      <CodeComponent name="codeB">
+        <Param name="Begin Experiment" val="msg=&quot;&quot;" valType="extendedCode" updates="constant"/>
+        <Param name="name" val="codeB" valType="code" updates="None"/>
+        <Param name="Begin Routine" val="" valType="extendedCode" updates="constant"/>
+        <Param name="End Routine" val="" valType="extendedCode" updates="constant"/>
+        <Param name="End Experiment" val="" valType="extendedCode" updates="constant"/>
+        <Param name="Each Frame" val="if len(feedbackResponseKeyB.keys)&lt;1:&#10;    msg=&quot;&quot;&#10;else:&#10;    msg=&quot;X&quot;" valType="extendedCode" updates="constant"/>
+      </CodeComponent>
+      <TextComponent name="trueBoxB">
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="name" val="trueBoxB" valType="code" updates="None"/>
         <Param name="wrapWidth" val="" valType="code" updates="constant"/>
         <Param name="color" val="white" valType="str" updates="constant"/>
-        <Param name="text" val="$instructionsEnd&#10;" valType="str" updates="set every repeat"/>
+        <Param name="text" val="True" valType="str" updates="constant"/>
+        <Param name="stopVal" val="" valType="code" updates="constant"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="pos" val="[0.75, 0.75]" valType="code" updates="constant"/>
+        <Param name="flip" val="" valType="str" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0" valType="code" updates="None"/>
+        <Param name="font" val="Arial" valType="str" updates="constant"/>
+        <Param name="letterHeight" val="0.1" valType="code" updates="constant"/>
+      </TextComponent>
+      <TextComponent name="falseBoxB">
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="name" val="falseBoxB" valType="code" updates="None"/>
+        <Param name="wrapWidth" val="" valType="code" updates="constant"/>
+        <Param name="color" val="white" valType="str" updates="constant"/>
+        <Param name="text" val="False" valType="str" updates="constant"/>
+        <Param name="stopVal" val="" valType="code" updates="constant"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="pos" val="[-0.75, 0.75]" valType="code" updates="constant"/>
+        <Param name="flip" val="" valType="str" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0" valType="code" updates="None"/>
+        <Param name="font" val="Arial" valType="str" updates="constant"/>
+        <Param name="letterHeight" val="0.1" valType="code" updates="constant"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="instructions">
+      <TextComponent name="instructionsBox">
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="name" val="instructionsBox" valType="code" updates="None"/>
+        <Param name="wrapWidth" val="1.6" valType="code" updates="constant"/>
+        <Param name="color" val="white" valType="str" updates="constant"/>
+        <Param name="text" val="$instructions&#10;" valType="str" updates="set every repeat"/>
         <Param name="stopVal" val="" valType="code" updates="constant"/>
         <Param name="durationEstim" val="" valType="code" updates="None"/>
         <Param name="pos" val="[0, 0]" valType="code" updates="constant"/>
@@ -468,17 +283,17 @@
         <Param name="font" val="Arial" valType="str" updates="constant"/>
         <Param name="letterHeight" val="0.05" valType="code" updates="constant"/>
       </TextComponent>
-      <KeyboardComponent name="instructionsEndkey">
+      <KeyboardComponent name="instructionsKey">
         <Param name="correctAns" val="" valType="str" updates="constant"/>
         <Param name="storeCorrect" val="False" valType="bool" updates="constant"/>
-        <Param name="name" val="instructionsEndkey" valType="code" updates="None"/>
+        <Param name="name" val="instructionsKey" valType="code" updates="None"/>
         <Param name="stopVal" val="" valType="code" updates="constant"/>
         <Param name="durationEstim" val="" valType="code" updates="None"/>
         <Param name="forceEndRoutine" val="True" valType="bool" updates="constant"/>
         <Param name="startEstim" val="" valType="code" updates="None"/>
         <Param name="discard previous" val="True" valType="bool" updates="constant"/>
         <Param name="startType" val="time (s)" valType="str" updates="None"/>
-        <Param name="allowedKeys" val="'e', 'i', 'return'" valType="code" updates="constant"/>
+        <Param name="allowedKeys" val="'e', 'i'" valType="code" updates="constant"/>
         <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
         <Param name="startVal" val="1.25" valType="code" updates="None"/>
         <Param name="store" val="nothing" valType="str" updates="constant"/>
@@ -486,18 +301,19 @@
     </Routine>
   </Routines>
   <Flow>
-    <LoopInitiator loopType="TrialHandler" name="instructionsLoop">
+    <LoopInitiator loopType="TrialHandler" name="inst1">
       <Param name="conditionsFile" val="instructions.xlsx" valType="str" updates="None"/>
-      <Param name="name" val="instructionsLoop" valType="code" updates="None"/>
+      <Param name="name" val="inst1" valType="code" updates="None"/>
       <Param name="isTrials" val="False" valType="bool" updates="None"/>
       <Param name="random seed" val="" valType="code" updates="None"/>
       <Param name="loopType" val="sequential" valType="str" updates="None"/>
       <Param name="nReps" val="1" valType="code" updates="None"/>
       <Param name="endPoints" val="[0, 1]" valType="num" updates="None"/>
-      <Param name="conditions" val="[{u'instructions4': u'Very good!\n\nIMPORANT: THE RULE FOR THE BLUE STATEMENTS HAS NOW CHANGED.\n\nYou must respond AS IF you see yourself as a bad person and not a good person.\n\nPress the I key when the statement is TRUE according to the above rule.\nPress the E key when the statement is FALSE according to the above rule.\n\nFor example:\nWhen the proposition &quot;I am valuable&quot; appears, respond with the left response (FALSE).\nWhen the proposition &quot;I am worthless&quot; appears, respond with the right response (TRUE).\n\nIf you make a mistake, hit the correct key as soon as possible.\n\xa0\nPut your two index fingers on the E and I keys. Press either one to start.', u'instructions5': u'Very good!\n\nThe next phase will again present words in ORANGE and statements in BLUE.\n\nAgain, you must respond AS IF you see yourself as a bad person and not a good person.\n\nPress the I key when the statement is TRUE according to the above rule.\nPress the E key when the statement is FALSE according to the above rule.\n\nThe rule that you must respond to the orange words does not change:\nPress the I key if the word is synonymous with TRUE.\nPress the E key if the word is a synonym for FALSE.\n\nIf you make a mistake, hit the correct key as soon as possible.\n\xa0\nPut your two index fingers on the E and I keys. Press either one to start.', u'instructions1': u'Very good!\n\nThe next phase some propositions will be presented in BLUE. These propositons are always statements about SELF ESTEEM.\n\nYou must respond AS IF you see yourself as a good person and not a bad person.\n\nPress the I key when the statement is TRUE according to the above rule.\nPress the E key when the statement is FALSE according to the above rule.\n\nFor example:\nWhen the proposition &quot;I am valuable&quot; appears, respond with the right response (TRUE).\nWhen the proposition &quot;I am worthless&quot; appears, respond with the left response (FALSE).\n\nIf you make a mistake, hit the correct key as soon as possible.\n\xa0\nPut your two index fingers on the E and I keys. Press either one to start.', u'instructions2': u'In this response task will you have to react to words and propositions that are presented on the screen. In the next phase words will be presented in ORANGE.\n\nIt is your job to decide as soon as possible whether the word refers to TRUE or FALSE.\n\nPress the I key if the word is synonymous with TRUE.\nPress the E key if the word is a synonym for FALSE.\n\nIf you make a mistake, hit the correct key as soon as possible.\n\nPut your two index fingers on the E and I keys. Press either one to start.', u'instructions3': u'Very good!\n\nThe next phase some words will be presented in ORANGE and some propositions in BLUE. These propositons are always statements about SELF ESTEEM.\n\nYou must respond AS IF you see yourself as a good person and not a bad person.\n\nPress the I key when the statement is TRUE according to the above rule.\nPress the E key when the statement is FALSE according to the above rule.\n\nThe rule that you must respond to the orange words does not change:\n\nPress the I key if the word is synonymous with TRUE.\nPress the E key if the word is a synonym for FALSE.\n\nIf you make a mistake, hit the correct key as soon as possible.\n\xa0\nPut your two index fingers on the E and I keys. Press either one to start.', u'instructionsEnd': u'Thank you, the task is now complete. Please contact the researcher.'}]" valType="str" updates="None"/>
-      <Param name="Selected rows" val="" valType="str" updates="None"/>
+      <Param name="conditions" val="[{u'instructions': u'In this response task will you have to react to words and propositions that are presented on the screen. In the next phase words will be presented in ORANGE.\n\nIt is your job to decide as soon as possible whether the word refers to TRUE or FALSE.\n\nPress the I key if the word is synonymous with TRUE.\nPress the E key if the word is a synonym for FALSE.\n\nIf you make a mistake, hit the correct key as soon as possible.\n\nPut your two index fingers on the E and I keys. Press either one to start.'}, {u'instructions': u'Very good!\n\nThe next phase some propositions will be presented in BLUE.\nThese propositons are always statements about SELF ESTEEM.\n\nYou must respond AS IF you see yourself as a good person and not a bad person.\n\nPress the I key when the statement is TRUE according to the above rule.\nPress the E key when the statement is FALSE according to the above rule.\n\nFor example:\nWhen the proposition &quot;I am valuable&quot; appears, respond with the right response (TRUE).\nWhen the proposition &quot;I am worthless&quot; appears, respond with the left response (FALSE).\n\nIf you make a mistake, hit the correct key as soon as possible.\n\nPut your two index fingers on the E and I keys. Press either one to start.'}, {u'instructions': u'Very good!\n\nThe next phase some words will be presented in ORANGE and some propositions in BLUE. These propositons are always statements about SELF ESTEEM.\n\nYou must respond AS IF you see yourself as a good person and not a bad person.\n\nPress the I key when the statement is TRUE according to the above rule.\n\nPress the E key when the statement is FALSE according to the above rule.\n\nThe rule that you must respond to the orange words does not change:\n\nPress the I key if the word is synonymous with TRUE.\nPress the E key if the word is a synonym for FALSE.\n\nIf you make a mistake, hit the correct key as soon as possible.\n\nPut your two index fingers on the E and I keys. Press either one to start.'}, {u'instructions': u'Very good!\n\nIMPORANT: THE RULE FOR THE BLUE STATEMENTS HAS NOW CHANGED.\n\nYou must respond AS IF you see yourself as a bad person and not a good person.\n\nPress the I key when the statement is TRUE according to the above rule.\nPress the E key when the statement is FALSE according to the above rule.\n\nFor example:\nWhen the proposition &quot;I am valuable&quot; appears, respond with the left response (FALSE).\nWhen the proposition &quot;I am worthless&quot; appears, respond with the right response (TRUE).\n\nIf you make a mistake, hit the correct key as soon as possible.\n\nPut your two index fingers on the E and I keys. Press either one to start.'}, {u'instructions': u'Very good!\n\nThe next phase will again present words in ORANGE and statements in BLUE.\n\nAgain, you must respond AS IF you see yourself as a bad person and not a good person.\n\nPress the I key when the statement is TRUE according to the above rule.\nPress the E key when the statement is FALSE according to the above rule.\n\nThe rule that you must respond to the orange words does not change:\nPress the I key if the word is synonymous with TRUE.\nPress the E key if the word is a synonym for FALSE.\n\nIf you make a mistake, hit the correct key as soon as possible.\n\nPut your two index fingers on the E and I keys. Press either one to start.'}, {u'instructions': u'Thank you, the task is now complete. Please contact the researcher.'}]" valType="str" updates="None"/>
+      <Param name="Selected rows" val="0" valType="str" updates="None"/>
     </LoopInitiator>
-    <Routine name="instructions1"/>
+    <Routine name="instructions"/>
+    <LoopTerminator name="inst1"/>
     <LoopInitiator loopType="TrialHandler" name="inducersLoop">
       <Param name="conditionsFile" val="stimuli.xlsx" valType="str" updates="None"/>
       <Param name="name" val="inducersLoop" valType="code" updates="None"/>
@@ -511,7 +327,19 @@
     </LoopInitiator>
     <Routine name="trialsRuleA"/>
     <LoopTerminator name="inducersLoop"/>
-    <Routine name="instructions2"/>
+    <LoopInitiator loopType="TrialHandler" name="inst2">
+      <Param name="conditionsFile" val="instructions.xlsx" valType="str" updates="None"/>
+      <Param name="name" val="inst2" valType="code" updates="None"/>
+      <Param name="isTrials" val="False" valType="bool" updates="None"/>
+      <Param name="random seed" val="" valType="code" updates="None"/>
+      <Param name="loopType" val="sequential" valType="str" updates="None"/>
+      <Param name="nReps" val="1" valType="code" updates="None"/>
+      <Param name="endPoints" val="[0, 1]" valType="num" updates="None"/>
+      <Param name="conditions" val="[{u'instructions': u'In this response task will you have to react to words and propositions that are presented on the screen. In the next phase words will be presented in ORANGE.\n\nIt is your job to decide as soon as possible whether the word refers to TRUE or FALSE.\n\nPress the I key if the word is synonymous with TRUE.\nPress the E key if the word is a synonym for FALSE.\n\nIf you make a mistake, hit the correct key as soon as possible.\n\nPut your two index fingers on the E and I keys. Press either one to start.'}, {u'instructions': u'Very good!\n\nThe next phase some propositions will be presented in BLUE.\nThese propositons are always statements about SELF ESTEEM.\n\nYou must respond AS IF you see yourself as a good person and not a bad person.\n\nPress the I key when the statement is TRUE according to the above rule.\nPress the E key when the statement is FALSE according to the above rule.\n\nFor example:\nWhen the proposition &quot;I am valuable&quot; appears, respond with the right response (TRUE).\nWhen the proposition &quot;I am worthless&quot; appears, respond with the left response (FALSE).\n\nIf you make a mistake, hit the correct key as soon as possible.\n\nPut your two index fingers on the E and I keys. Press either one to start.'}, {u'instructions': u'Very good!\n\nThe next phase some words will be presented in ORANGE and some propositions in BLUE. These propositons are always statements about SELF ESTEEM.\n\nYou must respond AS IF you see yourself as a good person and not a bad person.\n\nPress the I key when the statement is TRUE according to the above rule.\n\nPress the E key when the statement is FALSE according to the above rule.\n\nThe rule that you must respond to the orange words does not change:\n\nPress the I key if the word is synonymous with TRUE.\nPress the E key if the word is a synonym for FALSE.\n\nIf you make a mistake, hit the correct key as soon as possible.\n\nPut your two index fingers on the E and I keys. Press either one to start.'}, {u'instructions': u'Very good!\n\nIMPORANT: THE RULE FOR THE BLUE STATEMENTS HAS NOW CHANGED.\n\nYou must respond AS IF you see yourself as a bad person and not a good person.\n\nPress the I key when the statement is TRUE according to the above rule.\nPress the E key when the statement is FALSE according to the above rule.\n\nFor example:\nWhen the proposition &quot;I am valuable&quot; appears, respond with the left response (FALSE).\nWhen the proposition &quot;I am worthless&quot; appears, respond with the right response (TRUE).\n\nIf you make a mistake, hit the correct key as soon as possible.\n\nPut your two index fingers on the E and I keys. Press either one to start.'}, {u'instructions': u'Very good!\n\nThe next phase will again present words in ORANGE and statements in BLUE.\n\nAgain, you must respond AS IF you see yourself as a bad person and not a good person.\n\nPress the I key when the statement is TRUE according to the above rule.\nPress the E key when the statement is FALSE according to the above rule.\n\nThe rule that you must respond to the orange words does not change:\nPress the I key if the word is synonymous with TRUE.\nPress the E key if the word is a synonym for FALSE.\n\nIf you make a mistake, hit the correct key as soon as possible.\n\nPut your two index fingers on the E and I keys. Press either one to start.'}, {u'instructions': u'Thank you, the task is now complete. Please contact the researcher.'}]" valType="str" updates="None"/>
+      <Param name="Selected rows" val="1" valType="str" updates="None"/>
+    </LoopInitiator>
+    <Routine name="instructions"/>
+    <LoopTerminator name="inst2"/>
     <LoopInitiator loopType="TrialHandler" name="stimuliRuleALoop">
       <Param name="conditionsFile" val="stimuli.xlsx" valType="str" updates="None"/>
       <Param name="name" val="stimuliRuleALoop" valType="code" updates="None"/>
@@ -525,7 +353,19 @@
     </LoopInitiator>
     <Routine name="trialsRuleA"/>
     <LoopTerminator name="stimuliRuleALoop"/>
-    <Routine name="instructions3"/>
+    <LoopInitiator loopType="TrialHandler" name="inst3">
+      <Param name="conditionsFile" val="instructions.xlsx" valType="str" updates="None"/>
+      <Param name="name" val="inst3" valType="code" updates="None"/>
+      <Param name="isTrials" val="False" valType="bool" updates="None"/>
+      <Param name="random seed" val="" valType="code" updates="None"/>
+      <Param name="loopType" val="random" valType="str" updates="None"/>
+      <Param name="nReps" val="1" valType="code" updates="None"/>
+      <Param name="endPoints" val="[0, 1]" valType="num" updates="None"/>
+      <Param name="conditions" val="[{u'instructions': u'In this response task will you have to react to words and propositions that are presented on the screen. In the next phase words will be presented in ORANGE.\n\nIt is your job to decide as soon as possible whether the word refers to TRUE or FALSE.\n\nPress the I key if the word is synonymous with TRUE.\nPress the E key if the word is a synonym for FALSE.\n\nIf you make a mistake, hit the correct key as soon as possible.\n\nPut your two index fingers on the E and I keys. Press either one to start.'}, {u'instructions': u'Very good!\n\nThe next phase some propositions will be presented in BLUE.\nThese propositons are always statements about SELF ESTEEM.\n\nYou must respond AS IF you see yourself as a good person and not a bad person.\n\nPress the I key when the statement is TRUE according to the above rule.\nPress the E key when the statement is FALSE according to the above rule.\n\nFor example:\nWhen the proposition &quot;I am valuable&quot; appears, respond with the right response (TRUE).\nWhen the proposition &quot;I am worthless&quot; appears, respond with the left response (FALSE).\n\nIf you make a mistake, hit the correct key as soon as possible.\n\nPut your two index fingers on the E and I keys. Press either one to start.'}, {u'instructions': u'Very good!\n\nThe next phase some words will be presented in ORANGE and some propositions in BLUE. These propositons are always statements about SELF ESTEEM.\n\nYou must respond AS IF you see yourself as a good person and not a bad person.\n\nPress the I key when the statement is TRUE according to the above rule.\n\nPress the E key when the statement is FALSE according to the above rule.\n\nThe rule that you must respond to the orange words does not change:\n\nPress the I key if the word is synonymous with TRUE.\nPress the E key if the word is a synonym for FALSE.\n\nIf you make a mistake, hit the correct key as soon as possible.\n\nPut your two index fingers on the E and I keys. Press either one to start.'}, {u'instructions': u'Very good!\n\nIMPORANT: THE RULE FOR THE BLUE STATEMENTS HAS NOW CHANGED.\n\nYou must respond AS IF you see yourself as a bad person and not a good person.\n\nPress the I key when the statement is TRUE according to the above rule.\nPress the E key when the statement is FALSE according to the above rule.\n\nFor example:\nWhen the proposition &quot;I am valuable&quot; appears, respond with the left response (FALSE).\nWhen the proposition &quot;I am worthless&quot; appears, respond with the right response (TRUE).\n\nIf you make a mistake, hit the correct key as soon as possible.\n\nPut your two index fingers on the E and I keys. Press either one to start.'}, {u'instructions': u'Very good!\n\nThe next phase will again present words in ORANGE and statements in BLUE.\n\nAgain, you must respond AS IF you see yourself as a bad person and not a good person.\n\nPress the I key when the statement is TRUE according to the above rule.\nPress the E key when the statement is FALSE according to the above rule.\n\nThe rule that you must respond to the orange words does not change:\nPress the I key if the word is synonymous with TRUE.\nPress the E key if the word is a synonym for FALSE.\n\nIf you make a mistake, hit the correct key as soon as possible.\n\nPut your two index fingers on the E and I keys. Press either one to start.'}, {u'instructions': u'Thank you, the task is now complete. Please contact the researcher.'}]" valType="str" updates="None"/>
+      <Param name="Selected rows" val="2" valType="str" updates="None"/>
+    </LoopInitiator>
+    <Routine name="instructions"/>
+    <LoopTerminator name="inst3"/>
     <LoopInitiator loopType="TrialHandler" name="inducersAndStimuliRuleALoop">
       <Param name="conditionsFile" val="stimuli.xlsx" valType="str" updates="None"/>
       <Param name="name" val="inducersAndStimuliRuleALoop" valType="code" updates="None"/>
@@ -539,7 +379,19 @@
     </LoopInitiator>
     <Routine name="trialsRuleA"/>
     <LoopTerminator name="inducersAndStimuliRuleALoop"/>
-    <Routine name="instructions4"/>
+    <LoopInitiator loopType="TrialHandler" name="inst4">
+      <Param name="conditionsFile" val="instructions.xlsx" valType="str" updates="None"/>
+      <Param name="name" val="inst4" valType="code" updates="None"/>
+      <Param name="isTrials" val="False" valType="bool" updates="None"/>
+      <Param name="random seed" val="" valType="code" updates="None"/>
+      <Param name="loopType" val="sequential" valType="str" updates="None"/>
+      <Param name="nReps" val="1" valType="code" updates="None"/>
+      <Param name="endPoints" val="[0, 1]" valType="num" updates="None"/>
+      <Param name="conditions" val="[{u'instructions': u'In this response task will you have to react to words and propositions that are presented on the screen. In the next phase words will be presented in ORANGE.\n\nIt is your job to decide as soon as possible whether the word refers to TRUE or FALSE.\n\nPress the I key if the word is synonymous with TRUE.\nPress the E key if the word is a synonym for FALSE.\n\nIf you make a mistake, hit the correct key as soon as possible.\n\nPut your two index fingers on the E and I keys. Press either one to start.'}, {u'instructions': u'Very good!\n\nThe next phase some propositions will be presented in BLUE.\nThese propositons are always statements about SELF ESTEEM.\n\nYou must respond AS IF you see yourself as a good person and not a bad person.\n\nPress the I key when the statement is TRUE according to the above rule.\nPress the E key when the statement is FALSE according to the above rule.\n\nFor example:\nWhen the proposition &quot;I am valuable&quot; appears, respond with the right response (TRUE).\nWhen the proposition &quot;I am worthless&quot; appears, respond with the left response (FALSE).\n\nIf you make a mistake, hit the correct key as soon as possible.\n\nPut your two index fingers on the E and I keys. Press either one to start.'}, {u'instructions': u'Very good!\n\nThe next phase some words will be presented in ORANGE and some propositions in BLUE. These propositons are always statements about SELF ESTEEM.\n\nYou must respond AS IF you see yourself as a good person and not a bad person.\n\nPress the I key when the statement is TRUE according to the above rule.\n\nPress the E key when the statement is FALSE according to the above rule.\n\nThe rule that you must respond to the orange words does not change:\n\nPress the I key if the word is synonymous with TRUE.\nPress the E key if the word is a synonym for FALSE.\n\nIf you make a mistake, hit the correct key as soon as possible.\n\nPut your two index fingers on the E and I keys. Press either one to start.'}, {u'instructions': u'Very good!\n\nIMPORANT: THE RULE FOR THE BLUE STATEMENTS HAS NOW CHANGED.\n\nYou must respond AS IF you see yourself as a bad person and not a good person.\n\nPress the I key when the statement is TRUE according to the above rule.\nPress the E key when the statement is FALSE according to the above rule.\n\nFor example:\nWhen the proposition &quot;I am valuable&quot; appears, respond with the left response (FALSE).\nWhen the proposition &quot;I am worthless&quot; appears, respond with the right response (TRUE).\n\nIf you make a mistake, hit the correct key as soon as possible.\n\nPut your two index fingers on the E and I keys. Press either one to start.'}, {u'instructions': u'Very good!\n\nThe next phase will again present words in ORANGE and statements in BLUE.\n\nAgain, you must respond AS IF you see yourself as a bad person and not a good person.\n\nPress the I key when the statement is TRUE according to the above rule.\nPress the E key when the statement is FALSE according to the above rule.\n\nThe rule that you must respond to the orange words does not change:\nPress the I key if the word is synonymous with TRUE.\nPress the E key if the word is a synonym for FALSE.\n\nIf you make a mistake, hit the correct key as soon as possible.\n\nPut your two index fingers on the E and I keys. Press either one to start.'}, {u'instructions': u'Thank you, the task is now complete. Please contact the researcher.'}]" valType="str" updates="None"/>
+      <Param name="Selected rows" val="3" valType="str" updates="None"/>
+    </LoopInitiator>
+    <Routine name="instructions"/>
+    <LoopTerminator name="inst4"/>
     <LoopInitiator loopType="TrialHandler" name="stimuliRuleBLoop">
       <Param name="conditionsFile" val="stimuli.xlsx" valType="str" updates="None"/>
       <Param name="name" val="stimuliRuleBLoop" valType="code" updates="None"/>
@@ -553,7 +405,19 @@
     </LoopInitiator>
     <Routine name="trialsRuleB"/>
     <LoopTerminator name="stimuliRuleBLoop"/>
-    <Routine name="instructions5"/>
+    <LoopInitiator loopType="TrialHandler" name="inst5">
+      <Param name="conditionsFile" val="instructions.xlsx" valType="str" updates="None"/>
+      <Param name="name" val="inst5" valType="code" updates="None"/>
+      <Param name="isTrials" val="False" valType="bool" updates="None"/>
+      <Param name="random seed" val="" valType="code" updates="None"/>
+      <Param name="loopType" val="sequential" valType="str" updates="None"/>
+      <Param name="nReps" val="1" valType="code" updates="None"/>
+      <Param name="endPoints" val="[0, 1]" valType="num" updates="None"/>
+      <Param name="conditions" val="[{u'instructions': u'In this response task will you have to react to words and propositions that are presented on the screen. In the next phase words will be presented in ORANGE.\n\nIt is your job to decide as soon as possible whether the word refers to TRUE or FALSE.\n\nPress the I key if the word is synonymous with TRUE.\nPress the E key if the word is a synonym for FALSE.\n\nIf you make a mistake, hit the correct key as soon as possible.\n\nPut your two index fingers on the E and I keys. Press either one to start.'}, {u'instructions': u'Very good!\n\nThe next phase some propositions will be presented in BLUE.\nThese propositons are always statements about SELF ESTEEM.\n\nYou must respond AS IF you see yourself as a good person and not a bad person.\n\nPress the I key when the statement is TRUE according to the above rule.\nPress the E key when the statement is FALSE according to the above rule.\n\nFor example:\nWhen the proposition &quot;I am valuable&quot; appears, respond with the right response (TRUE).\nWhen the proposition &quot;I am worthless&quot; appears, respond with the left response (FALSE).\n\nIf you make a mistake, hit the correct key as soon as possible.\n\nPut your two index fingers on the E and I keys. Press either one to start.'}, {u'instructions': u'Very good!\n\nThe next phase some words will be presented in ORANGE and some propositions in BLUE. These propositons are always statements about SELF ESTEEM.\n\nYou must respond AS IF you see yourself as a good person and not a bad person.\n\nPress the I key when the statement is TRUE according to the above rule.\n\nPress the E key when the statement is FALSE according to the above rule.\n\nThe rule that you must respond to the orange words does not change:\n\nPress the I key if the word is synonymous with TRUE.\nPress the E key if the word is a synonym for FALSE.\n\nIf you make a mistake, hit the correct key as soon as possible.\n\nPut your two index fingers on the E and I keys. Press either one to start.'}, {u'instructions': u'Very good!\n\nIMPORANT: THE RULE FOR THE BLUE STATEMENTS HAS NOW CHANGED.\n\nYou must respond AS IF you see yourself as a bad person and not a good person.\n\nPress the I key when the statement is TRUE according to the above rule.\nPress the E key when the statement is FALSE according to the above rule.\n\nFor example:\nWhen the proposition &quot;I am valuable&quot; appears, respond with the left response (FALSE).\nWhen the proposition &quot;I am worthless&quot; appears, respond with the right response (TRUE).\n\nIf you make a mistake, hit the correct key as soon as possible.\n\nPut your two index fingers on the E and I keys. Press either one to start.'}, {u'instructions': u'Very good!\n\nThe next phase will again present words in ORANGE and statements in BLUE.\n\nAgain, you must respond AS IF you see yourself as a bad person and not a good person.\n\nPress the I key when the statement is TRUE according to the above rule.\nPress the E key when the statement is FALSE according to the above rule.\n\nThe rule that you must respond to the orange words does not change:\nPress the I key if the word is synonymous with TRUE.\nPress the E key if the word is a synonym for FALSE.\n\nIf you make a mistake, hit the correct key as soon as possible.\n\nPut your two index fingers on the E and I keys. Press either one to start.'}, {u'instructions': u'Thank you, the task is now complete. Please contact the researcher.'}]" valType="str" updates="None"/>
+      <Param name="Selected rows" val="4" valType="str" updates="None"/>
+    </LoopInitiator>
+    <Routine name="instructions"/>
+    <LoopTerminator name="inst5"/>
     <LoopInitiator loopType="TrialHandler" name="inducersAndStimuliRuleBLoop">
       <Param name="conditionsFile" val="stimuli.xlsx" valType="str" updates="None"/>
       <Param name="name" val="inducersAndStimuliRuleBLoop" valType="code" updates="None"/>
@@ -567,7 +431,18 @@
     </LoopInitiator>
     <Routine name="trialsRuleB"/>
     <LoopTerminator name="inducersAndStimuliRuleBLoop"/>
-    <Routine name="instructionsEnd"/>
-    <LoopTerminator name="instructionsLoop"/>
+    <LoopInitiator loopType="TrialHandler" name="instEnd">
+      <Param name="conditionsFile" val="instructions.xlsx" valType="str" updates="None"/>
+      <Param name="name" val="instEnd" valType="code" updates="None"/>
+      <Param name="isTrials" val="False" valType="bool" updates="None"/>
+      <Param name="random seed" val="" valType="code" updates="None"/>
+      <Param name="loopType" val="sequential" valType="str" updates="None"/>
+      <Param name="nReps" val="1" valType="code" updates="None"/>
+      <Param name="endPoints" val="[0, 1]" valType="num" updates="None"/>
+      <Param name="conditions" val="[{u'instructions': u'In this response task will you have to react to words and propositions that are presented on the screen. In the next phase words will be presented in ORANGE.\n\nIt is your job to decide as soon as possible whether the word refers to TRUE or FALSE.\n\nPress the I key if the word is synonymous with TRUE.\nPress the E key if the word is a synonym for FALSE.\n\nIf you make a mistake, hit the correct key as soon as possible.\n\nPut your two index fingers on the E and I keys. Press either one to start.'}, {u'instructions': u'Very good!\n\nThe next phase some propositions will be presented in BLUE.\nThese propositons are always statements about SELF ESTEEM.\n\nYou must respond AS IF you see yourself as a good person and not a bad person.\n\nPress the I key when the statement is TRUE according to the above rule.\nPress the E key when the statement is FALSE according to the above rule.\n\nFor example:\nWhen the proposition &quot;I am valuable&quot; appears, respond with the right response (TRUE).\nWhen the proposition &quot;I am worthless&quot; appears, respond with the left response (FALSE).\n\nIf you make a mistake, hit the correct key as soon as possible.\n\nPut your two index fingers on the E and I keys. Press either one to start.'}, {u'instructions': u'Very good!\n\nThe next phase some words will be presented in ORANGE and some propositions in BLUE. These propositons are always statements about SELF ESTEEM.\n\nYou must respond AS IF you see yourself as a good person and not a bad person.\n\nPress the I key when the statement is TRUE according to the above rule.\n\nPress the E key when the statement is FALSE according to the above rule.\n\nThe rule that you must respond to the orange words does not change:\n\nPress the I key if the word is synonymous with TRUE.\nPress the E key if the word is a synonym for FALSE.\n\nIf you make a mistake, hit the correct key as soon as possible.\n\nPut your two index fingers on the E and I keys. Press either one to start.'}, {u'instructions': u'Very good!\n\nIMPORANT: THE RULE FOR THE BLUE STATEMENTS HAS NOW CHANGED.\n\nYou must respond AS IF you see yourself as a bad person and not a good person.\n\nPress the I key when the statement is TRUE according to the above rule.\nPress the E key when the statement is FALSE according to the above rule.\n\nFor example:\nWhen the proposition &quot;I am valuable&quot; appears, respond with the left response (FALSE).\nWhen the proposition &quot;I am worthless&quot; appears, respond with the right response (TRUE).\n\nIf you make a mistake, hit the correct key as soon as possible.\n\nPut your two index fingers on the E and I keys. Press either one to start.'}, {u'instructions': u'Very good!\n\nThe next phase will again present words in ORANGE and statements in BLUE.\n\nAgain, you must respond AS IF you see yourself as a bad person and not a good person.\n\nPress the I key when the statement is TRUE according to the above rule.\nPress the E key when the statement is FALSE according to the above rule.\n\nThe rule that you must respond to the orange words does not change:\nPress the I key if the word is synonymous with TRUE.\nPress the E key if the word is a synonym for FALSE.\n\nIf you make a mistake, hit the correct key as soon as possible.\n\nPut your two index fingers on the E and I keys. Press either one to start.'}, {u'instructions': u'Thank you, the task is now complete. Please contact the researcher.'}]" valType="str" updates="None"/>
+      <Param name="Selected rows" val="5" valType="str" updates="None"/>
+    </LoopInitiator>
+    <Routine name="instructions"/>
+    <LoopTerminator name="instEnd"/>
   </Flow>
 </PsychoPy2experiment>
