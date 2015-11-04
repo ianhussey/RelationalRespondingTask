@@ -1,7 +1,7 @@
 #!/usr/bin/env python2
 # -*- coding: utf-8 -*-
 """
-This experiment was created using PsychoPy2 Experiment Builder (v1.82.01), Tue Oct 27 16:55:10 2015
+This experiment was created using PsychoPy2 Experiment Builder (v1.82.01), Wed Nov  4 16:22:40 2015
 If you publish work using this script please cite the relevant PsychoPy publications
   Peirce, JW (2007) PsychoPy - Psychophysics software in Python. Journal of Neuroscience Methods, 162(1-2), 8-13.
   Peirce, JW (2009) Generating stimuli for neuroscience using PsychoPy. Frontiers in Neuroinformatics, 2:10. doi: 10.3389/neuro.11.010.2008
@@ -76,14 +76,14 @@ correctiveFeedbackInduc = visual.TextStim(win=win, ori=0, name='correctiveFeedba
     depth=-3.0)
 msg=""
 trueBoxInduc = visual.TextStim(win=win, ori=0, name='trueBoxInduc',
-    text='True',    font='Arial',
+    text='default text',    font=u'Arial',
     pos=[0.75, 0.75], height=0.1, wrapWidth=None,
-    color='white', colorSpace='rgb', opacity=1,
+    color=u'white', colorSpace='rgb', opacity=1,
     depth=-5.0)
 falseBoxInduc = visual.TextStim(win=win, ori=0, name='falseBoxInduc',
-    text='False',    font='Arial',
+    text='default text',    font=u'Arial',
     pos=[-0.75, 0.75], height=0.1, wrapWidth=None,
-    color='white', colorSpace='rgb', opacity=1,
+    color=u'white', colorSpace='rgb', opacity=1,
     depth=-6.0)
 
 # Initialize components for Routine "instructions"
@@ -108,14 +108,14 @@ correctiveFeedbackAprac = visual.TextStim(win=win, ori=0, name='correctiveFeedba
     depth=-3.0)
 msg=""
 trueBoxAprac = visual.TextStim(win=win, ori=0, name='trueBoxAprac',
-    text='True',    font='Arial',
+    text='default text',    font=u'Arial',
     pos=[0.75, 0.75], height=0.1, wrapWidth=None,
-    color='white', colorSpace='rgb', opacity=1,
+    color=u'white', colorSpace='rgb', opacity=1,
     depth=-5.0)
 falseBoxAprac = visual.TextStim(win=win, ori=0, name='falseBoxAprac',
-    text='False',    font='Arial',
+    text='default text',    font=u'Arial',
     pos=[-0.75, 0.75], height=0.1, wrapWidth=None,
-    color='white', colorSpace='rgb', opacity=1,
+    color=u'white', colorSpace='rgb', opacity=1,
     depth=-6.0)
 
 # Initialize components for Routine "instructions"
@@ -140,14 +140,14 @@ correctiveFeedbackA = visual.TextStim(win=win, ori=0, name='correctiveFeedbackA'
     depth=-3.0)
 msg=""
 trueBoxA = visual.TextStim(win=win, ori=0, name='trueBoxA',
-    text='True',    font='Arial',
+    text='default text',    font=u'Arial',
     pos=[0.75, 0.75], height=0.1, wrapWidth=None,
-    color='white', colorSpace='rgb', opacity=1,
+    color=u'white', colorSpace='rgb', opacity=1,
     depth=-5.0)
 falseBoxA = visual.TextStim(win=win, ori=0, name='falseBoxA',
-    text='False',    font='Arial',
+    text='default text',    font=u'Arial',
     pos=[-0.75, 0.75], height=0.1, wrapWidth=None,
-    color='white', colorSpace='rgb', opacity=1,
+    color=u'white', colorSpace='rgb', opacity=1,
     depth=-6.0)
 
 # Initialize components for Routine "instructions"
@@ -172,14 +172,14 @@ correctiveFeedbackBprac = visual.TextStim(win=win, ori=0, name='correctiveFeedba
     depth=-3.0)
 msg=""
 trueBoxBprac = visual.TextStim(win=win, ori=0, name='trueBoxBprac',
-    text='True',    font='Arial',
+    text='default text',    font=u'Arial',
     pos=[0.75, 0.75], height=0.1, wrapWidth=None,
-    color='white', colorSpace='rgb', opacity=1,
+    color=u'white', colorSpace='rgb', opacity=1,
     depth=-5.0)
 falseBoxBprac = visual.TextStim(win=win, ori=0, name='falseBoxBprac',
-    text='False',    font='Arial',
+    text='default text',    font=u'Arial',
     pos=[-0.75, 0.75], height=0.1, wrapWidth=None,
-    color='white', colorSpace='rgb', opacity=1,
+    color=u'white', colorSpace='rgb', opacity=1,
     depth=-6.0)
 
 # Initialize components for Routine "instructions"
@@ -204,14 +204,14 @@ correctiveFeedbackB = visual.TextStim(win=win, ori=0, name='correctiveFeedbackB'
     depth=-3.0)
 msg=""
 trueBoxB = visual.TextStim(win=win, ori=0, name='trueBoxB',
-    text='True',    font='Arial',
+    text='default text',    font=u'Arial',
     pos=[0.75, 0.75], height=0.1, wrapWidth=None,
-    color='white', colorSpace='rgb', opacity=1,
+    color=u'white', colorSpace='rgb', opacity=1,
     depth=-5.0)
 falseBoxB = visual.TextStim(win=win, ori=0, name='falseBoxB',
-    text='False',    font='Arial',
+    text='default text',    font=u'Arial',
     pos=[-0.75, 0.75], height=0.1, wrapWidth=None,
-    color='white', colorSpace='rgb', opacity=1,
+    color=u'white', colorSpace='rgb', opacity=1,
     depth=-6.0)
 
 # Initialize components for Routine "instructions"
@@ -324,7 +324,7 @@ for thisInst1 in inst1:
 # set up handler to look after randomisation of conditions etc
 inducersLoop = data.TrialHandler(nReps=2, method='random', 
     extraInfo=expInfo, originPath=None,
-    trialList=data.importConditions('stimuli.xlsx', selection='0:10'),
+    trialList=data.importConditions(u'stimuli.xlsx', selection=u'0:10'),
     seed=None, name='inducersLoop')
 thisExp.addLoop(inducersLoop)  # add the loop to the experiment
 thisInducersLoop = inducersLoop.trialList[0]  # so we can initialise stimuli with some values
@@ -352,6 +352,8 @@ for thisInducersLoop in inducersLoop:
     block1wrong = event.BuilderKeyResponse()  # create an object of type KeyResponse
     block1wrong.status = NOT_STARTED
     
+    trueBoxInduc.setText(trueLabel)
+    falseBoxInduc.setText(falseLabel)
     # keep track of which components have finished
     inducerTrialsComponents = []
     inducerTrialsComponents.append(stimulusBoxInduc)
@@ -654,6 +656,8 @@ for thisStimulusRuleALoop in stimuliRuleALoop:
     block2wrong = event.BuilderKeyResponse()  # create an object of type KeyResponse
     block2wrong.status = NOT_STARTED
     
+    trueBoxAprac.setText(trueLabel)
+    falseBoxAprac.setText(falseLabel)
     # keep track of which components have finished
     practiceTrialsRuleAComponents = []
     practiceTrialsRuleAComponents.append(stimulusBoxAprac)
@@ -956,6 +960,8 @@ for thisInducersAndstimulusRuleALoop in inducersAndStimuliRuleALoop:
     block3wrong = event.BuilderKeyResponse()  # create an object of type KeyResponse
     block3wrong.status = NOT_STARTED
     
+    trueBoxA.setText(trueLabel)
+    falseBoxA.setText(falseLabel)
     # keep track of which components have finished
     trialsRuleAComponents = []
     trialsRuleAComponents.append(stimulusBoxA)
@@ -1258,6 +1264,8 @@ for thisStimulusRuleBLoop in stimuliRuleBLoop:
     block4wrong = event.BuilderKeyResponse()  # create an object of type KeyResponse
     block4wrong.status = NOT_STARTED
     
+    trueBoxBprac.setText(trueLabel)
+    falseBoxBprac.setText(falseLabel)
     # keep track of which components have finished
     practiceTrialsRuleBComponents = []
     practiceTrialsRuleBComponents.append(stimulusBoxBprac)
@@ -1560,6 +1568,8 @@ for thisInducersAndstimulusRuleBLoop in inducersAndStimuliRuleBLoop:
     block5wrong = event.BuilderKeyResponse()  # create an object of type KeyResponse
     block5wrong.status = NOT_STARTED
     
+    trueBoxB.setText(trueLabel)
+    falseBoxB.setText(falseLabel)
     # keep track of which components have finished
     trialsRuleBComponents = []
     trialsRuleBComponents.append(stimulusBoxB)

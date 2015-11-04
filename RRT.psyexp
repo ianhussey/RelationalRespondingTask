@@ -107,7 +107,7 @@
         <Param name="name" val="trueBoxA" valType="code" updates="None"/>
         <Param name="wrapWidth" val="" valType="code" updates="constant"/>
         <Param name="color" val="white" valType="str" updates="constant"/>
-        <Param name="text" val="True" valType="str" updates="constant"/>
+        <Param name="text" val="$trueLabel" valType="str" updates="set every repeat"/>
         <Param name="stopVal" val="" valType="code" updates="constant"/>
         <Param name="durationEstim" val="" valType="code" updates="None"/>
         <Param name="pos" val="[0.75, 0.75]" valType="code" updates="constant"/>
@@ -127,7 +127,7 @@
         <Param name="name" val="falseBoxA" valType="code" updates="None"/>
         <Param name="wrapWidth" val="" valType="code" updates="constant"/>
         <Param name="color" val="white" valType="str" updates="constant"/>
-        <Param name="text" val="False" valType="str" updates="constant"/>
+        <Param name="text" val="$falseLabel" valType="str" updates="set every repeat"/>
         <Param name="stopVal" val="" valType="code" updates="constant"/>
         <Param name="durationEstim" val="" valType="code" updates="None"/>
         <Param name="pos" val="[-0.75, 0.75]" valType="code" updates="constant"/>
@@ -227,7 +227,7 @@
         <Param name="name" val="trueBoxB" valType="code" updates="None"/>
         <Param name="wrapWidth" val="" valType="code" updates="constant"/>
         <Param name="color" val="white" valType="str" updates="constant"/>
-        <Param name="text" val="True" valType="str" updates="constant"/>
+        <Param name="text" val="$trueLabel" valType="str" updates="set every repeat"/>
         <Param name="stopVal" val="" valType="code" updates="constant"/>
         <Param name="durationEstim" val="" valType="code" updates="None"/>
         <Param name="pos" val="[0.75, 0.75]" valType="code" updates="constant"/>
@@ -247,7 +247,7 @@
         <Param name="name" val="falseBoxB" valType="code" updates="None"/>
         <Param name="wrapWidth" val="" valType="code" updates="constant"/>
         <Param name="color" val="white" valType="str" updates="constant"/>
-        <Param name="text" val="False" valType="str" updates="constant"/>
+        <Param name="text" val="$falseLabel" valType="str" updates="set every repeat"/>
         <Param name="stopVal" val="" valType="code" updates="constant"/>
         <Param name="durationEstim" val="" valType="code" updates="None"/>
         <Param name="pos" val="[-0.75, 0.75]" valType="code" updates="constant"/>
@@ -347,7 +347,7 @@
         <Param name="name" val="trueBoxInduc" valType="code" updates="None"/>
         <Param name="wrapWidth" val="" valType="code" updates="constant"/>
         <Param name="color" val="white" valType="str" updates="constant"/>
-        <Param name="text" val="True" valType="str" updates="constant"/>
+        <Param name="text" val="$trueLabel" valType="str" updates="set every repeat"/>
         <Param name="stopVal" val="" valType="code" updates="constant"/>
         <Param name="durationEstim" val="" valType="code" updates="None"/>
         <Param name="pos" val="[0.75, 0.75]" valType="code" updates="constant"/>
@@ -367,7 +367,7 @@
         <Param name="name" val="falseBoxInduc" valType="code" updates="None"/>
         <Param name="wrapWidth" val="" valType="code" updates="constant"/>
         <Param name="color" val="white" valType="str" updates="constant"/>
-        <Param name="text" val="False" valType="str" updates="constant"/>
+        <Param name="text" val="$falseLabel" valType="str" updates="set every repeat"/>
         <Param name="stopVal" val="" valType="code" updates="constant"/>
         <Param name="durationEstim" val="" valType="code" updates="None"/>
         <Param name="pos" val="[-0.75, 0.75]" valType="code" updates="constant"/>
@@ -467,7 +467,7 @@
         <Param name="name" val="trueBoxAprac" valType="code" updates="None"/>
         <Param name="wrapWidth" val="" valType="code" updates="constant"/>
         <Param name="color" val="white" valType="str" updates="constant"/>
-        <Param name="text" val="True" valType="str" updates="constant"/>
+        <Param name="text" val="$trueLabel" valType="str" updates="set every repeat"/>
         <Param name="stopVal" val="" valType="code" updates="constant"/>
         <Param name="durationEstim" val="" valType="code" updates="None"/>
         <Param name="pos" val="[0.75, 0.75]" valType="code" updates="constant"/>
@@ -487,7 +487,7 @@
         <Param name="name" val="falseBoxAprac" valType="code" updates="None"/>
         <Param name="wrapWidth" val="" valType="code" updates="constant"/>
         <Param name="color" val="white" valType="str" updates="constant"/>
-        <Param name="text" val="False" valType="str" updates="constant"/>
+        <Param name="text" val="$falseLabel" valType="str" updates="set every repeat"/>
         <Param name="stopVal" val="" valType="code" updates="constant"/>
         <Param name="durationEstim" val="" valType="code" updates="None"/>
         <Param name="pos" val="[-0.75, 0.75]" valType="code" updates="constant"/>
@@ -587,7 +587,7 @@
         <Param name="name" val="trueBoxBprac" valType="code" updates="None"/>
         <Param name="wrapWidth" val="" valType="code" updates="constant"/>
         <Param name="color" val="white" valType="str" updates="constant"/>
-        <Param name="text" val="True" valType="str" updates="constant"/>
+        <Param name="text" val="$trueLabel" valType="str" updates="set every repeat"/>
         <Param name="stopVal" val="" valType="code" updates="constant"/>
         <Param name="durationEstim" val="" valType="code" updates="None"/>
         <Param name="pos" val="[0.75, 0.75]" valType="code" updates="constant"/>
@@ -607,7 +607,7 @@
         <Param name="name" val="falseBoxBprac" valType="code" updates="None"/>
         <Param name="wrapWidth" val="" valType="code" updates="constant"/>
         <Param name="color" val="white" valType="str" updates="constant"/>
-        <Param name="text" val="False" valType="str" updates="constant"/>
+        <Param name="text" val="$falseLabel" valType="str" updates="set every repeat"/>
         <Param name="stopVal" val="" valType="code" updates="constant"/>
         <Param name="durationEstim" val="" valType="code" updates="None"/>
         <Param name="pos" val="[-0.75, 0.75]" valType="code" updates="constant"/>
@@ -682,7 +682,7 @@
       <Param name="loopType" val="random" valType="str" updates="None"/>
       <Param name="nReps" val="2" valType="code" updates="None"/>
       <Param name="endPoints" val="[0, 1]" valType="num" updates="None"/>
-      <Param name="conditions" val="[{u'stimulus': u'True', u'requiredResponseRuleA': u'i', u'stimulusColour': u'orange', u'requiredResponseRuleB': u'e'}, {u'stimulus': u'Correct', u'requiredResponseRuleA': u'i', u'stimulusColour': u'orange', u'requiredResponseRuleB': u'e'}, {u'stimulus': u'False', u'requiredResponseRuleA': u'e', u'stimulusColour': u'orange', u'requiredResponseRuleB': u'i'}, {u'stimulus': u'Incorrect', u'requiredResponseRuleA': u'e', u'stimulusColour': u'orange', u'requiredResponseRuleB': u'i'}, {u'stimulus': u'I am good', u'requiredResponseRuleA': u'i', u'stimulusColour': u'cyan', u'requiredResponseRuleB': u'e'}, {u'stimulus': u'I am valuable', u'requiredResponseRuleA': u'i', u'stimulusColour': u'cyan', u'requiredResponseRuleB': u'e'}, {u'stimulus': u'I am worthwhile', u'requiredResponseRuleA': u'i', u'stimulusColour': u'cyan', u'requiredResponseRuleB': u'e'}, {u'stimulus': u'I am bad', u'requiredResponseRuleA': u'e', u'stimulusColour': u'cyan', u'requiredResponseRuleB': u'i'}, {u'stimulus': u'I am a failure', u'requiredResponseRuleA': u'e', u'stimulusColour': u'cyan', u'requiredResponseRuleB': u'i'}, {u'stimulus': u'I am worthless', u'requiredResponseRuleA': u'e', u'stimulusColour': u'cyan', u'requiredResponseRuleB': u'i'}, {u'stimulus': u'I am not good', u'requiredResponseRuleA': u'e', u'stimulusColour': u'cyan', u'requiredResponseRuleB': u'i'}, {u'stimulus': u'I am not valuable', u'requiredResponseRuleA': u'e', u'stimulusColour': u'cyan', u'requiredResponseRuleB': u'i'}, {u'stimulus': u'I am not worthwhile', u'requiredResponseRuleA': u'e', u'stimulusColour': u'cyan', u'requiredResponseRuleB': u'i'}, {u'stimulus': u'I am not bad', u'requiredResponseRuleA': u'i', u'stimulusColour': u'cyan', u'requiredResponseRuleB': u'e'}, {u'stimulus': u'I am not a failure', u'requiredResponseRuleA': u'i', u'stimulusColour': u'cyan', u'requiredResponseRuleB': u'e'}, {u'stimulus': u'I am not worthless', u'requiredResponseRuleA': u'i', u'stimulusColour': u'cyan', u'requiredResponseRuleB': u'e'}]" valType="str" updates="None"/>
+      <Param name="conditions" val="[{u'requiredResponseB': u'i', u'stimulusColour': u'orange', u'falseLabel': u'&quot;FALSE&quot;', u'feedbackResponseA': u'e', u'feedbackResponseB': u'e', u'stimulus': u'True', u'feedbackAllowedKeysB': u'e', u'requiredResponseA': u'i', u'feedbackAllowedKeysA': u'e', u'trialtype': 0, u'requiredAllowedKeysB': u'i', u'requiredAllowedKeysA': u'i', u'trueLabel': u'&quot;TRUE&quot;'}, {u'requiredResponseB': u'i', u'stimulusColour': u'orange', u'falseLabel': u'&quot;FALSE&quot;', u'feedbackResponseA': u'e', u'feedbackResponseB': u'e', u'stimulus': u'Correct', u'feedbackAllowedKeysB': u'e', u'requiredResponseA': u'i', u'feedbackAllowedKeysA': u'e', u'trialtype': 0, u'requiredAllowedKeysB': u'i', u'requiredAllowedKeysA': u'i', u'trueLabel': u'&quot;TRUE&quot;'}, {u'requiredResponseB': u'i', u'stimulusColour': u'orange', u'falseLabel': u'&quot;FALSE&quot;', u'feedbackResponseA': u'e', u'feedbackResponseB': u'e', u'stimulus': u'Right', u'feedbackAllowedKeysB': u'e', u'requiredResponseA': u'i', u'feedbackAllowedKeysA': u'e', u'trialtype': 0, u'requiredAllowedKeysB': u'i', u'requiredAllowedKeysA': u'i', u'trueLabel': u'&quot;TRUE&quot;'}, {u'requiredResponseB': u'i', u'stimulusColour': u'orange', u'falseLabel': u'&quot;FALSE&quot;', u'feedbackResponseA': u'e', u'feedbackResponseB': u'e', u'stimulus': u'Accurate', u'feedbackAllowedKeysB': u'e', u'requiredResponseA': u'i', u'feedbackAllowedKeysA': u'e', u'trialtype': 0, u'requiredAllowedKeysB': u'i', u'requiredAllowedKeysA': u'i', u'trueLabel': u'&quot;TRUE&quot;'}, {u'requiredResponseB': u'i', u'stimulusColour': u'orange', u'falseLabel': u'&quot;FALSE&quot;', u'feedbackResponseA': u'e', u'feedbackResponseB': u'e', u'stimulus': u'Confirm', u'feedbackAllowedKeysB': u'e', u'requiredResponseA': u'i', u'feedbackAllowedKeysA': u'e', u'trialtype': 0, u'requiredAllowedKeysB': u'i', u'requiredAllowedKeysA': u'i', u'trueLabel': u'&quot;TRUE&quot;'}, {u'requiredResponseB': u'e', u'stimulusColour': u'orange', u'falseLabel': u'&quot;FALSE&quot;', u'feedbackResponseA': u'i', u'feedbackResponseB': u'i', u'stimulus': u'False', u'feedbackAllowedKeysB': u'i', u'requiredResponseA': u'e', u'feedbackAllowedKeysA': u'i', u'trialtype': 0, u'requiredAllowedKeysB': u'e', u'requiredAllowedKeysA': u'e', u'trueLabel': u'&quot;TRUE&quot;'}, {u'requiredResponseB': u'e', u'stimulusColour': u'orange', u'falseLabel': u'&quot;FALSE&quot;', u'feedbackResponseA': u'i', u'feedbackResponseB': u'i', u'stimulus': u'Incorrect', u'feedbackAllowedKeysB': u'i', u'requiredResponseA': u'e', u'feedbackAllowedKeysA': u'i', u'trialtype': 0, u'requiredAllowedKeysB': u'e', u'requiredAllowedKeysA': u'e', u'trueLabel': u'&quot;TRUE&quot;'}, {u'requiredResponseB': u'e', u'stimulusColour': u'orange', u'falseLabel': u'&quot;FALSE&quot;', u'feedbackResponseA': u'i', u'feedbackResponseB': u'i', u'stimulus': u'Wrong', u'feedbackAllowedKeysB': u'i', u'requiredResponseA': u'e', u'feedbackAllowedKeysA': u'i', u'trialtype': 0, u'requiredAllowedKeysB': u'e', u'requiredAllowedKeysA': u'e', u'trueLabel': u'&quot;TRUE&quot;'}, {u'requiredResponseB': u'e', u'stimulusColour': u'orange', u'falseLabel': u'&quot;FALSE&quot;', u'feedbackResponseA': u'i', u'feedbackResponseB': u'i', u'stimulus': u'Inaccurate', u'feedbackAllowedKeysB': u'i', u'requiredResponseA': u'e', u'feedbackAllowedKeysA': u'i', u'trialtype': 0, u'requiredAllowedKeysB': u'e', u'requiredAllowedKeysA': u'e', u'trueLabel': u'&quot;TRUE&quot;'}, {u'requiredResponseB': u'e', u'stimulusColour': u'orange', u'falseLabel': u'&quot;FALSE&quot;', u'feedbackResponseA': u'i', u'feedbackResponseB': u'i', u'stimulus': u'Untrue', u'feedbackAllowedKeysB': u'i', u'requiredResponseA': u'e', u'feedbackAllowedKeysA': u'i', u'trialtype': 0, u'requiredAllowedKeysB': u'e', u'requiredAllowedKeysA': u'e', u'trueLabel': u'&quot;TRUE&quot;'}, {u'requiredResponseB': u'e', u'stimulusColour': u'cyan', u'falseLabel': 0, u'feedbackResponseA': u'e', u'feedbackResponseB': u'i', u'stimulus': u'I am good', u'feedbackAllowedKeysB': u'i', u'requiredResponseA': u'i', u'feedbackAllowedKeysA': u'e', u'trialtype': 1, u'requiredAllowedKeysB': u'e', u'requiredAllowedKeysA': u'i', u'trueLabel': 1}, {u'requiredResponseB': u'e', u'stimulusColour': u'cyan', u'falseLabel': 0, u'feedbackResponseA': u'e', u'feedbackResponseB': u'i', u'stimulus': u'I am valuable', u'feedbackAllowedKeysB': u'i', u'requiredResponseA': u'i', u'feedbackAllowedKeysA': u'e', u'trialtype': 1, u'requiredAllowedKeysB': u'e', u'requiredAllowedKeysA': u'i', u'trueLabel': 1}, {u'requiredResponseB': u'e', u'stimulusColour': u'cyan', u'falseLabel': 0, u'feedbackResponseA': u'e', u'feedbackResponseB': u'i', u'stimulus': u'I am worthwhile', u'feedbackAllowedKeysB': u'i', u'requiredResponseA': u'i', u'feedbackAllowedKeysA': u'e', u'trialtype': 1, u'requiredAllowedKeysB': u'e', u'requiredAllowedKeysA': u'i', u'trueLabel': 1}, {u'requiredResponseB': u'e', u'stimulusColour': u'cyan', u'falseLabel': 0, u'feedbackResponseA': u'e', u'feedbackResponseB': u'i', u'stimulus': u'I am interesting', u'feedbackAllowedKeysB': u'i', u'requiredResponseA': u'i', u'feedbackAllowedKeysA': u'e', u'trialtype': 1, u'requiredAllowedKeysB': u'e', u'requiredAllowedKeysA': u'i', u'trueLabel': 1}, {u'requiredResponseB': u'e', u'stimulusColour': u'cyan', u'falseLabel': 0, u'feedbackResponseA': u'e', u'feedbackResponseB': u'i', u'stimulus': u'I am kind', u'feedbackAllowedKeysB': u'i', u'requiredResponseA': u'i', u'feedbackAllowedKeysA': u'e', u'trialtype': 1, u'requiredAllowedKeysB': u'e', u'requiredAllowedKeysA': u'i', u'trueLabel': 1}, {u'requiredResponseB': u'i', u'stimulusColour': u'cyan', u'falseLabel': 0, u'feedbackResponseA': u'i', u'feedbackResponseB': u'e', u'stimulus': u'I am bad', u'feedbackAllowedKeysB': u'e', u'requiredResponseA': u'e', u'feedbackAllowedKeysA': u'i', u'trialtype': 2, u'requiredAllowedKeysB': u'i', u'requiredAllowedKeysA': u'e', u'trueLabel': 1}, {u'requiredResponseB': u'i', u'stimulusColour': u'cyan', u'falseLabel': 0, u'feedbackResponseA': u'i', u'feedbackResponseB': u'e', u'stimulus': u'I am a failure', u'feedbackAllowedKeysB': u'e', u'requiredResponseA': u'e', u'feedbackAllowedKeysA': u'i', u'trialtype': 2, u'requiredAllowedKeysB': u'i', u'requiredAllowedKeysA': u'e', u'trueLabel': 1}, {u'requiredResponseB': u'i', u'stimulusColour': u'cyan', u'falseLabel': 0, u'feedbackResponseA': u'i', u'feedbackResponseB': u'e', u'stimulus': u'I am worthless', u'feedbackAllowedKeysB': u'e', u'requiredResponseA': u'e', u'feedbackAllowedKeysA': u'i', u'trialtype': 2, u'requiredAllowedKeysB': u'i', u'requiredAllowedKeysA': u'e', u'trueLabel': 1}, {u'requiredResponseB': u'i', u'stimulusColour': u'cyan', u'falseLabel': 0, u'feedbackResponseA': u'i', u'feedbackResponseB': u'e', u'stimulus': u'I am boring', u'feedbackAllowedKeysB': u'e', u'requiredResponseA': u'e', u'feedbackAllowedKeysA': u'i', u'trialtype': 2, u'requiredAllowedKeysB': u'i', u'requiredAllowedKeysA': u'e', u'trueLabel': 1}, {u'requiredResponseB': u'i', u'stimulusColour': u'cyan', u'falseLabel': 0, u'feedbackResponseA': u'i', u'feedbackResponseB': u'e', u'stimulus': u'I am dumb', u'feedbackAllowedKeysB': u'e', u'requiredResponseA': u'e', u'feedbackAllowedKeysA': u'i', u'trialtype': 2, u'requiredAllowedKeysB': u'i', u'requiredAllowedKeysA': u'e', u'trueLabel': 1}, {u'requiredResponseB': u'i', u'stimulusColour': u'cyan', u'falseLabel': 0, u'feedbackResponseA': u'i', u'feedbackResponseB': u'e', u'stimulus': u'I am not good', u'feedbackAllowedKeysB': u'e', u'requiredResponseA': u'e', u'feedbackAllowedKeysA': u'i', u'trialtype': 3, u'requiredAllowedKeysB': u'i', u'requiredAllowedKeysA': u'e', u'trueLabel': 1}, {u'requiredResponseB': u'i', u'stimulusColour': u'cyan', u'falseLabel': 0, u'feedbackResponseA': u'i', u'feedbackResponseB': u'e', u'stimulus': u'I am not valuable', u'feedbackAllowedKeysB': u'e', u'requiredResponseA': u'e', u'feedbackAllowedKeysA': u'i', u'trialtype': 3, u'requiredAllowedKeysB': u'i', u'requiredAllowedKeysA': u'e', u'trueLabel': 1}, {u'requiredResponseB': u'i', u'stimulusColour': u'cyan', u'falseLabel': 0, u'feedbackResponseA': u'i', u'feedbackResponseB': u'e', u'stimulus': u'I am not worthwhile', u'feedbackAllowedKeysB': u'e', u'requiredResponseA': u'e', u'feedbackAllowedKeysA': u'i', u'trialtype': 3, u'requiredAllowedKeysB': u'i', u'requiredAllowedKeysA': u'e', u'trueLabel': 1}, {u'requiredResponseB': u'i', u'stimulusColour': u'cyan', u'falseLabel': 0, u'feedbackResponseA': u'i', u'feedbackResponseB': u'e', u'stimulus': u'I am not interesting', u'feedbackAllowedKeysB': u'e', u'requiredResponseA': u'e', u'feedbackAllowedKeysA': u'i', u'trialtype': 3, u'requiredAllowedKeysB': u'i', u'requiredAllowedKeysA': u'e', u'trueLabel': 1}, {u'requiredResponseB': u'i', u'stimulusColour': u'cyan', u'falseLabel': 0, u'feedbackResponseA': u'i', u'feedbackResponseB': u'e', u'stimulus': u'I am not kind', u'feedbackAllowedKeysB': u'e', u'requiredResponseA': u'e', u'feedbackAllowedKeysA': u'i', u'trialtype': 3, u'requiredAllowedKeysB': u'i', u'requiredAllowedKeysA': u'e', u'trueLabel': 1}, {u'requiredResponseB': u'e', u'stimulusColour': u'cyan', u'falseLabel': 0, u'feedbackResponseA': u'e', u'feedbackResponseB': u'i', u'stimulus': u'I am not bad', u'feedbackAllowedKeysB': u'i', u'requiredResponseA': u'i', u'feedbackAllowedKeysA': u'e', u'trialtype': 4, u'requiredAllowedKeysB': u'e', u'requiredAllowedKeysA': u'i', u'trueLabel': 1}, {u'requiredResponseB': u'e', u'stimulusColour': u'cyan', u'falseLabel': 0, u'feedbackResponseA': u'e', u'feedbackResponseB': u'i', u'stimulus': u'I am not a failure', u'feedbackAllowedKeysB': u'i', u'requiredResponseA': u'i', u'feedbackAllowedKeysA': u'e', u'trialtype': 4, u'requiredAllowedKeysB': u'e', u'requiredAllowedKeysA': u'i', u'trueLabel': 1}, {u'requiredResponseB': u'e', u'stimulusColour': u'cyan', u'falseLabel': 0, u'feedbackResponseA': u'e', u'feedbackResponseB': u'i', u'stimulus': u'I am not worthless', u'feedbackAllowedKeysB': u'i', u'requiredResponseA': u'i', u'feedbackAllowedKeysA': u'e', u'trialtype': 4, u'requiredAllowedKeysB': u'e', u'requiredAllowedKeysA': u'i', u'trueLabel': 1}, {u'requiredResponseB': u'e', u'stimulusColour': u'cyan', u'falseLabel': 0, u'feedbackResponseA': u'e', u'feedbackResponseB': u'i', u'stimulus': u'I am not boring', u'feedbackAllowedKeysB': u'i', u'requiredResponseA': u'i', u'feedbackAllowedKeysA': u'e', u'trialtype': 4, u'requiredAllowedKeysB': u'e', u'requiredAllowedKeysA': u'i', u'trueLabel': 1}, {u'requiredResponseB': u'e', u'stimulusColour': u'cyan', u'falseLabel': 0, u'feedbackResponseA': u'e', u'feedbackResponseB': u'i', u'stimulus': u'I am not dumb', u'feedbackAllowedKeysB': u'i', u'requiredResponseA': u'i', u'feedbackAllowedKeysA': u'e', u'trialtype': 4, u'requiredAllowedKeysB': u'e', u'requiredAllowedKeysA': u'i', u'trueLabel': 1}]" valType="str" updates="None"/>
       <Param name="Selected rows" val="0:10" valType="str" updates="None"/>
     </LoopInitiator>
     <Routine name="inducerTrials"/>
