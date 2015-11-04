@@ -31,11 +31,11 @@ Estimated 10 min completion time inc 1 min reading instructions
 10 inducer stimuli = 5 exemplars for true and 5 for false
 20 target stimuli = 4 trial-types with 5 exemplars each
 
-Block 1 (Inducer) 40 Trials (4 loops of 10 inducers)
-Block 2 (Target) 40 Trials (2 loops of 20 targets)
-Block 3 (Rule 1) 80 Trials (4 loops of 10 inducers plus 2 loops of 20 targets)
-Block 4 (R Target) 40 Trials (2 loops of 20 targets)
-Block 5 (Rule 2) 80 Trials (4 loops of 10 inducers plus 2 loops of 20 targets)
+* Block 1 (Inducer) 40 Trials (4 loops of 10 inducers)
+* Block 2 (Target) 40 Trials (2 loops of 20 targets)
+* Block 3 (Rule 1) 80 Trials (4 loops of 10 inducers plus 2 loops of 20 targets)
+* Block 4 (R Target) 40 Trials (2 loops of 20 targets)
+* Block 5 (Rule 2) 80 Trials (4 loops of 10 inducers plus 2 loops of 20 targets)
 
 ## 2. Sean’s block layout (current implementation):
 
@@ -47,11 +47,11 @@ Estimated 7 min completion time inc 1 min reading instructions
 10 inducer stimuli = 5 exemplars for true and 5 for false
 20 target stimuli = 4 trial-types with 5 exemplars each
 
-Block 1 (Inducer) 20 Trials (2 loops of 10 inducers)
-Block 2 (Target) 20 Trials (1 loop of 20 targets)
-Block 3 (Rule 1) 60 Trials (2 loops of 10 inducers plus 20 targets)
-Block 4 (R Target) 20 Trials (1 loop of 20 targets)
-Block 5 (Rule 2) 60 Trials (2 loops of 10 inducers plus 20 targets)
+* Block 1 (Inducer) 20 Trials (2 loops of 10 inducers)
+* Block 2 (Target) 20 Trials (1 loop of 20 targets)
+* Block 3 (Rule 1) 60 Trials (2 loops of 10 inducers plus 20 targets)
+* Block 4 (R Target) 20 Trials (1 loop of 20 targets)
+* Block 5 (Rule 2) 60 Trials (2 loops of 10 inducers plus 20 targets)
 
 
 # Known issues
