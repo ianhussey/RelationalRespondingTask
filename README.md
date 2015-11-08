@@ -57,7 +57,7 @@ Estimated 7 min completion time inc 1 min reading instructions
 # Known issues
 1. If duplicate stimuli are entered in the stimuli file then participants can be presented with two identical exemplars one after another. This is not easy to overcome within the confines of the Psychopy builder. However, the included stimulus file does not repeat stimuli, thus if a similar pattern is followed this issue will not arise.
 
-2. If participants get 100% of trials correct on a given block then the incorrect response RT column will not be created for that block for that participant. This is not a problem if you process files based on column header matching (e.g., using r's `rbind()` command). However, it can be problematic if your data processing workflow relies on column ORDER rather than column header NAME, e.g., a SPSS script using a GET command.
+2. If participants get 100% of trials correct on a given block then the incorrect response RT column will not be created for that block for that participant. This is not a problem if you process files based on column header matching (e.g., using dplyr's `rbind_list` command). However, it can be problematic if your data processing workflow relies on column ORDER rather than column header NAME, e.g., a SPSS script using a GET command.
 
 # Changelog
 0.9.5 Corrected trials per block in Block 1.
