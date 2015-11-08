@@ -2,10 +2,10 @@
 Ian Hussey (ian.hussey@ugent.be)
 
 # Last change
-4/11/2015
+8/11/2015
 
 # Version number
-0.9.7.3
+0.9.7.4
 #### This is still in beta - I have not had this code reviewed to guarantee that it functions as intended.
 
 
@@ -71,3 +71,5 @@ Estimated 7 min completion time inc 1 min reading instructions
 0.9.7.2 Created separate blocks for inducers, practice and test blocks for even easier analysis. Columns now contain only info for a single block, so you can mean() or sd() the whole column. Also changed the names of the keyboard components to blockX and blockXwrong. A future R script will therefore be easier to interpret, as it will sample blockX.rt and blockX.corr variables.
 
 0.9.7.3 Changed True and False labels into variables that are in the stimuli.xlsx file. All text within the task is now changeable via the instrucitons and stimuli files, thereby aiding easier translations.
+
+0.9.7.4 Addition a condition variable to the the pre experiment popup

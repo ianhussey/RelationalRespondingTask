@@ -1,7 +1,7 @@
 #!/usr/bin/env python2
 # -*- coding: utf-8 -*-
 """
-This experiment was created using PsychoPy2 Experiment Builder (v1.82.01), Wed Nov  4 16:22:40 2015
+This experiment was created using PsychoPy2 Experiment Builder (v1.82.01), Sun Nov  8 18:55:52 2015
 If you publish work using this script please cite the relevant PsychoPy publications
   Peirce, JW (2007) PsychoPy - Psychophysics software in Python. Journal of Neuroscience Methods, 162(1-2), 8-13.
   Peirce, JW (2009) Generating stimuli for neuroscience using PsychoPy. Frontiers in Neuroinformatics, 2:10. doi: 10.3389/neuro.11.010.2008
@@ -20,8 +20,8 @@ _thisDir = os.path.dirname(os.path.abspath(__file__))
 os.chdir(_thisDir)
 
 # Store info about the experiment session
-expName = 'RRT'  # from the Builder filename that created this script
-expInfo = {u'gender': u'', u'age': u'', u'participant': u''}
+expName = u'RRT'  # from the Builder filename that created this script
+expInfo = {u'gender': u'', u'age': u'', u'participant': u'', u'condition': u''}
 dlg = gui.DlgFromDict(dictionary=expInfo, title=expName)
 if dlg.OK == False: core.quit()  # user pressed cancel
 expInfo['date'] = data.getDateStr()  # add a simple timestamp
@@ -44,7 +44,7 @@ endExpNow = False  # flag for 'escape' or other condition => quit the exp
 
 # Setup the Window
 win = visual.Window(size=(1366, 768), fullscr=True, screen=0, allowGUI=False, allowStencil=False,
-    monitor='testMonitor', color='black', colorSpace='rgb',
+    monitor=u'testMonitor', color=u'black', colorSpace='rgb',
     blendMode='avg', useFBO=True,
     )
 # store frame rate of monitor if we can measure it successfully
@@ -76,14 +76,14 @@ correctiveFeedbackInduc = visual.TextStim(win=win, ori=0, name='correctiveFeedba
     depth=-3.0)
 msg=""
 trueBoxInduc = visual.TextStim(win=win, ori=0, name='trueBoxInduc',
-    text='default text',    font=u'Arial',
+    text='default text',    font='Arial',
     pos=[0.75, 0.75], height=0.1, wrapWidth=None,
-    color=u'white', colorSpace='rgb', opacity=1,
+    color='white', colorSpace='rgb', opacity=1,
     depth=-5.0)
 falseBoxInduc = visual.TextStim(win=win, ori=0, name='falseBoxInduc',
-    text='default text',    font=u'Arial',
+    text='default text',    font='Arial',
     pos=[-0.75, 0.75], height=0.1, wrapWidth=None,
-    color=u'white', colorSpace='rgb', opacity=1,
+    color='white', colorSpace='rgb', opacity=1,
     depth=-6.0)
 
 # Initialize components for Routine "instructions"
@@ -108,14 +108,14 @@ correctiveFeedbackAprac = visual.TextStim(win=win, ori=0, name='correctiveFeedba
     depth=-3.0)
 msg=""
 trueBoxAprac = visual.TextStim(win=win, ori=0, name='trueBoxAprac',
-    text='default text',    font=u'Arial',
+    text='default text',    font='Arial',
     pos=[0.75, 0.75], height=0.1, wrapWidth=None,
-    color=u'white', colorSpace='rgb', opacity=1,
+    color='white', colorSpace='rgb', opacity=1,
     depth=-5.0)
 falseBoxAprac = visual.TextStim(win=win, ori=0, name='falseBoxAprac',
-    text='default text',    font=u'Arial',
+    text='default text',    font='Arial',
     pos=[-0.75, 0.75], height=0.1, wrapWidth=None,
-    color=u'white', colorSpace='rgb', opacity=1,
+    color='white', colorSpace='rgb', opacity=1,
     depth=-6.0)
 
 # Initialize components for Routine "instructions"
@@ -140,14 +140,14 @@ correctiveFeedbackA = visual.TextStim(win=win, ori=0, name='correctiveFeedbackA'
     depth=-3.0)
 msg=""
 trueBoxA = visual.TextStim(win=win, ori=0, name='trueBoxA',
-    text='default text',    font=u'Arial',
+    text='default text',    font='Arial',
     pos=[0.75, 0.75], height=0.1, wrapWidth=None,
-    color=u'white', colorSpace='rgb', opacity=1,
+    color='white', colorSpace='rgb', opacity=1,
     depth=-5.0)
 falseBoxA = visual.TextStim(win=win, ori=0, name='falseBoxA',
-    text='default text',    font=u'Arial',
+    text='default text',    font='Arial',
     pos=[-0.75, 0.75], height=0.1, wrapWidth=None,
-    color=u'white', colorSpace='rgb', opacity=1,
+    color='white', colorSpace='rgb', opacity=1,
     depth=-6.0)
 
 # Initialize components for Routine "instructions"
@@ -172,14 +172,14 @@ correctiveFeedbackBprac = visual.TextStim(win=win, ori=0, name='correctiveFeedba
     depth=-3.0)
 msg=""
 trueBoxBprac = visual.TextStim(win=win, ori=0, name='trueBoxBprac',
-    text='default text',    font=u'Arial',
+    text='default text',    font='Arial',
     pos=[0.75, 0.75], height=0.1, wrapWidth=None,
-    color=u'white', colorSpace='rgb', opacity=1,
+    color='white', colorSpace='rgb', opacity=1,
     depth=-5.0)
 falseBoxBprac = visual.TextStim(win=win, ori=0, name='falseBoxBprac',
-    text='default text',    font=u'Arial',
+    text='default text',    font='Arial',
     pos=[-0.75, 0.75], height=0.1, wrapWidth=None,
-    color=u'white', colorSpace='rgb', opacity=1,
+    color='white', colorSpace='rgb', opacity=1,
     depth=-6.0)
 
 # Initialize components for Routine "instructions"
@@ -204,14 +204,14 @@ correctiveFeedbackB = visual.TextStim(win=win, ori=0, name='correctiveFeedbackB'
     depth=-3.0)
 msg=""
 trueBoxB = visual.TextStim(win=win, ori=0, name='trueBoxB',
-    text='default text',    font=u'Arial',
+    text='default text',    font='Arial',
     pos=[0.75, 0.75], height=0.1, wrapWidth=None,
-    color=u'white', colorSpace='rgb', opacity=1,
+    color='white', colorSpace='rgb', opacity=1,
     depth=-5.0)
 falseBoxB = visual.TextStim(win=win, ori=0, name='falseBoxB',
-    text='default text',    font=u'Arial',
+    text='default text',    font='Arial',
     pos=[-0.75, 0.75], height=0.1, wrapWidth=None,
-    color=u'white', colorSpace='rgb', opacity=1,
+    color='white', colorSpace='rgb', opacity=1,
     depth=-6.0)
 
 # Initialize components for Routine "instructions"
@@ -324,7 +324,7 @@ for thisInst1 in inst1:
 # set up handler to look after randomisation of conditions etc
 inducersLoop = data.TrialHandler(nReps=2, method='random', 
     extraInfo=expInfo, originPath=None,
-    trialList=data.importConditions(u'stimuli.xlsx', selection=u'0:10'),
+    trialList=data.importConditions('stimuli.xlsx', selection='0:10'),
     seed=None, name='inducersLoop')
 thisExp.addLoop(inducersLoop)  # add the loop to the experiment
 thisInducersLoop = inducersLoop.trialList[0]  # so we can initialise stimuli with some values
