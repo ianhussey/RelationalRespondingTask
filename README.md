@@ -3,6 +3,7 @@
 
 Distributed under the MIT licence
 ## Version0.9.8 (9/11/2015)
+Written in PsychoPy 1.82.01
 *NB This is still in beta - I have not had this code independently reviewed to guarantee that it functions as intended.*## Notes- NB written in PsychoPy 1.82.01. Bugs may crop up if you're using a different version.- The escape key quits the task at any time. E, I, or the return key ends the task properly once it’s complete.- You can run either the psyexp file or the py file inside psychopy. The py file should have greater cross platform support; if you run into errors with the psyexp file use the py instead.- psydat and csv files are produced for each participant. csv file alone is sufficient to most analyses (e.g., calculation of D scores).- All stimuli and instructions can be altered by editing the excel files. However, there must be 5 exemplars per target stimulus trial-type, 5 synonyms for true, and 5 for false, to retain the block layout specified below.- The block length is the number of rows per stimulus file multiplied by the nBlockReptitions variable for that iteration of the blocks loop, which is specified in the instructions file. I've done it this way (rather than simply duplicating the rows in a given stimulus file) so that the same stimulus cannot appear on two consecutive trials. 
 - ITI is set to 750 ms, as in the original publication.
 
