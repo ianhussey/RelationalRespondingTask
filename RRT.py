@@ -1,7 +1,7 @@
 #!/usr/bin/env python2
 # -*- coding: utf-8 -*-
 """
-This experiment was created using PsychoPy2 Experiment Builder (v1.82.01), Mon Nov  9 22:57:03 2015
+This experiment was created using PsychoPy2 Experiment Builder (v1.82.01), Wed Mar  2 19:39:23 2016
 If you publish work using this script please cite the relevant PsychoPy publications
   Peirce, JW (2007) PsychoPy - Psychophysics software in Python. Journal of Neuroscience Methods, 162(1-2), 8-13.
   Peirce, JW (2009) Generating stimuli for neuroscience using PsychoPy. Frontiers in Neuroinformatics, 2:10. doi: 10.3389/neuro.11.010.2008
@@ -20,8 +20,8 @@ _thisDir = os.path.dirname(os.path.abspath(__file__))
 os.chdir(_thisDir)
 
 # Store info about the experiment session
-expName = u'RRT'  # from the Builder filename that created this script
-expInfo = {u'gender': u'', u'age': u'', u'participant': u'', u'condition': u''}
+expName = 'RRT'  # from the Builder filename that created this script
+expInfo = {u'gender': u'', u'age': u'', u'participant': u''}
 dlg = gui.DlgFromDict(dictionary=expInfo, title=expName)
 if dlg.OK == False: core.quit()  # user pressed cancel
 expInfo['date'] = data.getDateStr()  # add a simple timestamp
@@ -44,7 +44,7 @@ endExpNow = False  # flag for 'escape' or other condition => quit the exp
 
 # Setup the Window
 win = visual.Window(size=(1366, 768), fullscr=True, screen=0, allowGUI=False, allowStencil=False,
-    monitor=u'testMonitor', color=[-1.000,-1.000,-1.000], colorSpace='rgb',
+    monitor='testMonitor', color=[-1.000,-1.000,-1.000], colorSpace='rgb',
     blendMode='avg', useFBO=True,
     )
 # store frame rate of monitor if we can measure it successfully
@@ -56,20 +56,21 @@ else:
 
 # Initialize components for Routine "instruction"
 instructionClock = core.Clock()
+trialRows = ""
 instructionsBox = visual.TextStim(win=win, ori=0, name='instructionsBox',
-    text='default text',    font=u'Arial',
+    text='default text',    font='Arial',
     pos=[0, 0], height=0.05, wrapWidth=None,
-    color=u'white', colorSpace='rgb', opacity=1,
-    depth=0.0)
+    color='white', colorSpace='rgb', opacity=1,
+    depth=-1.0)
 
 # Initialize components for Routine "trial"
 trialClock = core.Clock()
+msg=""
 stimulusBox = visual.TextStim(win=win, ori=0, name='stimulusBox',
     text='default text',    font='Arial',
     pos=[0, 0], height=0.1, wrapWidth=None,
     color=1.0, colorSpace='rgb', opacity=1,
-    depth=0.0)
-msg=""
+    depth=-1.0)
 feedback = visual.TextStim(win=win, ori=0, name='feedback',
     text='default text',    font='Arial',
     pos=[0, -.5], height=0.2, wrapWidth=None,
@@ -122,6 +123,21 @@ for thisBlock in blocks:
     instructionClock.reset()  # clock 
     frameN = -1
     # update component parameters for each repeat
+    if blocks.thisN == 0:
+        trialRows = "0:10" 
+        nBlockRepeats = 2   #10*2 = 20 trials
+    elif blocks.thisN == 1:
+        trialRows = "10:30" 
+        nBlockRepeats = 1   #20*1 = 20 trials
+    elif blocks.thisN == 2:
+        trialRows = "0:30" 
+        nBlockRepeats = 2   #20*1 = 60 trials
+    elif blocks.thisN == 3:
+        trialRows = "10:30" 
+        nBlockRepeats = 1   #20*1 = 20 trials
+    elif blocks.thisN == 4:
+        trialRows = "0:30" 
+        nBlockRepeats = 2   #10*4 = 60 trials
     instructionsBox.setText(instructions)
     instructionsKey = event.BuilderKeyResponse()  # create an object of type KeyResponse
     instructionsKey.status = NOT_STARTED
@@ -140,6 +156,7 @@ for thisBlock in blocks:
         t = instructionClock.getTime()
         frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
         # update/draw components on each frame
+        
         
         # *instructionsBox* updates
         if t >= 0.75 and instructionsBox.status == NOT_STARTED:
@@ -187,13 +204,14 @@ for thisBlock in blocks:
     for thisComponent in instructionComponents:
         if hasattr(thisComponent, "setAutoDraw"):
             thisComponent.setAutoDraw(False)
+    
     # the Routine "instruction" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset()
     
     # set up handler to look after randomisation of conditions etc
-    trials = data.TrialHandler(nReps=nBlockRepetitions, method='random', 
+    trials = data.TrialHandler(nReps=nBlockRepeats, method='random', 
         extraInfo=expInfo, originPath=None,
-        trialList=data.importConditions(stimulusFile),
+        trialList=data.importConditions('stimuli.xlsx', selection=trialRows),
         seed=None, name='trials')
     thisExp.addLoop(trials)  # add the loop to the experiment
     thisTrial = trials.trialList[0]  # so we can initialise stimuli with some values
@@ -214,13 +232,71 @@ for thisBlock in blocks:
         trialClock.reset()  # clock 
         frameN = -1
         # update component parameters for each repeat
-        stimulusBox.setColor(stimulusColour, colorSpace='rgb')
+        # stimulus colors 
+        if trialtype == 1 or trialtype == 2:
+             stimulusColor = "orange" 
+        elif trialtype >2:
+             stimulusColor = "cyan"
+        
+        # correct and incorrect answers for each trialtype in each block
+        if trialtype == 1: #true
+            requiredAllowed = "i"
+            requiredCorrect = "i"
+            feedbackAllowed = "e"
+            feedbackCorrect = "e"
+        elif trialtype == 2: #false
+            requiredAllowed = "e"
+            requiredCorrect = "e"
+            feedbackAllowed = "i"
+            feedbackCorrect = "i"
+        if blocks.thisN <= 2:
+            if trialtype == 3: #self pos
+                requiredAllowed = "i"
+                requiredCorrect = "i"
+                feedbackAllowed = "e"
+                feedbackCorrect = "e"
+            elif trialtype == 4: #self neg
+                requiredAllowed = "e"
+                requiredCorrect = "e"
+                feedbackAllowed = "i"
+                feedbackCorrect = "i"
+            elif trialtype == 5: #self not pos
+                requiredAllowed = "e"
+                requiredCorrect = "e"
+                feedbackAllowed = "i"
+                feedbackCorrect = "i"
+            elif trialtype == 6: #self not neg
+                requiredAllowed = "i"
+                requiredCorrect = "i"
+                feedbackAllowed = "e"
+                feedbackCorrect = "e"
+        elif blocks.thisN >= 3:
+            if trialtype == 3: #self pos
+                requiredAllowed = "e"
+                requiredCorrect = "e"
+                feedbackAllowed = "i"
+                feedbackCorrect = "i"
+            elif trialtype == 4: #self neg
+                requiredAllowed = "i"
+                requiredCorrect = "i"
+                feedbackAllowed = "e"
+                feedbackCorrect = "e"
+            elif trialtype == 5: #self not pos
+                requiredAllowed = "i"
+                requiredCorrect = "i"
+                feedbackAllowed = "e"
+                feedbackCorrect = "e"
+            elif trialtype == 6: #self not neg
+                requiredAllowed = "e"
+                requiredCorrect = "e"
+                feedbackAllowed = "i"
+                feedbackCorrect = "i"
+        stimulusBox.setColor(stimulusColor, colorSpace='rgb')
         stimulusBox.setText(stimulus)
         requiredResponse = event.BuilderKeyResponse()  # create an object of type KeyResponse
         requiredResponse.status = NOT_STARTED
         feedbackResponse = event.BuilderKeyResponse()  # create an object of type KeyResponse
         feedbackResponse.status = NOT_STARTED
-        
         trueText.setText(trueLabel)
         falseText.setText(falseLabel)
         # keep track of which components have finished
@@ -242,35 +318,39 @@ for thisBlock in blocks:
             t = trialClock.getTime()
             frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
             # update/draw components on each frame
+            if len(feedbackResponse.keys)<1:
+                msg=""
+            else:
+                msg="X"
             
             # *stimulusBox* updates
-            if t >= 0.75 and stimulusBox.status == NOT_STARTED:
+            if t >= 0.3 and stimulusBox.status == NOT_STARTED:
                 # keep track of start time/frame for later
                 stimulusBox.tStart = t  # underestimates by a little under one frame
                 stimulusBox.frameNStart = frameN  # exact frame index
                 stimulusBox.setAutoDraw(True)
             
             # *requiredResponse* updates
-            if t >= 0.75 and requiredResponse.status == NOT_STARTED:
+            if t >= 0.3 and requiredResponse.status == NOT_STARTED:
                 # keep track of start time/frame for later
                 requiredResponse.tStart = t  # underestimates by a little under one frame
                 requiredResponse.frameNStart = frameN  # exact frame index
                 requiredResponse.status = STARTED
-                # AllowedKeys looks like a variable named `requiredResponseAllowed`
-                if not 'requiredResponseAllowed' in locals():
-                    logging.error('AllowedKeys variable `requiredResponseAllowed` is not defined.')
+                # AllowedKeys looks like a variable named `requiredAllowed`
+                if not 'requiredAllowed' in locals():
+                    logging.error('AllowedKeys variable `requiredAllowed` is not defined.')
                     core.quit()
-                if not type(requiredResponseAllowed) in [list, tuple, np.ndarray]:
-                    if not isinstance(requiredResponseAllowed, basestring):
-                        logging.error('AllowedKeys variable `requiredResponseAllowed` is not string- or list-like.')
+                if not type(requiredAllowed) in [list, tuple, np.ndarray]:
+                    if not isinstance(requiredAllowed, basestring):
+                        logging.error('AllowedKeys variable `requiredAllowed` is not string- or list-like.')
                         core.quit()
-                    elif not ',' in requiredResponseAllowed: requiredResponseAllowed = (requiredResponseAllowed,)
-                    else:  requiredResponseAllowed = eval(requiredResponseAllowed)
+                    elif not ',' in requiredAllowed: requiredAllowed = (requiredAllowed,)
+                    else:  requiredAllowed = eval(requiredAllowed)
                 # keyboard checking is just starting
                 requiredResponse.clock.reset()  # now t=0
                 event.clearEvents(eventType='keyboard')
             if requiredResponse.status == STARTED:
-                theseKeys = event.getKeys(keyList=list(requiredResponseAllowed))
+                theseKeys = event.getKeys(keyList=list(requiredAllowed))
                 
                 # check for quit:
                 if "escape" in theseKeys:
@@ -280,7 +360,7 @@ for thisBlock in blocks:
                         requiredResponse.keys = theseKeys[0]  # just the first key pressed
                         requiredResponse.rt = requiredResponse.clock.getTime()
                         # was this 'correct'?
-                        if (requiredResponse.keys == str(requiredResponseCorrect )) or (requiredResponse.keys == requiredResponseCorrect ):
+                        if (requiredResponse.keys == str(requiredCorrect )) or (requiredResponse.keys == requiredCorrect ):
                             requiredResponse.corr = 1
                         else:
                             requiredResponse.corr = 0
@@ -288,26 +368,26 @@ for thisBlock in blocks:
                         continueRoutine = False
             
             # *feedbackResponse* updates
-            if t >= .75 and feedbackResponse.status == NOT_STARTED:
+            if t >= .3 and feedbackResponse.status == NOT_STARTED:
                 # keep track of start time/frame for later
                 feedbackResponse.tStart = t  # underestimates by a little under one frame
                 feedbackResponse.frameNStart = frameN  # exact frame index
                 feedbackResponse.status = STARTED
-                # AllowedKeys looks like a variable named `feedbackResponseAllowed`
-                if not 'feedbackResponseAllowed' in locals():
-                    logging.error('AllowedKeys variable `feedbackResponseAllowed` is not defined.')
+                # AllowedKeys looks like a variable named `feedbackAllowed`
+                if not 'feedbackAllowed' in locals():
+                    logging.error('AllowedKeys variable `feedbackAllowed` is not defined.')
                     core.quit()
-                if not type(feedbackResponseAllowed) in [list, tuple, np.ndarray]:
-                    if not isinstance(feedbackResponseAllowed, basestring):
-                        logging.error('AllowedKeys variable `feedbackResponseAllowed` is not string- or list-like.')
+                if not type(feedbackAllowed) in [list, tuple, np.ndarray]:
+                    if not isinstance(feedbackAllowed, basestring):
+                        logging.error('AllowedKeys variable `feedbackAllowed` is not string- or list-like.')
                         core.quit()
-                    elif not ',' in feedbackResponseAllowed: feedbackResponseAllowed = (feedbackResponseAllowed,)
-                    else:  feedbackResponseAllowed = eval(feedbackResponseAllowed)
+                    elif not ',' in feedbackAllowed: feedbackAllowed = (feedbackAllowed,)
+                    else:  feedbackAllowed = eval(feedbackAllowed)
                 # keyboard checking is just starting
                 feedbackResponse.clock.reset()  # now t=0
                 event.clearEvents(eventType='keyboard')
             if feedbackResponse.status == STARTED:
-                theseKeys = event.getKeys(keyList=list(feedbackResponseAllowed))
+                theseKeys = event.getKeys(keyList=list(feedbackAllowed))
                 
                 # check for quit:
                 if "escape" in theseKeys:
@@ -317,17 +397,13 @@ for thisBlock in blocks:
                         feedbackResponse.keys = theseKeys[0]  # just the first key pressed
                         feedbackResponse.rt = feedbackResponse.clock.getTime()
                         # was this 'correct'?
-                        if (feedbackResponse.keys == str(feedbackResponseCorrect )) or (feedbackResponse.keys == feedbackResponseCorrect ):
+                        if (feedbackResponse.keys == str(feedbackCorrect )) or (feedbackResponse.keys == feedbackCorrect ):
                             feedbackResponse.corr = 1
                         else:
                             feedbackResponse.corr = 0
-            if len(feedbackResponse.keys)<1:
-                msg=""
-            else:
-                msg="X"
             
             # *feedback* updates
-            if t >= .75 and feedback.status == NOT_STARTED:
+            if t >= .3 and feedback.status == NOT_STARTED:
                 # keep track of start time/frame for later
                 feedback.tStart = t  # underestimates by a little under one frame
                 feedback.frameNStart = frameN  # exact frame index
@@ -370,11 +446,12 @@ for thisBlock in blocks:
         for thisComponent in trialComponents:
             if hasattr(thisComponent, "setAutoDraw"):
                 thisComponent.setAutoDraw(False)
+        
         # check responses
         if requiredResponse.keys in ['', [], None]:  # No response was made
            requiredResponse.keys=None
            # was no response the correct answer?!
-           if str(requiredResponseCorrect ).lower() == 'none': requiredResponse.corr = 1  # correct non-response
+           if str(requiredCorrect ).lower() == 'none': requiredResponse.corr = 1  # correct non-response
            else: requiredResponse.corr = 0  # failed to respond (incorrectly)
         # store data for trials (TrialHandler)
         trials.addData('requiredResponse.keys',requiredResponse.keys)
@@ -385,19 +462,18 @@ for thisBlock in blocks:
         if feedbackResponse.keys in ['', [], None]:  # No response was made
            feedbackResponse.keys=None
            # was no response the correct answer?!
-           if str(feedbackResponseCorrect ).lower() == 'none': feedbackResponse.corr = 1  # correct non-response
+           if str(feedbackCorrect ).lower() == 'none': feedbackResponse.corr = 1  # correct non-response
            else: feedbackResponse.corr = 0  # failed to respond (incorrectly)
         # store data for trials (TrialHandler)
         trials.addData('feedbackResponse.keys',feedbackResponse.keys)
         trials.addData('feedbackResponse.corr', feedbackResponse.corr)
         if feedbackResponse.keys != None:  # we had a response
             trials.addData('feedbackResponse.rt', feedbackResponse.rt)
-        
         # the Routine "trial" was not non-slip safe, so reset the non-slip timer
         routineTimer.reset()
         thisExp.nextEntry()
         
-    # completed nBlockRepetitions repeats of 'trials'
+    # completed nBlockRepeats repeats of 'trials'
     
 # completed 1 repeats of 'blocks'
 
@@ -453,6 +529,7 @@ while continueRoutine and routineTimer.getTime() > 0:
 for thisComponent in endComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
+
 
 win.close()
 core.quit()
