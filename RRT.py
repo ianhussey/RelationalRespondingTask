@@ -1,7 +1,7 @@
 #!/usr/bin/env python2
 # -*- coding: utf-8 -*-
 """
-This experiment was created using PsychoPy2 Experiment Builder (v1.82.01), Sun May  1 16:04:58 2016
+This experiment was created using PsychoPy2 Experiment Builder (v1.82.01), Sun May  1 16:57:11 2016
 If you publish work using this script please cite the relevant PsychoPy publications
   Peirce, JW (2007) PsychoPy - Psychophysics software in Python. Journal of Neuroscience Methods, 162(1-2), 8-13.
   Peirce, JW (2009) Generating stimuli for neuroscience using PsychoPy. Frontiers in Neuroinformatics, 2:10. doi: 10.3389/neuro.11.010.2008
@@ -61,10 +61,19 @@ instructionClock = core.Clock()
 # Dependencies
 import itertools  # for flattening lists of lists into lists
 import random
+import math  # for math.ceil() rounding up
 
 # Import stimuli exemplars
 exemplars_filename = 'stimuli.xlsx'
 exemplars = data.importConditions(exemplars_filename)# Import stimuli exemplars
+
+# Determine rows of examplars (i.e., max number of rows)
+"""
+This method creates a fully counterbalanced presentation of exemplars when there are 5
+of them, but it will not present each one an equal number of times it the n diverges from 5.
+"""
+n_exemplars = len(exemplars)
+list_multiplier = int(math.ceil(10/n_exemplars))  # math.ceil() rounds up. 10 is the derived from way block lengths are calculated
 
 # Trial generation function
 def generate_trials(trial_type_column, multiplier):
@@ -160,12 +169,12 @@ for thisBlock in blocks:
         n_block_repeats = 10   #6*10 = 60 trials
     
     # Generate list of stimuli for the block
-    trial_type_1_trials = generate_trials('trial_type_1_exemplars', 2)
-    trial_type_2_trials = generate_trials('trial_type_2_exemplars', 2)
-    trial_type_3_trials = generate_trials('trial_type_3_exemplars', 2)
-    trial_type_4_trials = generate_trials('trial_type_4_exemplars', 2)
-    trial_type_5_trials = generate_trials('trial_type_5_exemplars', 2)
-    trial_type_6_trials = generate_trials('trial_type_6_exemplars', 2)
+    trial_type_1_trials = generate_trials('trial_type_1_exemplars', list_multiplier)  # function and variable determined at begin exp.
+    trial_type_2_trials = generate_trials('trial_type_2_exemplars', list_multiplier)
+    trial_type_3_trials = generate_trials('trial_type_3_exemplars', list_multiplier)
+    trial_type_4_trials = generate_trials('trial_type_4_exemplars', list_multiplier)
+    trial_type_5_trials = generate_trials('trial_type_5_exemplars', list_multiplier)
+    trial_type_6_trials = generate_trials('trial_type_6_exemplars', list_multiplier)
     
     instructions_box.setText(instructions)
     instructions_key = event.BuilderKeyResponse()  # create an object of type KeyResponse
