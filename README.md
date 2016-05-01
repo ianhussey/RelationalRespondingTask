@@ -1,11 +1,13 @@
 # Relational Responding Task (RRT) written in PsychoPy
-## LicenceCopyright Ian Hussey (ian.hussey@ugent.be)
+## LicenceCopyright (c) 2015-2016 Ian Hussey (ian.hussey@ugent.be)
 
 Distributed under the MIT licence
-## Version1.0 (1/5/2016)
+## Version1.1 (1/5/2016)
 Written in PsychoPy 1.82.01
-## Notes- NB written in PsychoPy 1.82.01. Bugs may crop up if you run this script in a different version of PsychoPy.- The escape key quits the task at any time. E, I, or the return key ends the task properly once it’s complete.- You can run either the psyexp file or the py file inside psychopy. The py file should have greater cross platform support; if you run into errors with the psyexp file use the py instead.- psydat and csv files are produced for each participant. csv file alone is sufficient to most analyses (e.g., calculation of D scores).- All stimuli and instructions can be altered by editing the excel files. However, there must be 5 exemplars per target stimulus category for the current code implimentation to function correctly, and for it to retain the block layout specified below.- The block length is the number of rows per stimulus file multiplied by the nBlockReptitions variable for that iteration of the blocks loop, which is specified in the instructions file. I've done it this way (rather than simply duplicating the rows in a given stimulus file) so that the same stimulus cannot appear on two consecutive trials. 
-- ITI is set to 300 ms (700 in the original publication).
+## Notes- NB written in PsychoPy 1.82.01. Bugs may crop up if you run this script in a different version of PsychoPy.- The escape key quits the task at any time. E, I, or the return key ends the task properly once it’s complete.- You can run either the .psyexp file or the .py file inside PsychoPy. The .py file should have greater cross-platform support; if you run into errors with the .psyexp file use the .py instead.- .psydat, .log, and .csv files are produced for each participant. The .csv file alone is sufficient for most analyses (e.g., calculation of D1 scores).- The block length is fixed within the code to Sean's implimentation (see below). 
+- All stimuli and instructions can be altered by editing the excel files.
+- The number of exemplars can vary freely; it's currently 5 but can be more or less without this affecting the block length. However, it must be identical across categories.
+- ITI is set to 300 ms (was 700 in the original publication).
 
 ## Block layout
 The current version follows’s Sean Hughes’ (unpublished) block layout design rather than Niclas Heider’s design (as used in De Houwer et al., 2015). The key difference between these is that Sean’s design lowers the number of training trials and the ratio of inducers to target trials in the test blocks. Effects are therefore calculated on the same total number of test trials, but the task length is shortened by about 30% (from c.10 mins to c.7 mins)
@@ -16,9 +18,6 @@ The current version follows’s Sean Hughes’ (unpublished) block layout design
 10 target RT pairs per trial-type (40 total)
 280 total trials
 Estimated 10 min completion time inc 1 min reading instructions
-
-10 inducer stimuli = 5 exemplars for true and 5 for false
-20 target stimuli = 4 trial-types with 5 exemplars each
 
 * Block 1 (Inducer) 40 Trials (4 loops of 10 inducers)
 * Block 2 (Target) 40 Trials (2 loops of 20 targets)
@@ -33,9 +32,6 @@ Estimated 10 min completion time inc 1 min reading instructions
 280 total trials
 Estimated 7 min completion time inc 1 min reading instructions
 
-10 inducer stimuli = 5 exemplars for true and 5 for false.
-20 target stimuli = 4 trial-types with 5 exemplars each.
-
 * Block 1 (Inducer) 20 Trials (2 loops of 10 inducers)
 * Block 2 (Target) 20 Trials (1 loop of 20 targets)
 * Block 3 (Rule 1) 60 Trials (2 loops of 10 inducers plus 20 targets)
@@ -47,13 +43,17 @@ Estimated 7 min completion time inc 1 min reading instructions
 
 2. If participants get 100% of trials correct throughout the whole task then the feedbackResponse columns will not be created that participant. This is both highly unlikely, and also not a problem if your data processing workflow processes files based on column name (e.g., using plyr's `rbind.fill()` function) rather than column position (e.g., an SPSS script using a GET command - although some R solutions do assume all files have equal dimensions too). 
 
-3. Because the stimulus file conflates block order with the exemplars, the task requires exactly 5 exemplars per category. My psychopy IRAP implimentation has a method to separate these out, but it hasn't been implimented here yet.  
+3. The task requires exactly 5 exemplars per category due to how the stimuli lists are populated. 
 
 4. Flemmish language instructions need updating now that english instructions have been simplified. 
 
 5. Number of critical RT pairs is relativley low for trial-type level analyses. Think about doubling the lengths of blocks 3 and 5 to 120 trials (or including additonal test blocks in order to give people a break) - this would give you roughtly the same number as in a standard IRAP.
 
 ## Changelog
+### 1.1
+- Seperated stimuli file into exemplars and block_layout. Multiplier is determined by the number of exemplars. As such, the block lengths are fixed by the code, but the number of exemplars can vary freely (although they must be equal across trial types, e.g., all must have N).
+- Moved true/false labels to instructions file.
+
 ### 1.0
 - Log file added.
 - Variable names changed to meet PEP8 standard.
