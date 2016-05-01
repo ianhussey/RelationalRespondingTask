@@ -2,7 +2,7 @@
 ## LicenceCopyright Ian Hussey (ian.hussey@ugent.be)
 
 Distributed under the MIT licence
-## Version1.0 (1/5/2016)
+## Version1.1 (1/5/2016)
 Written in PsychoPy 1.82.01
 ## Notes- NB written in PsychoPy 1.82.01. Bugs may crop up if you run this script in a different version of PsychoPy.- The escape key quits the task at any time. E, I, or the return key ends the task properly once it’s complete.- You can run either the psyexp file or the py file inside psychopy. The py file should have greater cross platform support; if you run into errors with the psyexp file use the py instead.- psydat and csv files are produced for each participant. csv file alone is sufficient to most analyses (e.g., calculation of D scores).- All stimuli and instructions can be altered by editing the excel files. However, there must be 5 exemplars per target stimulus category for the current code implimentation to function correctly, and for it to retain the block layout specified below.- The block length is the number of rows per stimulus file multiplied by the nBlockReptitions variable for that iteration of the blocks loop, which is specified in the instructions file. I've done it this way (rather than simply duplicating the rows in a given stimulus file) so that the same stimulus cannot appear on two consecutive trials. 
 - ITI is set to 300 ms (700 in the original publication).
@@ -47,13 +47,16 @@ Estimated 7 min completion time inc 1 min reading instructions
 
 2. If participants get 100% of trials correct throughout the whole task then the feedbackResponse columns will not be created that participant. This is both highly unlikely, and also not a problem if your data processing workflow processes files based on column name (e.g., using plyr's `rbind.fill()` function) rather than column position (e.g., an SPSS script using a GET command - although some R solutions do assume all files have equal dimensions too). 
 
-3. Because the stimulus file conflates block order with the exemplars, the task requires exactly 5 exemplars per category. My psychopy IRAP implimentation has a method to separate these out, but it hasn't been implimented here yet.  
+3. The task requires exactly 5 exemplars per category due to how the stimuli lists are populated. 
 
 4. Flemmish language instructions need updating now that english instructions have been simplified. 
 
 5. Number of critical RT pairs is relativley low for trial-type level analyses. Think about doubling the lengths of blocks 3 and 5 to 120 trials (or including additonal test blocks in order to give people a break) - this would give you roughtly the same number as in a standard IRAP.
 
 ## Changelog
+### 1.1
+- Seperated stimuli file into exemplars and block_layout. Next step is to base the multiplier on the number of exemplars. Then block length will be fixed, but number of exemplars can vary freely.
+
 ### 1.0
 - Log file added.
 - Variable names changed to meet PEP8 standard.

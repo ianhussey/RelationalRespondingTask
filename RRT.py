@@ -1,7 +1,7 @@
 #!/usr/bin/env python2
 # -*- coding: utf-8 -*-
 """
-This experiment was created using PsychoPy2 Experiment Builder (v1.82.01), Sat Apr 30 23:57:26 2016
+This experiment was created using PsychoPy2 Experiment Builder (v1.82.01), Sun May  1 16:04:58 2016
 If you publish work using this script please cite the relevant PsychoPy publications
   Peirce, JW (2007) PsychoPy - Psychophysics software in Python. Journal of Neuroscience Methods, 162(1-2), 8-13.
   Peirce, JW (2009) Generating stimuli for neuroscience using PsychoPy. Frontiers in Neuroinformatics, 2:10. doi: 10.3389/neuro.11.010.2008
@@ -58,11 +58,28 @@ else:
 
 # Initialize components for Routine "instruction"
 instructionClock = core.Clock()
+# Dependencies
+import itertools  # for flattening lists of lists into lists
+import random
 
+# Import stimuli exemplars
+exemplars_filename = 'stimuli.xlsx'
+exemplars = data.importConditions(exemplars_filename)# Import stimuli exemplars
+
+# Trial generation function
+def generate_trials(trial_type_column, multiplier):
+    """Generate a shuffled list of stimuli exemplars from a column in an excel stimuli file""" 
+    a = dict()  # declare a dict to be populated
+    for i in range(len(exemplars)):
+        a[i] = [exemplars[i][trial_type_column]] * multiplier  # populate the dict from vertical reads of the conditions
+    a = a.values()  # extract only values (and not keys) from the list of dicts
+    a = list(itertools.chain(*a))  # flatten the list of dicts into a list
+    random.shuffle(a)  # shuffle this list, so that it can be drawn from by the trials
+    return a
 instructions_box = visual.TextStim(win=win, ori=0, name='instructions_box',
-    text='default text',    font=u'Arial',
+    text='default text',    font='Arial',
     pos=[0, 0], height=0.08, wrapWidth=1.6,
-    color=u'white', colorSpace='rgb', opacity=1,
+    color='white', colorSpace='rgb', opacity=1,
     depth=-1.0)
 
 # Initialize components for Routine "trial"
@@ -125,21 +142,31 @@ for thisBlock in blocks:
     instructionClock.reset()  # clock 
     frameN = -1
     # update component parameters for each repeat
+    # Determine block repeats and which trial rows are used in each block
     if blocks.thisN == 0:
-        trial_rows = "0:10" 
-        n_block_repeats = 2   #10*2 = 20 trials
+        trial_rows = "0:2" 
+        n_block_repeats = 10   #2*10 = 20 trials
     elif blocks.thisN == 1:
-        trial_rows = "10:30" 
-        n_block_repeats = 1   #20*1 = 20 trials
+        trial_rows = "2:6" 
+        n_block_repeats = 5   #4*5 = 20 trials
     elif blocks.thisN == 2:
-        trial_rows = "0:30" 
-        n_block_repeats = 2   #20*1 = 60 trials
+        trial_rows = "0:6" 
+        n_block_repeats = 10   #6*10 = 60 trials
     elif blocks.thisN == 3:
-        trial_rows = "10:30" 
-        n_block_repeats = 1   #20*1 = 20 trials
+        trial_rows = "2:6" 
+        n_block_repeats = 5   #4*5 = 20 trials
     elif blocks.thisN == 4:
-        trial_rows = "0:30" 
-        n_block_repeats = 2   #10*4 = 60 trials
+        trial_rows = "0:6" 
+        n_block_repeats = 10   #6*10 = 60 trials
+    
+    # Generate list of stimuli for the block
+    trial_type_1_trials = generate_trials('trial_type_1_exemplars', 2)
+    trial_type_2_trials = generate_trials('trial_type_2_exemplars', 2)
+    trial_type_3_trials = generate_trials('trial_type_3_exemplars', 2)
+    trial_type_4_trials = generate_trials('trial_type_4_exemplars', 2)
+    trial_type_5_trials = generate_trials('trial_type_5_exemplars', 2)
+    trial_type_6_trials = generate_trials('trial_type_6_exemplars', 2)
+    
     instructions_box.setText(instructions)
     instructions_key = event.BuilderKeyResponse()  # create an object of type KeyResponse
     instructions_key.status = NOT_STARTED
@@ -211,9 +238,9 @@ for thisBlock in blocks:
     routineTimer.reset()
     
     # set up handler to look after randomisation of conditions etc
-    trials = data.TrialHandler(nReps=n_block_repeats, method='random', 
+    trials = data.TrialHandler(nReps=n_block_repeats, method='fullRandom', 
         extraInfo=expInfo, originPath=None,
-        trialList=data.importConditions('stimuli.xlsx', selection=trial_rows),
+        trialList=data.importConditions('block_layout.xlsx', selection=trial_rows),
         seed=None, name='trials')
     thisExp.addLoop(trials)  # add the loop to the experiment
     thisTrial = trials.trialList[0]  # so we can initialise stimuli with some values
@@ -234,6 +261,20 @@ for thisBlock in blocks:
         trialClock.reset()  # clock 
         frameN = -1
         # update component parameters for each repeat
+        # choose a random exemplar from the appropriate trial type list
+        if trial_type == 1:
+            stimulus = trial_type_1_trials.pop()
+        elif trial_type == 2:
+            stimulus = trial_type_2_trials.pop()
+        elif trial_type == 3:
+            stimulus = trial_type_3_trials.pop()
+        elif trial_type == 4:
+            stimulus = trial_type_4_trials.pop()
+        elif trial_type == 5:
+            stimulus = trial_type_5_trials.pop()
+        elif trial_type == 6:
+            stimulus = trial_type_6_trials.pop()
+        
         # stimulus colors 
         if trial_type == 1 or trial_type == 2:
              stimulus_color = "orange" 
