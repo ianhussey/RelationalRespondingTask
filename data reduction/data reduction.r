@@ -1,0 +1,156 @@
+########################################################################
+# Create summary statistics and D1 scores for 
+# the Relational Responding Task version 0.11
+########################################################################
+# Notes:
+
+# Creates output for the practice blocks, and the test blocks both with
+# and without the inducer trials. Published work has exclued inducers 
+# for the moment, but this needs further scrutiny.
+
+# No internal consistency data processing included for the moment
+
+########################################################################
+# clean the workspace
+rm(list=ls())
+
+########################################################################
+# dependencies
+library(plyr) #must import before dplyr
+library(dplyr)
+library(tidyr)
+library(readr)
+library(data.table)
+
+########################################################################
+# data acquisition and cleaning
+setwd("~/git/RRT/data")  # Set the working directory in which to look for data files
+
+files <- list.files(pattern = "\\.csv$")  # Create a list of the csv files in this folder
+df <- tbl_df(rbind.fill(lapply(files, fread, header=TRUE)))  # Read these files into a single dplyr-style data frame. 
+
+df <- 
+  # make some variables' names more intelligible
+  rename(df,
+         block = blocks.thisN, # current block 
+         block_half = trials.thisRepN, # first or second half of the block (where repeated, doesn't apply to all blocks)
+         trial = trials.thisN,
+         rt = required_response.rt,
+         accuracy = feedback_response.corr) %>%
+    
+  # make variable names more intelligible
+  mutate(accuracy = abs(accuracy - 1),  # the program records presses of the "incorrect" key as correct, so reverse the ones and zeros
+         block = block + 1) %>%  # recity 1-5
+  
+  # columns of interest
+  select(participant, 
+         gender,
+         age,
+         date,
+         block,
+         block_half, # first or second half of the block (where repeated, doesn't apply to all blocks or tasks) **?discard?
+         trial_type, # trial-type. 1 & 2 = inducers, 3-6 = targets
+         trial,
+         rt,
+         accuracy)
+
+########################################################################
+# D1 scores, accuracy and latency summaries - inducer trials excluded
+D1_df <- 
+  filter(df, 
+         rt <= 10000,  # Remove all reaction times above 10,000 ms. 
+         trial_type >= 3) %>%  # remove inducer trials
+  group_by(participant) %>%
+  summarize(
+    # D1 score for practice blocks (2 and 4)
+    mean_rt_block2 = mean(rt[block == 2], na.rm = TRUE),
+    mean_rt_block4 = mean(rt[block == 4], na.rm = TRUE),
+    
+    difference_practice = mean_rt_block4 - mean_rt_block2,
+    sd_rt_block2and4 = sd(rt[block == 2 | block == 4], na.rm = TRUE),
+    D1_practice = round(difference_practice / sd_rt_block2and4, 2),
+    
+    # D1 score for critical blocks (3 and 5)  
+    mean_rt_block3 = mean(rt[block == 3], na.rm = TRUE), 
+    mean_rt_block5 = mean(rt[block == 5], na.rm = TRUE),
+    
+    difference = mean_rt_block5 - mean_rt_block3,
+    
+    sd_rt_block3and5 = sd(rt[block == 3 | block == 5], na.rm = TRUE),
+    
+    D1 = round(difference / sd_rt_block3and5, 2),
+
+    # mean latencies
+    mean_latency_practice = round(mean(c(mean_rt_block2, mean_rt_block4), na.rm = TRUE), 2), 
+    mean_latency = round(mean(c(mean_rt_block3, mean_rt_block5), na.rm = TRUE), 2),
+    
+    # % accuracies
+    accuracy_block2 = sum(accuracy[block == 2], na.rm = TRUE) / 20,
+    accuracy_block3 = sum(accuracy[block == 3], na.rm = TRUE) / 40, #this n of 40 includes only the target trials and not the 20 inducers
+    accuracy_block4 = sum(accuracy[block == 4], na.rm = TRUE) / 20,
+    accuracy_block5 = sum(accuracy[block == 5], na.rm = TRUE) / 40, #this n of 40 includes only the target trials and not the 20 inducers 
+    
+    accuracy_practice = round(mean(c(accuracy_block2, accuracy_block4), na.rm = TRUE), 2),
+    accuracy = round(mean(c(accuracy_block3, accuracy_block5), na.rm = TRUE), 2)
+  ) %>%
+  
+  # columns of interest
+  select(participant,
+         accuracy_practice,
+         mean_latency_practice,
+         D1_practice,
+         accuracy,
+         mean_latency,
+         D1)
+
+########################################################################
+# D1 scores, accuracy and latency summaries - inducer trials included
+D1_with_inducers_df <- 
+  filter(df, 
+         rt <= 10000) %>%  # Remove all reaction times above 10,000 ms. 
+  group_by(participant) %>%
+  summarize(
+    # D1 score for critical blocks (3 and 5)  
+    mean_rt_block3 = mean(rt[block == 3], na.rm = TRUE), 
+    mean_rt_block5 = mean(rt[block == 5], na.rm = TRUE),
+    
+    difference = mean_rt_block5 - mean_rt_block3,
+    sd_rt_block3and5 = sd(rt[block == 3 | block == 5], na.rm = TRUE),
+    D1_with_inducers = round(difference / sd_rt_block3and5, 2),
+    
+    # mean latencies
+    mean_latency_with_inducers = round(mean(c(mean_rt_block3, mean_rt_block5), na.rm = TRUE), 2),
+    
+    # % accuracies
+    accuracy_block3 = sum(accuracy[block == 3], na.rm = TRUE) / 40, #this n of 40 includes only the target trials and not the 20 inducers
+    accuracy_block5 = sum(accuracy[block == 5], na.rm = TRUE) / 40, #this n of 40 includes only the target trials and not the 20 inducers 
+    accuracy_with_inducers = round(mean(c(accuracy_block3, accuracy_block5), na.rm = TRUE), 2)
+  ) %>%
+  
+  # columns of interest
+  select(participant,
+         accuracy_with_inducers,
+         mean_latency_with_inducers,
+         D1_with_inducers)
+
+########################################################################
+# demographics
+demographics_df <-
+  select(df,
+         participant,
+         age,
+         gender) %>%
+  distinct(participant)
+
+########################################################################
+# join data frames
+joined_df <- 
+  join_all(list(demographics_df, 
+                D1_df,
+                D1_with_inducers_df),
+           by = "participant",
+           type = "full")
+
+########################################################################
+# Write to disk
+write.csv(joined_df, file = "~/git/RRT/data reduction/reduced_data.csv", row.names=FALSE)

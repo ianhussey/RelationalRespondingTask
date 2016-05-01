@@ -1,0 +1,1801 @@
+instructions,stimulus,trial_type,true_label,false_label,blocks.thisRepN,blocks.thisTrialN,blocks.thisN,blocks.thisIndex,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,required_response.keys,required_response.corr,required_response.rt,feedback_response.keys,feedback_response.corr,feedback_response.rt,participant,gender,age,frameRate,expName,date,
+"In this reaction time task will you have to respond to words and statements that are presented on screen. 
+
+The first phase presents both words in orange.
+
+Your job is to categorise these words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Put your two index fingers on the E and I keys. Press either one to start.",Incorrect,2,TRUE,FALSE,0,0,0,0,0,0,0,6,e,1,0.720362901688,i,1,0.620148897171,1,,,59.8221439992,RRT,2016_May_01_0130,
+"In this reaction time task will you have to respond to words and statements that are presented on screen. 
+
+The first phase presents both words in orange.
+
+Your job is to categorise these words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Put your two index fingers on the E and I keys. Press either one to start.",False,2,TRUE,FALSE,0,0,0,0,0,1,1,5,e,1,0.637279033661,i,1,0.554027080536,1,,,59.8221439992,RRT,2016_May_01_0130,
+"In this reaction time task will you have to respond to words and statements that are presented on screen. 
+
+The first phase presents both words in orange.
+
+Your job is to categorise these words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Put your two index fingers on the E and I keys. Press either one to start.",Accurate,1,TRUE,FALSE,0,0,0,0,0,2,2,3,i,1,0.385695934296,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"In this reaction time task will you have to respond to words and statements that are presented on screen. 
+
+The first phase presents both words in orange.
+
+Your job is to categorise these words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Put your two index fingers on the E and I keys. Press either one to start.",Confirm,1,TRUE,FALSE,0,0,0,0,0,3,3,4,i,1,0.603777885437,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"In this reaction time task will you have to respond to words and statements that are presented on screen. 
+
+The first phase presents both words in orange.
+
+Your job is to categorise these words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Put your two index fingers on the E and I keys. Press either one to start.",Wrong,2,TRUE,FALSE,0,0,0,0,0,4,4,7,e,1,0.503552913666,i,1,0.469036102295,1,,,59.8221439992,RRT,2016_May_01_0130,
+"In this reaction time task will you have to respond to words and statements that are presented on screen. 
+
+The first phase presents both words in orange.
+
+Your job is to categorise these words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Put your two index fingers on the E and I keys. Press either one to start.",True,1,TRUE,FALSE,0,0,0,0,0,5,5,0,i,1,0.303055047989,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"In this reaction time task will you have to respond to words and statements that are presented on screen. 
+
+The first phase presents both words in orange.
+
+Your job is to categorise these words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Put your two index fingers on the E and I keys. Press either one to start.",Correct,1,TRUE,FALSE,0,0,0,0,0,6,6,1,i,1,0.504734039307,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"In this reaction time task will you have to respond to words and statements that are presented on screen. 
+
+The first phase presents both words in orange.
+
+Your job is to categorise these words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Put your two index fingers on the E and I keys. Press either one to start.",Untrue,2,TRUE,FALSE,0,0,0,0,0,7,7,9,e,1,0.486233949661,i,1,0.435583114624,1,,,59.8221439992,RRT,2016_May_01_0130,
+"In this reaction time task will you have to respond to words and statements that are presented on screen. 
+
+The first phase presents both words in orange.
+
+Your job is to categorise these words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Put your two index fingers on the E and I keys. Press either one to start.",Right,1,TRUE,FALSE,0,0,0,0,0,8,8,2,i,1,0.402522087097,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"In this reaction time task will you have to respond to words and statements that are presented on screen. 
+
+The first phase presents both words in orange.
+
+Your job is to categorise these words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Put your two index fingers on the E and I keys. Press either one to start.",Inaccurate,2,TRUE,FALSE,0,0,0,0,0,9,9,8,e,1,0.553802967072,i,1,0.486904144287,1,,,59.8221439992,RRT,2016_May_01_0130,
+"In this reaction time task will you have to respond to words and statements that are presented on screen. 
+
+The first phase presents both words in orange.
+
+Your job is to categorise these words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Put your two index fingers on the E and I keys. Press either one to start.",Accurate,1,TRUE,FALSE,0,0,0,0,1,0,10,3,i,1,0.30202794075,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"In this reaction time task will you have to respond to words and statements that are presented on screen. 
+
+The first phase presents both words in orange.
+
+Your job is to categorise these words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Put your two index fingers on the E and I keys. Press either one to start.",False,2,TRUE,FALSE,0,0,0,0,1,1,11,5,e,1,0.6202480793,i,1,0.536004066467,1,,,59.8221439992,RRT,2016_May_01_0130,
+"In this reaction time task will you have to respond to words and statements that are presented on screen. 
+
+The first phase presents both words in orange.
+
+Your job is to categorise these words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Put your two index fingers on the E and I keys. Press either one to start.",True,1,TRUE,FALSE,0,0,0,0,1,2,12,0,i,1,0.319176912308,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"In this reaction time task will you have to respond to words and statements that are presented on screen. 
+
+The first phase presents both words in orange.
+
+Your job is to categorise these words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Put your two index fingers on the E and I keys. Press either one to start.",Incorrect,2,TRUE,FALSE,0,0,0,0,1,3,13,6,e,1,1.17322802544,i,1,1.07274389267,1,,,59.8221439992,RRT,2016_May_01_0130,
+"In this reaction time task will you have to respond to words and statements that are presented on screen. 
+
+The first phase presents both words in orange.
+
+Your job is to categorise these words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Put your two index fingers on the E and I keys. Press either one to start.",Wrong,2,TRUE,FALSE,0,0,0,0,1,4,14,7,e,1,0.43714594841,i,1,0.436891078949,1,,,59.8221439992,RRT,2016_May_01_0130,
+"In this reaction time task will you have to respond to words and statements that are presented on screen. 
+
+The first phase presents both words in orange.
+
+Your job is to categorise these words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Put your two index fingers on the E and I keys. Press either one to start.",Correct,1,TRUE,FALSE,0,0,0,0,1,5,15,1,i,1,0.703827142715,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"In this reaction time task will you have to respond to words and statements that are presented on screen. 
+
+The first phase presents both words in orange.
+
+Your job is to categorise these words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Put your two index fingers on the E and I keys. Press either one to start.",Inaccurate,2,TRUE,FALSE,0,0,0,0,1,6,16,8,e,1,0.703754901886,i,1,0.569412946701,1,,,59.8221439992,RRT,2016_May_01_0130,
+"In this reaction time task will you have to respond to words and statements that are presented on screen. 
+
+The first phase presents both words in orange.
+
+Your job is to categorise these words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Put your two index fingers on the E and I keys. Press either one to start.",Confirm,1,TRUE,FALSE,0,0,0,0,1,7,17,4,i,1,0.636208057404,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"In this reaction time task will you have to respond to words and statements that are presented on screen. 
+
+The first phase presents both words in orange.
+
+Your job is to categorise these words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Put your two index fingers on the E and I keys. Press either one to start.",Untrue,2,TRUE,FALSE,0,0,0,0,1,8,18,9,e,1,0.720153093338,i,1,0.654222011566,1,,,59.8221439992,RRT,2016_May_01_0130,
+"In this reaction time task will you have to respond to words and statements that are presented on screen. 
+
+The first phase presents both words in orange.
+
+Your job is to categorise these words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Put your two index fingers on the E and I keys. Press either one to start.",Right,1,TRUE,FALSE,0,0,0,0,1,9,19,2,i,1,0.352887868881,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents statements about self esteem in blue.
+
+You must respond AS IF 'I am good and not bad'.
+
+For example:
+When 'I am valuable' appears, respond with TRUE.
+When 'I am worthless' appears, respond with FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",I am not boring,6,TRUE,FALSE,0,1,1,1,0,0,0,18,i,1,0.536076068878,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents statements about self esteem in blue.
+
+You must respond AS IF 'I am good and not bad'.
+
+For example:
+When 'I am valuable' appears, respond with TRUE.
+When 'I am worthless' appears, respond with FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",I am not a failure,6,TRUE,FALSE,0,1,1,1,0,1,1,16,i,1,0.334813117981,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents statements about self esteem in blue.
+
+You must respond AS IF 'I am good and not bad'.
+
+For example:
+When 'I am valuable' appears, respond with TRUE.
+When 'I am worthless' appears, respond with FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",I am kind,3,TRUE,FALSE,0,1,1,1,0,2,2,4,i,1,0.519242048264,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents statements about self esteem in blue.
+
+You must respond AS IF 'I am good and not bad'.
+
+For example:
+When 'I am valuable' appears, respond with TRUE.
+When 'I am worthless' appears, respond with FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",I am good,3,TRUE,FALSE,0,1,1,1,0,3,3,0,i,1,0.519510030746,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents statements about self esteem in blue.
+
+You must respond AS IF 'I am good and not bad'.
+
+For example:
+When 'I am valuable' appears, respond with TRUE.
+When 'I am worthless' appears, respond with FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",I am dumb,4,TRUE,FALSE,0,1,1,1,0,4,4,9,e,1,0.838844060898,i,1,0.552467823029,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents statements about self esteem in blue.
+
+You must respond AS IF 'I am good and not bad'.
+
+For example:
+When 'I am valuable' appears, respond with TRUE.
+When 'I am worthless' appears, respond with FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",I am not worthless,6,TRUE,FALSE,0,1,1,1,0,5,5,17,i,1,0.503428936005,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents statements about self esteem in blue.
+
+You must respond AS IF 'I am good and not bad'.
+
+For example:
+When 'I am valuable' appears, respond with TRUE.
+When 'I am worthless' appears, respond with FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",I am not dumb,6,TRUE,FALSE,0,1,1,1,0,6,6,19,i,1,0.754076004028,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents statements about self esteem in blue.
+
+You must respond AS IF 'I am good and not bad'.
+
+For example:
+When 'I am valuable' appears, respond with TRUE.
+When 'I am worthless' appears, respond with FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",I am not kind,5,TRUE,FALSE,0,1,1,1,0,7,7,14,e,1,0.168563842773,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents statements about self esteem in blue.
+
+You must respond AS IF 'I am good and not bad'.
+
+For example:
+When 'I am valuable' appears, respond with TRUE.
+When 'I am worthless' appears, respond with FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",I am a failure,4,TRUE,FALSE,0,1,1,1,0,8,8,6,e,1,0.922034025192,i,1,0.603306055069,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents statements about self esteem in blue.
+
+You must respond AS IF 'I am good and not bad'.
+
+For example:
+When 'I am valuable' appears, respond with TRUE.
+When 'I am worthless' appears, respond with FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",I am not valuable,5,TRUE,FALSE,0,1,1,1,0,9,9,11,e,1,0.904554128647,i,1,0.587095022202,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents statements about self esteem in blue.
+
+You must respond AS IF 'I am good and not bad'.
+
+For example:
+When 'I am valuable' appears, respond with TRUE.
+When 'I am worthless' appears, respond with FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",I am interesting,3,TRUE,FALSE,0,1,1,1,0,10,10,3,i,1,0.588073015213,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents statements about self esteem in blue.
+
+You must respond AS IF 'I am good and not bad'.
+
+For example:
+When 'I am valuable' appears, respond with TRUE.
+When 'I am worthless' appears, respond with FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",I am not good,5,TRUE,FALSE,0,1,1,1,0,11,11,10,e,1,1.05614113808,i,1,0.771152019501,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents statements about self esteem in blue.
+
+You must respond AS IF 'I am good and not bad'.
+
+For example:
+When 'I am valuable' appears, respond with TRUE.
+When 'I am worthless' appears, respond with FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",I am bad,4,TRUE,FALSE,0,1,1,1,0,12,12,5,e,1,0.753893852234,i,1,0.485888957977,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents statements about self esteem in blue.
+
+You must respond AS IF 'I am good and not bad'.
+
+For example:
+When 'I am valuable' appears, respond with TRUE.
+When 'I am worthless' appears, respond with FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",I am valuable,3,TRUE,FALSE,0,1,1,1,0,13,13,1,i,1,0.536612987518,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents statements about self esteem in blue.
+
+You must respond AS IF 'I am good and not bad'.
+
+For example:
+When 'I am valuable' appears, respond with TRUE.
+When 'I am worthless' appears, respond with FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",I am worthless,4,TRUE,FALSE,0,1,1,1,0,14,14,7,e,1,1.10454511642,i,1,0.786195039749,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents statements about self esteem in blue.
+
+You must respond AS IF 'I am good and not bad'.
+
+For example:
+When 'I am valuable' appears, respond with TRUE.
+When 'I am worthless' appears, respond with FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",I am boring,4,TRUE,FALSE,0,1,1,1,0,15,15,8,e,1,0.871460914612,i,1,0.57085108757,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents statements about self esteem in blue.
+
+You must respond AS IF 'I am good and not bad'.
+
+For example:
+When 'I am valuable' appears, respond with TRUE.
+When 'I am worthless' appears, respond with FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",I am worthwhile,3,TRUE,FALSE,0,1,1,1,0,16,16,2,i,1,0.804636955261,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents statements about self esteem in blue.
+
+You must respond AS IF 'I am good and not bad'.
+
+For example:
+When 'I am valuable' appears, respond with TRUE.
+When 'I am worthless' appears, respond with FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",I am not worthwhile,5,TRUE,FALSE,0,1,1,1,0,17,17,12,e,1,0.971166849136,i,1,0.753118991852,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents statements about self esteem in blue.
+
+You must respond AS IF 'I am good and not bad'.
+
+For example:
+When 'I am valuable' appears, respond with TRUE.
+When 'I am worthless' appears, respond with FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",I am not bad,6,TRUE,FALSE,0,1,1,1,0,18,18,15,i,1,0.519934892654,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents statements about self esteem in blue.
+
+You must respond AS IF 'I am good and not bad'.
+
+For example:
+When 'I am valuable' appears, respond with TRUE.
+When 'I am worthless' appears, respond with FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",I am not interesting,5,TRUE,FALSE,0,1,1,1,0,19,19,13,e,1,1.05522799492,i,1,0.738605976105,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am good and not bad',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",I am valuable,3,TRUE,FALSE,0,2,2,2,0,0,0,11,i,1,0.788806200027,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am good and not bad',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",I am not worthless,6,TRUE,FALSE,0,2,2,2,0,1,1,27,i,1,1.02330303192,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am good and not bad',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",I am not interesting,5,TRUE,FALSE,0,2,2,2,0,2,2,23,e,1,1.15735292435,i,1,0.871668100357,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am good and not bad',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",False,2,TRUE,FALSE,0,2,2,2,0,3,3,5,e,1,2.99923014641,i,1,2.7312848568,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am good and not bad',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",I am dumb,4,TRUE,FALSE,0,2,2,2,0,4,4,19,e,1,0.837397813797,i,1,0.501962900162,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am good and not bad',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",I am not a failure,6,TRUE,FALSE,0,2,2,2,0,5,5,26,i,1,0.570374965668,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am good and not bad',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",Wrong,2,TRUE,FALSE,0,2,2,2,0,6,6,7,e,1,3.48428797722,i,1,3.23205208778,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am good and not bad',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",Accurate,1,TRUE,FALSE,0,2,2,2,0,7,7,3,i,1,0.486335039139,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am good and not bad',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",Incorrect,2,TRUE,FALSE,0,2,2,2,0,8,8,6,e,1,3.4002289772,i,1,3.0983710289,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am good and not bad',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",I am not bad,6,TRUE,FALSE,0,2,2,2,0,9,9,25,i,1,0.537370920181,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am good and not bad',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",I am not boring,6,TRUE,FALSE,0,2,2,2,0,10,10,28,i,1,0.739066123962,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am good and not bad',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",Correct,1,TRUE,FALSE,0,2,2,2,0,11,11,1,i,1,0.77148103714,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am good and not bad',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",I am not good,5,TRUE,FALSE,0,2,2,2,0,12,12,20,e,1,1.10614299774,i,1,0.804069042206,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am good and not bad',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",I am a failure,4,TRUE,FALSE,0,2,2,2,0,13,13,16,e,1,0.77139210701,i,1,0.487720012665,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am good and not bad',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",I am kind,3,TRUE,FALSE,0,2,2,2,0,14,14,14,i,1,0.503001928329,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am good and not bad',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",True,1,TRUE,FALSE,0,2,2,2,0,15,15,0,i,1,4.17038321495,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am good and not bad',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",I am boring,4,TRUE,FALSE,0,2,2,2,0,16,16,18,e,1,0.0843238830566,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am good and not bad',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",Inaccurate,2,TRUE,FALSE,0,2,2,2,0,17,17,8,e,1,2.93130803108,i,1,2.56167292595,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am good and not bad',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",I am worthwhile,3,TRUE,FALSE,0,2,2,2,0,18,18,12,i,1,0.55424785614,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am good and not bad',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",Untrue,2,TRUE,FALSE,0,2,2,2,0,19,19,9,e,1,2.3962161541,i,1,2.11176204681,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am good and not bad',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",I am not valuable,5,TRUE,FALSE,0,2,2,2,0,20,20,21,e,1,0.738071918488,i,1,0.469765901566,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am good and not bad',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",I am bad,4,TRUE,FALSE,0,2,2,2,0,21,21,15,e,1,0.737203121185,i,1,0.435729026794,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am good and not bad',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",I am not kind,5,TRUE,FALSE,0,2,2,2,0,22,22,24,e,1,0.620719909668,i,1,0.352437973022,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am good and not bad',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",I am worthless,4,TRUE,FALSE,0,2,2,2,0,23,23,17,e,1,0.636940002441,i,1,0.353173017502,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am good and not bad',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",Confirm,1,TRUE,FALSE,0,2,2,2,0,24,24,4,i,1,4.0548350811,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am good and not bad',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",I am not dumb,6,TRUE,FALSE,0,2,2,2,0,25,25,29,i,1,0.536957979202,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am good and not bad',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",I am good,3,TRUE,FALSE,0,2,2,2,0,26,26,10,i,1,0.419704914093,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am good and not bad',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",I am not worthwhile,5,TRUE,FALSE,0,2,2,2,0,27,27,22,e,1,0.787737846375,i,1,0.435441970825,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am good and not bad',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",I am interesting,3,TRUE,FALSE,0,2,2,2,0,28,28,13,i,1,0.35311794281,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am good and not bad',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",Right,1,TRUE,FALSE,0,2,2,2,0,29,29,2,i,1,0.80458688736,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am good and not bad',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",I am worthless,4,TRUE,FALSE,0,2,2,2,1,0,30,17,e,1,0.619869947433,i,1,0.50389790535,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am good and not bad',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",I am not good,5,TRUE,FALSE,0,2,2,2,1,1,31,20,e,1,0.485734939575,i,1,0.417850971222,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am good and not bad',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",I am interesting,3,TRUE,FALSE,0,2,2,2,1,2,32,13,i,1,0.437376022339,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am good and not bad',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",I am boring,4,TRUE,FALSE,0,2,2,2,1,3,33,18,e,1,0.620213031769,i,1,0.552996873856,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am good and not bad',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",I am worthwhile,3,TRUE,FALSE,0,2,2,2,1,4,34,12,i,1,0.452990055084,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am good and not bad',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",Correct,1,TRUE,FALSE,0,2,2,2,1,5,35,1,i,1,0.50382900238,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am good and not bad',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",False,2,TRUE,FALSE,0,2,2,2,1,6,36,5,e,1,0.585099220276,i,1,0.502216100693,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am good and not bad',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",Untrue,2,TRUE,FALSE,0,2,2,2,1,7,37,9,e,1,0.554270982742,i,1,0.486641168594,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am good and not bad',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",I am bad,4,TRUE,FALSE,0,2,2,2,1,8,38,15,e,1,0.586553096771,i,1,0.519199132919,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am good and not bad',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",I am not bad,6,TRUE,FALSE,0,2,2,2,1,9,39,25,i,1,0.5028860569,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am good and not bad',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",Right,1,TRUE,FALSE,0,2,2,2,1,10,40,2,i,1,0.737663984299,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am good and not bad',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",I am not kind,5,TRUE,FALSE,0,2,2,2,1,11,41,24,e,1,0.603163003922,i,1,0.469058990479,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am good and not bad',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",I am not a failure,6,TRUE,FALSE,0,2,2,2,1,12,42,26,i,1,0.487279891968,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am good and not bad',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",I am not worthwhile,5,TRUE,FALSE,0,2,2,2,1,13,43,22,e,1,0.687644004822,i,1,0.587718963623,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am good and not bad',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",I am not valuable,5,TRUE,FALSE,0,2,2,2,1,14,44,21,e,1,0.686826944351,i,1,0.586590051651,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am good and not bad',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",I am good,3,TRUE,FALSE,0,2,2,2,1,15,45,10,i,1,0.972299098969,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am good and not bad',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",I am a failure,4,TRUE,FALSE,0,2,2,2,1,16,46,16,e,1,0.72049498558,i,1,0.619785070419,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am good and not bad',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",I am kind,3,TRUE,FALSE,0,2,2,2,1,17,47,14,i,1,0.571732997894,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am good and not bad',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",I am not boring,6,TRUE,FALSE,0,2,2,2,1,18,48,28,i,1,0.553502082825,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am good and not bad',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",I am dumb,4,TRUE,FALSE,0,2,2,2,1,19,49,19,e,1,0.586822986603,i,1,0.519404172897,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am good and not bad',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",Accurate,1,TRUE,FALSE,0,2,2,2,1,20,50,3,i,1,0.470064163208,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am good and not bad',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",I am not dumb,6,TRUE,FALSE,0,2,2,2,1,21,51,29,i,1,0.737236022949,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am good and not bad',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",True,1,TRUE,FALSE,0,2,2,2,1,22,52,0,i,1,6.73440790176,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am good and not bad',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",I am not interesting,5,TRUE,FALSE,0,2,2,2,1,23,53,23,e,1,0.721031904221,i,1,0.65354013443,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am good and not bad',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",Inaccurate,2,TRUE,FALSE,0,2,2,2,1,24,54,8,e,1,0.65415096283,i,1,0.553985118866,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am good and not bad',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",Confirm,1,TRUE,FALSE,0,2,2,2,1,25,55,4,i,1,0.418244123459,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am good and not bad',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",I am valuable,3,TRUE,FALSE,0,2,2,2,1,26,56,11,i,1,0.436469078064,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am good and not bad',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",I am not worthless,6,TRUE,FALSE,0,2,2,2,1,27,57,27,i,1,0.486961126328,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am good and not bad',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",Wrong,2,TRUE,FALSE,0,2,2,2,1,28,58,7,e,1,0.771420955658,i,1,0.670025110245,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am good and not bad',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake hit the correct key as soon as possible.
+
+Press E or I to continue.",Incorrect,2,TRUE,FALSE,0,2,2,2,1,29,59,6,e,1,0.619778156281,i,1,0.536634206772,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents only the blue statements.
+
+IMPORANT: THE RULE FOR THE BLUE STATEMENTS HAS NOW CHANGED.
+
+You must respond AS IF 'I am bad and not good'.
+
+For example:
+When 'I am valuable' appears, respond with FALSE.
+When 'I am worthless' appears, respond with TRUE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",I am not worthwhile,5,TRUE,FALSE,0,3,3,3,0,0,0,12,i,1,4.53941893578,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents only the blue statements.
+
+IMPORANT: THE RULE FOR THE BLUE STATEMENTS HAS NOW CHANGED.
+
+You must respond AS IF 'I am bad and not good'.
+
+For example:
+When 'I am valuable' appears, respond with FALSE.
+When 'I am worthless' appears, respond with TRUE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",I am worthless,4,TRUE,FALSE,0,3,3,3,0,1,1,7,i,1,3.23184299469,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents only the blue statements.
+
+IMPORANT: THE RULE FOR THE BLUE STATEMENTS HAS NOW CHANGED.
+
+You must respond AS IF 'I am bad and not good'.
+
+For example:
+When 'I am valuable' appears, respond with FALSE.
+When 'I am worthless' appears, respond with TRUE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",I am valuable,3,TRUE,FALSE,0,3,3,3,0,2,2,1,e,1,0.721077919006,i,1,0.720597028732,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents only the blue statements.
+
+IMPORANT: THE RULE FOR THE BLUE STATEMENTS HAS NOW CHANGED.
+
+You must respond AS IF 'I am bad and not good'.
+
+For example:
+When 'I am valuable' appears, respond with FALSE.
+When 'I am worthless' appears, respond with TRUE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",I am not dumb,6,TRUE,FALSE,0,3,3,3,0,3,3,19,e,1,0.570177078247,i,1,0.486603021622,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents only the blue statements.
+
+IMPORANT: THE RULE FOR THE BLUE STATEMENTS HAS NOW CHANGED.
+
+You must respond AS IF 'I am bad and not good'.
+
+For example:
+When 'I am valuable' appears, respond with FALSE.
+When 'I am worthless' appears, respond with TRUE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",I am good,3,TRUE,FALSE,0,3,3,3,0,4,4,0,e,1,0.536494970322,i,1,0.435163021088,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents only the blue statements.
+
+IMPORANT: THE RULE FOR THE BLUE STATEMENTS HAS NOW CHANGED.
+
+You must respond AS IF 'I am bad and not good'.
+
+For example:
+When 'I am valuable' appears, respond with FALSE.
+When 'I am worthless' appears, respond with TRUE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",I am a failure,4,TRUE,FALSE,0,3,3,3,0,5,5,6,i,1,0.452884912491,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents only the blue statements.
+
+IMPORANT: THE RULE FOR THE BLUE STATEMENTS HAS NOW CHANGED.
+
+You must respond AS IF 'I am bad and not good'.
+
+For example:
+When 'I am valuable' appears, respond with FALSE.
+When 'I am worthless' appears, respond with TRUE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",I am worthwhile,3,TRUE,FALSE,0,3,3,3,0,6,6,2,e,1,0.703860998154,i,1,0.570072889328,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents only the blue statements.
+
+IMPORANT: THE RULE FOR THE BLUE STATEMENTS HAS NOW CHANGED.
+
+You must respond AS IF 'I am bad and not good'.
+
+For example:
+When 'I am valuable' appears, respond with FALSE.
+When 'I am worthless' appears, respond with TRUE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",I am not valuable,5,TRUE,FALSE,0,3,3,3,0,7,7,11,i,1,0.420163869858,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents only the blue statements.
+
+IMPORANT: THE RULE FOR THE BLUE STATEMENTS HAS NOW CHANGED.
+
+You must respond AS IF 'I am bad and not good'.
+
+For example:
+When 'I am valuable' appears, respond with FALSE.
+When 'I am worthless' appears, respond with TRUE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",I am dumb,4,TRUE,FALSE,0,3,3,3,0,8,8,9,i,1,0.654706001282,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents only the blue statements.
+
+IMPORANT: THE RULE FOR THE BLUE STATEMENTS HAS NOW CHANGED.
+
+You must respond AS IF 'I am bad and not good'.
+
+For example:
+When 'I am valuable' appears, respond with FALSE.
+When 'I am worthless' appears, respond with TRUE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",I am not a failure,6,TRUE,FALSE,0,3,3,3,0,9,9,16,e,1,0.8546230793,i,1,0.637264966965,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents only the blue statements.
+
+IMPORANT: THE RULE FOR THE BLUE STATEMENTS HAS NOW CHANGED.
+
+You must respond AS IF 'I am bad and not good'.
+
+For example:
+When 'I am valuable' appears, respond with FALSE.
+When 'I am worthless' appears, respond with TRUE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",I am not boring,6,TRUE,FALSE,0,3,3,3,0,10,10,18,e,1,0.720520973206,i,1,0.620464086533,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents only the blue statements.
+
+IMPORANT: THE RULE FOR THE BLUE STATEMENTS HAS NOW CHANGED.
+
+You must respond AS IF 'I am bad and not good'.
+
+For example:
+When 'I am valuable' appears, respond with FALSE.
+When 'I am worthless' appears, respond with TRUE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",I am not interesting,5,TRUE,FALSE,0,3,3,3,0,11,11,13,i,1,0.503139972687,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents only the blue statements.
+
+IMPORANT: THE RULE FOR THE BLUE STATEMENTS HAS NOW CHANGED.
+
+You must respond AS IF 'I am bad and not good'.
+
+For example:
+When 'I am valuable' appears, respond with FALSE.
+When 'I am worthless' appears, respond with TRUE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",I am boring,4,TRUE,FALSE,0,3,3,3,0,12,12,8,i,1,0.603834867477,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents only the blue statements.
+
+IMPORANT: THE RULE FOR THE BLUE STATEMENTS HAS NOW CHANGED.
+
+You must respond AS IF 'I am bad and not good'.
+
+For example:
+When 'I am valuable' appears, respond with FALSE.
+When 'I am worthless' appears, respond with TRUE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",I am not bad,6,TRUE,FALSE,0,3,3,3,0,13,13,15,e,1,0.787673950195,i,1,0.703514099121,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents only the blue statements.
+
+IMPORANT: THE RULE FOR THE BLUE STATEMENTS HAS NOW CHANGED.
+
+You must respond AS IF 'I am bad and not good'.
+
+For example:
+When 'I am valuable' appears, respond with FALSE.
+When 'I am worthless' appears, respond with TRUE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",I am bad,4,TRUE,FALSE,0,3,3,3,0,14,14,5,i,1,0.555010080338,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents only the blue statements.
+
+IMPORANT: THE RULE FOR THE BLUE STATEMENTS HAS NOW CHANGED.
+
+You must respond AS IF 'I am bad and not good'.
+
+For example:
+When 'I am valuable' appears, respond with FALSE.
+When 'I am worthless' appears, respond with TRUE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",I am not worthless,6,TRUE,FALSE,0,3,3,3,0,15,15,17,e,1,0.804808139801,i,1,0.70415186882,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents only the blue statements.
+
+IMPORANT: THE RULE FOR THE BLUE STATEMENTS HAS NOW CHANGED.
+
+You must respond AS IF 'I am bad and not good'.
+
+For example:
+When 'I am valuable' appears, respond with FALSE.
+When 'I am worthless' appears, respond with TRUE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",I am kind,3,TRUE,FALSE,0,3,3,3,0,16,16,4,e,1,0.703490972519,i,1,0.61995100975,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents only the blue statements.
+
+IMPORANT: THE RULE FOR THE BLUE STATEMENTS HAS NOW CHANGED.
+
+You must respond AS IF 'I am bad and not good'.
+
+For example:
+When 'I am valuable' appears, respond with FALSE.
+When 'I am worthless' appears, respond with TRUE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",I am not good,5,TRUE,FALSE,0,3,3,3,0,17,17,10,i,1,0.60431098938,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents only the blue statements.
+
+IMPORANT: THE RULE FOR THE BLUE STATEMENTS HAS NOW CHANGED.
+
+You must respond AS IF 'I am bad and not good'.
+
+For example:
+When 'I am valuable' appears, respond with FALSE.
+When 'I am worthless' appears, respond with TRUE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",I am not kind,5,TRUE,FALSE,0,3,3,3,0,18,18,14,i,1,0.603645086288,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents only the blue statements.
+
+IMPORANT: THE RULE FOR THE BLUE STATEMENTS HAS NOW CHANGED.
+
+You must respond AS IF 'I am bad and not good'.
+
+For example:
+When 'I am valuable' appears, respond with FALSE.
+When 'I am worthless' appears, respond with TRUE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",I am interesting,3,TRUE,FALSE,0,3,3,3,0,19,19,3,e,1,0.703554868698,i,1,0.586062192917,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am bad and not good',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",Right,1,TRUE,FALSE,0,4,4,4,0,0,0,2,i,1,0.503872871399,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am bad and not good',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",Confirm,1,TRUE,FALSE,0,4,4,4,0,1,1,4,i,1,0.587506055832,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am bad and not good',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",I am not valuable,5,TRUE,FALSE,0,4,4,4,0,2,2,21,i,1,0.671253919601,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am bad and not good',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",I am not a failure,6,TRUE,FALSE,0,4,4,4,0,3,3,26,e,1,0.569363117218,i,1,0.502798080444,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am bad and not good',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",I am worthless,4,TRUE,FALSE,0,4,4,4,0,4,4,17,i,1,0.453065872192,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am bad and not good',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",I am not interesting,5,TRUE,FALSE,0,4,4,4,0,5,5,23,i,1,0.536711931229,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am bad and not good',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",Wrong,2,TRUE,FALSE,0,4,4,4,0,6,6,7,e,1,0.653792858124,i,1,0.569342851639,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am bad and not good',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",I am a failure,4,TRUE,FALSE,0,4,4,4,0,7,7,16,i,1,0.435849189758,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am bad and not good',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",Untrue,2,TRUE,FALSE,0,4,4,4,0,8,8,9,e,1,0.737210988998,i,1,0.619796037674,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am bad and not good',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",I am not bad,6,TRUE,FALSE,0,4,4,4,0,9,9,25,e,1,0.535718202591,i,1,0.435225963593,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am bad and not good',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",I am interesting,3,TRUE,FALSE,0,4,4,4,0,10,10,13,e,1,0.536157846451,i,1,0.369432926178,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am bad and not good',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",I am worthwhile,3,TRUE,FALSE,0,4,4,4,0,11,11,12,e,1,0.570396900177,i,1,0.435920000076,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am bad and not good',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",I am not worthless,6,TRUE,FALSE,0,4,4,4,0,12,12,27,e,1,0.520514011383,i,1,0.402575969696,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am bad and not good',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",I am kind,3,TRUE,FALSE,0,4,4,4,0,13,13,14,e,1,0.587098121643,i,1,0.453685998917,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am bad and not good',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",Correct,1,TRUE,FALSE,0,4,4,4,0,14,14,1,i,1,0.488341093063,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am bad and not good',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",I am not kind,5,TRUE,FALSE,0,4,4,4,0,15,15,24,i,1,0.55400800705,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am bad and not good',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",I am not worthwhile,5,TRUE,FALSE,0,4,4,4,0,16,16,22,i,1,0.536682844162,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am bad and not good',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",I am bad,4,TRUE,FALSE,0,4,4,4,0,17,17,15,i,1,0.486010074615,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am bad and not good',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",I am valuable,3,TRUE,FALSE,0,4,4,4,0,18,18,11,e,1,0.586975812912,i,1,0.485939025879,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am bad and not good',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",Inaccurate,2,TRUE,FALSE,0,4,4,4,0,19,19,8,e,1,0.519067049026,i,1,0.401937961578,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am bad and not good',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",Accurate,1,TRUE,FALSE,0,4,4,4,0,20,20,3,i,1,0.420192956924,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am bad and not good',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",Incorrect,2,TRUE,FALSE,0,4,4,4,0,21,21,6,e,1,0.670154094696,i,1,0.536427021027,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am bad and not good',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",I am not boring,6,TRUE,FALSE,0,4,4,4,0,22,22,28,e,1,0.56961107254,i,1,0.453299999237,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am bad and not good',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",I am dumb,4,TRUE,FALSE,0,4,4,4,0,23,23,19,i,1,0.353011846542,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am bad and not good',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",I am not dumb,6,TRUE,FALSE,0,4,4,4,0,24,24,29,e,1,0.604079008102,i,1,0.485237836838,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am bad and not good',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",False,2,TRUE,FALSE,0,4,4,4,0,25,25,5,e,1,0.468897819519,i,1,0.368893146515,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am bad and not good',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",I am boring,4,TRUE,FALSE,0,4,4,4,0,26,26,18,i,1,0.369496822357,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am bad and not good',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",True,1,TRUE,FALSE,0,4,4,4,0,27,27,0,i,1,0.637367010117,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am bad and not good',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",I am not good,5,TRUE,FALSE,0,4,4,4,0,28,28,20,i,1,0.486139059067,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am bad and not good',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",I am good,3,TRUE,FALSE,0,4,4,4,0,29,29,10,e,1,0.670751094818,i,1,0.569265127182,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am bad and not good',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",I am not boring,6,TRUE,FALSE,0,4,4,4,1,0,30,28,e,1,0.436907052994,i,1,0.336401939392,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am bad and not good',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",Correct,1,TRUE,FALSE,0,4,4,4,1,1,31,1,i,1,0.454187870026,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am bad and not good',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",I am valuable,3,TRUE,FALSE,0,4,4,4,1,2,32,11,e,1,0.56921005249,i,1,0.436055898666,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am bad and not good',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",Confirm,1,TRUE,FALSE,0,4,4,4,1,3,33,4,i,1,0.336229085922,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am bad and not good',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",I am boring,4,TRUE,FALSE,0,4,4,4,1,4,34,18,i,1,0.519000053406,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am bad and not good',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",I am not kind,5,TRUE,FALSE,0,4,4,4,1,5,35,24,i,1,0.519829034805,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am bad and not good',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",I am a failure,4,TRUE,FALSE,0,4,4,4,1,6,36,16,i,1,0.60471200943,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am bad and not good',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",I am not worthwhile,5,TRUE,FALSE,0,4,4,4,1,7,37,22,i,1,0.502912998199,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am bad and not good',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",Inaccurate,2,TRUE,FALSE,0,4,4,4,1,8,38,8,e,1,0.653362035751,i,1,0.587097167969,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am bad and not good',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",I am kind,3,TRUE,FALSE,0,4,4,4,1,9,39,14,e,1,0.453268051147,i,1,0.385601043701,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am bad and not good',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",I am not dumb,6,TRUE,FALSE,0,4,4,4,1,10,40,29,e,1,0.369529008865,i,1,0.285557985306,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am bad and not good',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",I am good,3,TRUE,FALSE,0,4,4,4,1,11,41,10,e,1,0.536571025848,i,1,0.435472011566,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am bad and not good',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",I am bad,4,TRUE,FALSE,0,4,4,4,1,12,42,15,i,1,0.40317606926,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am bad and not good',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",True,1,TRUE,FALSE,0,4,4,4,1,13,43,0,i,1,0.585654973984,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am bad and not good',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",I am worthwhile,3,TRUE,FALSE,0,4,4,4,1,14,44,12,e,1,0.70378613472,i,1,0.569659948349,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am bad and not good',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",Incorrect,2,TRUE,FALSE,0,4,4,4,1,15,45,6,e,1,0.620032072067,i,1,0.502846002579,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am bad and not good',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",I am interesting,3,TRUE,FALSE,0,4,4,4,1,16,46,13,e,1,0.570160150528,i,1,0.437732934952,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am bad and not good',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",I am not worthless,6,TRUE,FALSE,0,4,4,4,1,17,47,27,e,1,0.452909946442,i,1,0.369333028793,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am bad and not good',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",Wrong,2,TRUE,FALSE,0,4,4,4,1,18,48,7,e,1,0.569823026657,i,1,0.501802921295,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am bad and not good',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",False,2,TRUE,FALSE,0,4,4,4,1,19,49,5,e,1,0.569921970367,i,1,0.469470977783,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am bad and not good',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",I am not good,5,TRUE,FALSE,0,4,4,4,1,20,50,20,i,1,0.335750102997,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am bad and not good',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",I am not bad,6,TRUE,FALSE,0,4,4,4,1,21,51,25,e,1,0.720483064651,i,1,0.569890022278,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am bad and not good',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",Untrue,2,TRUE,FALSE,0,4,4,4,1,22,52,9,e,1,0.586220979691,i,1,0.435911178589,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am bad and not good',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",I am dumb,4,TRUE,FALSE,0,4,4,4,1,23,53,19,i,1,0.603818178177,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am bad and not good',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",I am worthless,4,TRUE,FALSE,0,4,4,4,1,24,54,17,i,1,0.570219993591,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am bad and not good',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",Right,1,TRUE,FALSE,0,4,4,4,1,25,55,2,i,1,0.670803070068,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am bad and not good',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",I am not valuable,5,TRUE,FALSE,0,4,4,4,1,26,56,21,i,1,0.688364982605,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am bad and not good',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",I am not interesting,5,TRUE,FALSE,0,4,4,4,1,27,57,23,i,1,0.554304122925,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am bad and not good',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",I am not a failure,6,TRUE,FALSE,0,4,4,4,1,28,58,26,e,1,0.620507955551,i,1,0.503384828568,1,,,59.8221439992,RRT,2016_May_01_0130,
+"The next phase presents both the orange words and blue statements.
+
+You must both respond to the statements in blue AS IF 'I am bad and not good',
+and categorise the orange words as referring to TRUE or FALSE.
+
+Go as quickly as you can while being accurate.
+If you make a mistake, hit the correct key as soon as possible.
+
+Press E or I to continue.",Accurate,1,TRUE,FALSE,0,4,4,4,1,29,59,3,i,1,0.402138948441,None,0,,1,,,59.8221439992,RRT,2016_May_01_0130,
