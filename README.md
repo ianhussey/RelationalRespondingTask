@@ -1,7 +1,11 @@
 # Relational Responding Task (RRT) written in PsychoPy
-## LicenceCopyright (c) 2015-2016 Ian Hussey (ian.hussey@ugent.be)
 
-Distributed under the MIT licence
+## License
+Copyright (c) Ian Hussey 2016 (ian.hussey@ugent.be)
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 ## Version1.1 (1/5/2016)
 Written in PsychoPy 1.82.01
 ## Notes- NB written in PsychoPy 1.82.01. Bugs may crop up if you run this script in a different version of PsychoPy.- The escape key quits the task at any time. E, I, or the return key ends the task properly once it’s complete.- You can run either the .psyexp file or the .py file inside PsychoPy. The .py file should have greater cross-platform support; if you run into errors with the .psyexp file use the .py instead.- .psydat, .log, and .csv files are produced for each participant. The .csv file alone is sufficient for most analyses (e.g., calculation of D1 scores).- The block length is fixed within the code to Sean's implimentation (see below). 
