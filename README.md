@@ -10,7 +10,7 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 Written in PsychoPy 1.82.01
 ## Notes- NB written in PsychoPy 1.82.01. Bugs may crop up if you run this script in a different version of PsychoPy.- The escape key quits the task at any time. E, I, or the return key ends the task properly once it’s complete.- You can run either the .psyexp file or the .py file inside PsychoPy. The .py file should have greater cross-platform support; if you run into errors with the .psyexp file use the .py instead.- .psydat, .log, and .csv files are produced for each participant. The .csv file alone is sufficient for most analyses (e.g., calculation of D1 scores).- The block length is fixed within the code to Sean's implimentation (see below). 
 - All stimuli and instructions can be altered by editing the excel files.
-- The number of exemplars can vary freely; it's currently 5 but can be more or less without this affecting the block length. However, it must be identical across categories.
+- The number of exemplars can vary freely; it's currently 5 but can be more or less without this affecting the block length. However, it must be identical across categories. If 5 exemplars are used in each category then each block will present all exemplars an equal number of times. Using more or less exemplars than this will result in the correct number of trials and counterbalancing of trial-types, but a (necessarially) unequal number of presentations of each exemplar.  
 - ITI is set to 300 ms (was 700 in the original publication).
 
 ## Block layout
